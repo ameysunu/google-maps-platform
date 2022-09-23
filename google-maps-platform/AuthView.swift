@@ -9,19 +9,35 @@ import SwiftUI
 
 struct AuthView: View {
     
-    @State var username: String
-    @State var password: String
+    @State var username: String?
+    @State var password: String?
     
     var body: some View {
         ZStack(alignment: .leading){
             Color(hex: "231651").ignoresSafeArea()
             VStack(alignment: .leading, spacing: 10) {
-                Text("Hi There!").font(.largeTitle).foregroundColor(.white)
-                
+                Text("Welcome!").font(.largeTitle).foregroundColor(.white)
+
                 Spacer()
+
+                Image(uiImage: UIImage(named: "welcome")!)
+                    .resizable()
+                    .frame(width: 300, height: 300)
+                    .padding()
                 
-                MyTextField(username: username, textFieldText: "Email")
-                MyPasswordField(password: password, textFieldText: "Password")
+                                
+                MyTextField(username: username ?? "", textFieldText: "Email")
+                MyPasswordField(password: password ?? "", textFieldText: "Password")
+                
+                Button(action:{}){
+                    Text("Sign-in")
+                        .padding(15)
+                        .frame(maxWidth: .infinity)
+                        .background(Color(UIColor.systemIndigo))
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+
                 
                 Button(action:{}){
                     Text("Create an account")

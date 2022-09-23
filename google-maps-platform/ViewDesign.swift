@@ -13,7 +13,10 @@ struct MyTextField: View {
     var textFieldText: String
     
     var body: some View {
-        TextField(textFieldText, text: $username)
+        TextField("", text: $username)
+            .placeholder(when: username.isEmpty) {
+                Text(textFieldText).foregroundColor(.gray)
+        }
             .foregroundColor(.white)
             .padding()
             .overlay(RoundedRectangle(cornerRadius: 5.0)
@@ -29,7 +32,10 @@ struct MyPasswordField: View {
     var textFieldText: String
     
     var body: some View {
-        SecureField( textFieldText, text: $password)
+        SecureField("", text: $password)
+            .placeholder(when: password.isEmpty) {
+                Text(textFieldText).foregroundColor(.gray)
+        }
             .foregroundColor(.white)
             .padding()
             .overlay(RoundedRectangle(cornerRadius: 5.0)
@@ -37,5 +43,18 @@ struct MyPasswordField: View {
             .padding(.bottom, 20)
             .autocapitalization(.none)
 
+    }
+}
+
+extension View {
+    func placeholder<Content: View>(
+        when shouldShow: Bool,
+        alignment: Alignment = .leading,
+        @ViewBuilder placeholder: () -> Content) -> some View {
+
+        ZStack(alignment: alignment) {
+            placeholder().opacity(shouldShow ? 1 : 0)
+            self
+        }
     }
 }
