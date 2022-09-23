@@ -20,21 +20,8 @@ struct AuthView: View {
                 
                 Spacer()
                 
-                TextField("Email", text: $username)
-                    .foregroundColor(.white)
-                    .padding()
-                    .overlay(RoundedRectangle(cornerRadius: 5.0)
-                        .stroke(Color.white, lineWidth: 1.0))
-                    .padding(.bottom, 20)
-                    .autocapitalization(.none)
-                
-                SecureField("Password", text: $password)
-                    .foregroundColor(.white)
-                    .padding()
-                    .overlay(RoundedRectangle(cornerRadius: 5.0)
-                        .stroke(Color.white, lineWidth: 1.0))
-                    .padding(.bottom, 20)
-                    .autocapitalization(.none)
+                MyTextField(username: username, textFieldText: "Email")
+                MyPasswordField(password: password, textFieldText: "Password")
                 
                 Button(action:{}){
                     Text("Create an account")
