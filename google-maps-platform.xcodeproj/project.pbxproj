@@ -11,6 +11,8 @@
 		772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B6F8228D3790B00E49F63 /* ContentView.swift */; };
 		772B6F8528D3790D00E49F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8428D3790D00E49F63 /* Assets.xcassets */; };
 		772B6F8928D3790D00E49F63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8828D3790D00E49F63 /* Preview Assets.xcassets */; };
+		776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEDE28DDBAA9000E1765 /* AuthView.swift */; };
+		776EEEE128DDBD20000E1765 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEE028DDBD20000E1765 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		772B6F8428D3790D00E49F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772B6F8628D3790D00E49F63 /* google_maps_platform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = google_maps_platform.entitlements; sourceTree = "<group>"; };
 		772B6F8828D3790D00E49F63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		776EEEDE28DDBAA9000E1765 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		776EEEE028DDBD20000E1765 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */,
 				772B6F8228D3790B00E49F63 /* ContentView.swift */,
+				776EEEDE28DDBAA9000E1765 /* AuthView.swift */,
+				776EEEE028DDBD20000E1765 /* Color.swift */,
 				772B6F8428D3790D00E49F63 /* Assets.xcassets */,
 				772B6F8628D3790D00E49F63 /* google_maps_platform.entitlements */,
 				772B6F8728D3790D00E49F63 /* Preview Content */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */,
+				776EEEE128DDBD20000E1765 /* Color.swift in Sources */,
 				772B6F8128D3790B00E49F63 /* google_maps_platformApp.swift in Sources */,
+				776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
