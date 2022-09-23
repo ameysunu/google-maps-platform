@@ -8,12 +8,34 @@
 import SwiftUI
 
 struct AuthView: View {
+    
+    @State var username: String
+    @State var password: String
+    
     var body: some View {
         ZStack(alignment: .leading){
             Color(hex: "231651").ignoresSafeArea()
             VStack(alignment: .leading, spacing: 10) {
                 Text("Hi There!").font(.largeTitle).foregroundColor(.white)
+                
                 Spacer()
+                
+                TextField("Email", text: $username)
+                    .foregroundColor(.white)
+                    .padding()
+                    .overlay(RoundedRectangle(cornerRadius: 5.0)
+                        .stroke(Color.white, lineWidth: 1.0))
+                    .padding(.bottom, 20)
+                    .autocapitalization(.none)
+                
+                SecureField("Password", text: $password)
+                    .foregroundColor(.white)
+                    .padding()
+                    .overlay(RoundedRectangle(cornerRadius: 5.0)
+                        .stroke(Color.white, lineWidth: 1.0))
+                    .padding(.bottom, 20)
+                    .autocapitalization(.none)
+                
                 Button(action:{}){
                     Text("Create an account")
                         .padding(15)
@@ -37,6 +59,6 @@ struct AuthView: View {
 
 struct AuthView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthView()
+        AuthView(username: "Test", password: "Test")
     }
 }
