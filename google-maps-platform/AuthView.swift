@@ -11,6 +11,7 @@ struct AuthView: View {
     
     @State var username: String?
     @State var password: String?
+    @StateObject var keyboardHandler = KeyboardHandler()
     
     var body: some View {
         ZStack(alignment: .leading){

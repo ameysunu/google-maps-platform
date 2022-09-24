@@ -14,6 +14,7 @@
 		773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773814A528DE34A000D978E8 /* ViewDesign.swift */; };
 		776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEDE28DDBAA9000E1765 /* AuthView.swift */; };
 		776EEEE128DDBD20000E1765 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEE028DDBD20000E1765 /* Color.swift */; };
+		77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		773814A528DE34A000D978E8 /* ViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
 		776EEEDE28DDBAA9000E1765 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		776EEEE028DDBD20000E1765 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */,
 				772B6F8228D3790B00E49F63 /* ContentView.swift */,
 				776EEEDE28DDBAA9000E1765 /* AuthView.swift */,
+				77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */,
 				773814A528DE34A000D978E8 /* ViewDesign.swift */,
 				776EEEE028DDBD20000E1765 /* Color.swift */,
 				772B6F8428D3790D00E49F63 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */,
 				776EEEE128DDBD20000E1765 /* Color.swift in Sources */,
 				772B6F8128D3790B00E49F63 /* google_maps_platformApp.swift in Sources */,
+				77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */,
 				776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */,
 				773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */,
 			);
