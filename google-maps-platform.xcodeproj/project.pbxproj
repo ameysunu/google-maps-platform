@@ -12,7 +12,6 @@
 		772B6F8528D3790D00E49F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8428D3790D00E49F63 /* Assets.xcassets */; };
 		772B6F8928D3790D00E49F63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8828D3790D00E49F63 /* Preview Assets.xcassets */; };
 		773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773814A528DE34A000D978E8 /* ViewDesign.swift */; };
-		773814A928DE37FC00D978E8 /* Macaw in Frameworks */ = {isa = PBXBuildFile; productRef = 773814A828DE37FC00D978E8 /* Macaw */; };
 		776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEDE28DDBAA9000E1765 /* AuthView.swift */; };
 		776EEEE128DDBD20000E1765 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEE028DDBD20000E1765 /* Color.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				773814A928DE37FC00D978E8 /* Macaw in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +95,6 @@
 			);
 			name = "google-maps-platform";
 			packageProductDependencies = (
-				773814A828DE37FC00D978E8 /* Macaw */,
 			);
 			productName = "google-maps-platform";
 			productReference = 772B6F7D28D3790B00E49F63 /* google-maps-platform.app */;
@@ -385,14 +382,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		773814A828DE37FC00D978E8 /* Macaw */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 773814A728DE37FC00D978E8 /* XCRemoteSwiftPackageReference "Macaw" */;
-			productName = Macaw;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 772B6F7528D3790B00E49F63 /* Project object */;
 }
