@@ -11,6 +11,7 @@ struct AuthView: View {
     
     @State var username: String?
     @State var password: String?
+    @State var confirmUsername: String?
     @StateObject var keyboardHandler = KeyboardHandler()
     @State var createAccount: Bool = false
     
@@ -22,13 +23,17 @@ struct AuthView: View {
 
                 Spacer()
                 if createAccount{
-                    Image(uiImage: UIImage(named: "register")!)
-                        .resizable()
-                        .frame(width: 300, height: 300)
-                        .padding()
-                    
+                    HStack{
+                        Spacer()
+                        Image(uiImage: UIImage(named: "register")!)
+                            .resizable()
+                            .frame(width: 300, height: 250)
+                            .padding()
+                        Spacer()
+                    }
                     
                     MyTextField(username: username ?? "", textFieldText: "Email")
+                    MyTextField(username: confirmUsername ?? "", textFieldText: "Confirm Email")
                     MyPasswordField(password: password ?? "", textFieldText: "Password")
                     
                     Button(action:{}){
@@ -52,11 +57,14 @@ struct AuthView: View {
                             .cornerRadius(8)
                     }
                 } else {
-                    Image(uiImage: UIImage(named: "welcome")!)
-                        .resizable()
-                        .frame(width: 300, height: 300)
-                        .padding()
-                    
+                    HStack{
+                        Spacer()
+                        Image(uiImage: UIImage(named: "welcome")!)
+                            .resizable()
+                            .frame(width: 300, height: 300)
+                            .padding()
+                        Spacer()
+                    }
                     
                     MyTextField(username: username ?? "", textFieldText: "Email")
                     MyPasswordField(password: password ?? "", textFieldText: "Password")
