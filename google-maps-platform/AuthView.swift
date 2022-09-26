@@ -9,9 +9,9 @@ import SwiftUI
 
 struct AuthView: View {
     
-    @State var username: String?
-    @State var password: String?
-    @State var confirmUsername: String?
+    @State var username: String
+    @State var password: String
+    @State var confirmPassword: String
     @StateObject var keyboardHandler = KeyboardHandler()
     @State var createAccount: Bool = false
     
@@ -32,11 +32,42 @@ struct AuthView: View {
                         Spacer()
                     }
                     
-                    MyTextField(username: username ?? "", textFieldText: "Email")
-                    MyTextField(username: confirmUsername ?? "", textFieldText: "Confirm Email")
-                    MyPasswordField(password: password ?? "", textFieldText: "Password")
+                    TextField("", text: $username)
+                        .placeholder(when: username.isEmpty) {
+                            Text("Email").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
                     
-                    Button(action:{}){
+                    SecureField("", text: $password)
+                        .placeholder(when: password.isEmpty) {
+                            Text("Password").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    SecureField("", text: $confirmPassword)
+                        .placeholder(when: confirmPassword.isEmpty) {
+                            Text("Confirm Password").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    Button(action:{
+                        print(username)
+                    }){
                         Text("Create an account")
                             .padding(15)
                             .frame(maxWidth: .infinity)
@@ -66,8 +97,27 @@ struct AuthView: View {
                         Spacer()
                     }
                     
-                    MyTextField(username: username ?? "", textFieldText: "Email")
-                    MyPasswordField(password: password ?? "", textFieldText: "Password")
+                    TextField("", text: $username)
+                        .placeholder(when: username.isEmpty) {
+                            Text("Email").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    SecureField("", text: $password)
+                        .placeholder(when: password.isEmpty) {
+                            Text("Password").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
                     
                     Button(action:{}){
                         Text("Sign-in")
@@ -105,6 +155,6 @@ struct AuthView: View {
 
 struct AuthView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthView(username: "Test", password: "Test")
+        AuthView(username: "Test", password: "Test", confirmPassword: "Test")
     }
 }
