@@ -9,9 +9,11 @@ import SwiftUI
 
 struct AuthView: View {
     
-    @State var username: String?
-    @State var password: String?
+    @State var username: String
+    @State var password: String
+    @State var confirmPassword: String
     @StateObject var keyboardHandler = KeyboardHandler()
+    @State var createAccount: Bool = false
     
     var body: some View {
         ZStack(alignment: .leading){
@@ -20,33 +22,123 @@ struct AuthView: View {
                 Text("Welcome!").font(.largeTitle).foregroundColor(.white)
 
                 Spacer()
-
-                Image(uiImage: UIImage(named: "welcome")!)
-                    .resizable()
-                    .frame(width: 300, height: 300)
-                    .padding()
-                
-                                
-                MyTextField(username: username ?? "", textFieldText: "Email")
-                MyPasswordField(password: password ?? "", textFieldText: "Password")
-                
-                Button(action:{}){
-                    Text("Sign-in")
-                        .padding(15)
-                        .frame(maxWidth: .infinity)
-                        .background(Color(UIColor.systemIndigo))
+                if createAccount{
+                    HStack{
+                        Spacer()
+                        Image(uiImage: UIImage(named: "register")!)
+                            .resizable()
+                            .frame(width: 300, height: 250)
+                            .padding()
+                        Spacer()
+                    }
+                    
+                    TextField("", text: $username)
+                        .placeholder(when: username.isEmpty) {
+                            Text("Email").foregroundColor(.gray)
+                    }
                         .foregroundColor(.white)
-                        .cornerRadius(8)
-                }
-
-                
-                Button(action:{}){
-                    Text("Create an account")
-                        .padding(15)
-                        .frame(maxWidth: .infinity)
-                        .background(Color(UIColor.systemIndigo))
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    SecureField("", text: $password)
+                        .placeholder(when: password.isEmpty) {
+                            Text("Password").foregroundColor(.gray)
+                    }
                         .foregroundColor(.white)
-                        .cornerRadius(8)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    SecureField("", text: $confirmPassword)
+                        .placeholder(when: confirmPassword.isEmpty) {
+                            Text("Confirm Password").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    Button(action:{
+                        print(username)
+                    }){
+                        Text("Create an account")
+                            .padding(15)
+                            .frame(maxWidth: .infinity)
+                            .background(Color(UIColor.systemIndigo))
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                    }
+                    
+                    
+                    Button(action:{
+                        self.createAccount = false
+                    }){
+                        Text("I already have an account")
+                            .padding(15)
+                            .frame(maxWidth: .infinity)
+                            .background(Color(UIColor.systemIndigo))
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                    }
+                } else {
+                    HStack{
+                        Spacer()
+                        Image(uiImage: UIImage(named: "welcome")!)
+                            .resizable()
+                            .frame(width: 300, height: 300)
+                            .padding()
+                        Spacer()
+                    }
+                    
+                    TextField("", text: $username)
+                        .placeholder(when: username.isEmpty) {
+                            Text("Email").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    SecureField("", text: $password)
+                        .placeholder(when: password.isEmpty) {
+                            Text("Password").foregroundColor(.gray)
+                    }
+                        .foregroundColor(.white)
+                        .padding()
+                        .overlay(RoundedRectangle(cornerRadius: 5.0)
+                            .stroke(Color.white, lineWidth: 1.0))
+                        .padding(.bottom, 20)
+                        .autocapitalization(.none)
+                    
+                    Button(action:{}){
+                        Text("Sign-in")
+                            .padding(15)
+                            .frame(maxWidth: .infinity)
+                            .background(Color(UIColor.systemIndigo))
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                    }
+                    
+                    
+                    Button(action:{
+                        self.createAccount = true
+                    }){
+                        Text("Create an account")
+                            .padding(15)
+                            .frame(maxWidth: .infinity)
+                            .background(Color(UIColor.systemIndigo))
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                    }
                 }
             }
             .frame(
@@ -63,6 +155,6 @@ struct AuthView: View {
 
 struct AuthView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthView(username: "Test", password: "Test")
+        AuthView(username: "Test", password: "Test", confirmPassword: "Test")
     }
 }
