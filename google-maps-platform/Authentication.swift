@@ -8,8 +8,16 @@
 import Foundation
 import Firebase
 
-func registerUser(email: String, password: String){
+typealias success = Bool
+
+func registerUser(email: String, password: String, completion: @escaping (success) -> Void){
     Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-        print("account created")
+        if (error != nil) {
+            print(error!.localizedDescription)
+            completion(false)
+        } else {
+            print("account created")
+            completion(true)
+        }
     }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        AuthView(username: "", password: "", confirmPassword: "")
+        AuthView(username: "", password: "", confirmPassword: "", popupText: "")
     }
 }
 
