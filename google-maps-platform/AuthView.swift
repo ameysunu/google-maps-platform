@@ -66,7 +66,11 @@ struct AuthView: View {
                         .autocapitalization(.none)
                     
                     Button(action:{
-                        print(username)
+                        if(password == confirmPassword){
+                            registerUser(email: username, password: password)
+                        } else {
+                            print("Error")
+                        }
                     }){
                         Text("Create an account")
                             .padding(15)

@@ -46,6 +46,40 @@ struct MyPasswordField: View {
     }
 }
 
+struct PopView: View {
+    
+    @State var popupText: String
+    
+    var body: some View {
+            
+            RoundedRectangle(cornerRadius: 20)
+                .fill(Color.indigo)
+                .frame(width: 300, height: 200)
+                .overlay(
+                    VStack{
+                        HStack{
+                        Spacer()
+                        Image(systemName: "xmark.octagon.fill")
+                                .foregroundColor(.white)
+                        Text("Error")
+                            .font(.title)
+                            .foregroundColor(.white)
+                        Spacer()
+                        }
+                        .padding()
+                        Spacer()
+                    }
+                )
+            
+    }
+}
+
+struct PopView_Previews: PreviewProvider {
+    static var previews: some View {
+        PopView(popupText: "Test")
+    }
+}
+
 extension View {
     func placeholder<Content: View>(
         when shouldShow: Bool,
