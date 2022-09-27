@@ -22,7 +22,13 @@ struct AuthView: View {
             Color(hex: "231651").ignoresSafeArea()
             VStack(alignment: .leading, spacing: 10) {
                 if showingPopup {
-                    ErrorPopView(popupText: popupText)
+                    Spacer()
+                    HStack{
+                        Spacer()
+                        ErrorPopView(popupText: popupText)
+                        Spacer()
+                    }
+                    Spacer()
                 } else {
                     Text("Welcome!").font(.largeTitle).foregroundColor(.white)
 

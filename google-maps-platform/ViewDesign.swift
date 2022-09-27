@@ -71,6 +71,16 @@ struct ErrorPopView: View {
                             .foregroundColor(Color.white)
                             .padding()
                         Spacer()
+                        Button(action:{}){
+                            Text("Okay")
+                                .foregroundColor(.white)
+                        }
+                        .padding(10)
+                        .frame(maxWidth: .infinity)
+                        .background(Color(hex: "231651"))
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                        .padding()
                     }
                 )
             
