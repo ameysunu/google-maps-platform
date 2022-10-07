@@ -21,3 +21,15 @@ func registerUser(email: String, password: String, completion: @escaping (succes
         }
     }
 }
+
+func signInUser(email: String, password: String, completion: @escaping (success) -> Void){
+    Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+        if (error != nil) {
+            print(error!.localizedDescription)
+            completion(false)
+        } else {
+            print("successfully signed in")
+            completion(true)
+        }
+    }
+}
