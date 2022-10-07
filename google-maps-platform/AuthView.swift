@@ -66,7 +66,18 @@ struct AuthView: View {
                         .autocapitalization(.none)
                     
                     Button(action:{
-                        print(username)
+                        if(password == confirmPassword){
+                            registerUser(email: username, password: password){
+                                (success) -> Void in
+                                if success {
+
+                                } else {
+                                   
+                                }
+                            }
+                        } else {
+                            print("Entered passwords do not match.")
+                        }
                     }){
                         Text("Create an account")
                             .padding(15)
@@ -119,7 +130,16 @@ struct AuthView: View {
                         .padding(.bottom, 20)
                         .autocapitalization(.none)
                     
-                    Button(action:{}){
+                    Button(action:{
+                        signInUser(email: username, password: password) {
+                            (success) -> Void in
+                            if success {
+                                
+                            } else {
+                                
+                            }
+                        }
+                    }){
                         Text("Sign-in")
                             .padding(15)
                             .frame(maxWidth: .infinity)

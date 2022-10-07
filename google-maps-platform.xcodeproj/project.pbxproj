@@ -19,6 +19,7 @@
 		77DCC07228DF0BAD003B5A33 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 77DCC07128DF0BAD003B5A33 /* FirebaseAuth */; };
 		77DCC07428DF0BAD003B5A33 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 77DCC07328DF0BAD003B5A33 /* FirebaseFirestore */; };
 		77DCC07628DF0BAD003B5A33 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 77DCC07528DF0BAD003B5A33 /* FirebaseStorage */; };
+		77DCC07828E20E9C003B5A33 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC07728E20E9B003B5A33 /* Authentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		776EEEE028DDBD20000E1765 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveKeyboard.swift; sourceTree = "<group>"; };
 		77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77DCC07728E20E9B003B5A33 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */,
 				772B6F8228D3790B00E49F63 /* ContentView.swift */,
 				776EEEDE28DDBAA9000E1765 /* AuthView.swift */,
+				77DCC07728E20E9B003B5A33 /* Authentication.swift */,
 				77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */,
 				773814A528DE34A000D978E8 /* ViewDesign.swift */,
 				776EEEE028DDBD20000E1765 /* Color.swift */,
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DCC07828E20E9C003B5A33 /* Authentication.swift in Sources */,
 				772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */,
 				776EEEE128DDBD20000E1765 /* Color.swift in Sources */,
 				772B6F8128D3790B00E49F63 /* google_maps_platformApp.swift in Sources */,
