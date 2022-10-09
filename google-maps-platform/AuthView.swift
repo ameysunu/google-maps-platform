@@ -173,7 +173,7 @@ struct AuthView: View {
                 )
             .padding(15)
         }
-        .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, dragToDismiss: true) {
+        .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, autohideIn: 2, dragToDismiss: true) {
             VStack{
                 Text("Error: \(errorMessage)")
                     .font(.title3)
