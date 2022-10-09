@@ -6,10 +6,31 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    
+    @ObservedObject var authManager = AuthManager()
+    
     var body: some View {
-        AuthView(username: "", password: "", confirmPassword: "")
+        if authManager.isLoggedIn {
+            HomeView()
+        } else {
+            AuthView(username: "", password: "", confirmPassword: "")
+        }
+    }
+}
+
+class AuthManager : ObservableObject {
+    @Published var isLoggedIn = false
+    
+    private var authStateHandle: AuthStateDidChangeListenerHandle?
+    
+    init() {
+        FirebaseApp.configure()
+        authStateHandle = Auth.auth().addStateDidChangeListener { _, user in
+            self.isLoggedIn = user != nil
+        }
     }
 }
 

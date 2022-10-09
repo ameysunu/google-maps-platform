@@ -11,7 +11,11 @@ struct HomeView: View {
     var body: some View {
         ZStack{
             Color(hex: "231651").ignoresSafeArea()
+            VStack(alignment: .leading, spacing: 10) {
+                
+            }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
