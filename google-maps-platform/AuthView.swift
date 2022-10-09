@@ -16,175 +16,187 @@ struct AuthView: View {
     @StateObject var keyboardHandler = KeyboardHandler()
     @State var createAccount: Bool = false
     @State var showingPopup: Bool = false
+    @State var showHome: Bool = false
+    @State var errorBoxColor: String = "ff4d4d"
     
     var body: some View {
-        ZStack(alignment: .leading){
-            Color(hex: "231651").ignoresSafeArea()
-            VStack(alignment: .leading, spacing: 10) {
-                Text("Welcome!").font(.largeTitle).foregroundColor(.white)
-
-                Spacer()
-                if createAccount{
-                    HStack{
-                        Spacer()
-                        Image(uiImage: UIImage(named: "register")!)
-                            .resizable()
-                            .frame(width: 300, height: 250)
-                            .padding()
-                        Spacer()
-                    }
+        NavigationStack {
+            ZStack(alignment: .leading){
+                Color(hex: "231651").ignoresSafeArea()
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("Welcome!").font(.largeTitle).foregroundColor(.white)
                     
-                    TextField("", text: $username)
-                        .placeholder(when: username.isEmpty) {
-                            Text("Email").foregroundColor(.gray)
-                    }
-                        .foregroundColor(.white)
-                        .padding()
-                        .overlay(RoundedRectangle(cornerRadius: 5.0)
-                            .stroke(Color.white, lineWidth: 1.0))
-                        .padding(.bottom, 20)
-                        .autocapitalization(.none)
-                    
-                    SecureField("", text: $password)
-                        .placeholder(when: password.isEmpty) {
-                            Text("Password").foregroundColor(.gray)
-                    }
-                        .foregroundColor(.white)
-                        .padding()
-                        .overlay(RoundedRectangle(cornerRadius: 5.0)
-                            .stroke(Color.white, lineWidth: 1.0))
-                        .padding(.bottom, 20)
-                        .autocapitalization(.none)
-                    
-                    SecureField("", text: $confirmPassword)
-                        .placeholder(when: confirmPassword.isEmpty) {
-                            Text("Confirm Password").foregroundColor(.gray)
-                    }
-                        .foregroundColor(.white)
-                        .padding()
-                        .overlay(RoundedRectangle(cornerRadius: 5.0)
-                            .stroke(Color.white, lineWidth: 1.0))
-                        .padding(.bottom, 20)
-                        .autocapitalization(.none)
-                    
-                    Button(action:{
-                        if(password == confirmPassword){
-                            registerUser(email: username, password: password){
-                                (success) -> Void in
-                                if success {
-
-                                } else {
-                                    self.showingPopup = true
-                                }
-                            }
-                        } else {
-                            self.showingPopup = true
-                            errorMessage = "Entered passwords do not match"
+                    Spacer()
+                    if createAccount{
+                        HStack{
+                            Spacer()
+                            Image(uiImage: UIImage(named: "register")!)
+                                .resizable()
+                                .frame(width: 300, height: 250)
+                                .padding()
+                            Spacer()
                         }
-                    }){
-                        Text("Create an account")
-                            .padding(15)
-                            .frame(maxWidth: .infinity)
-                            .background(Color(UIColor.systemIndigo))
+                        
+                        TextField("", text: $username)
+                            .placeholder(when: username.isEmpty) {
+                                Text("Email").foregroundColor(.gray)
+                            }
                             .foregroundColor(.white)
-                            .cornerRadius(8)
-                    }
-                    
-                    
-                    Button(action:{
-                        self.createAccount = false
-                    }){
-                        Text("I already have an account")
-                            .padding(15)
-                            .frame(maxWidth: .infinity)
-                            .background(Color(UIColor.systemIndigo))
-                            .foregroundColor(.white)
-                            .cornerRadius(8)
-                    }
-                } else {
-                    HStack{
-                        Spacer()
-                        Image(uiImage: UIImage(named: "welcome")!)
-                            .resizable()
-                            .frame(width: 300, height: 300)
                             .padding()
-                        Spacer()
-                    }
-                    
-                    TextField("", text: $username)
-                        .placeholder(when: username.isEmpty) {
-                            Text("Email").foregroundColor(.gray)
-                    }
-                        .foregroundColor(.white)
-                        .padding()
-                        .overlay(RoundedRectangle(cornerRadius: 5.0)
-                            .stroke(Color.white, lineWidth: 1.0))
-                        .padding(.bottom, 20)
-                        .autocapitalization(.none)
-                    
-                    SecureField("", text: $password)
-                        .placeholder(when: password.isEmpty) {
-                            Text("Password").foregroundColor(.gray)
-                    }
-                        .foregroundColor(.white)
-                        .padding()
-                        .overlay(RoundedRectangle(cornerRadius: 5.0)
-                            .stroke(Color.white, lineWidth: 1.0))
-                        .padding(.bottom, 20)
-                        .autocapitalization(.none)
-                    
-                    Button(action:{
-                        signInUser(email: username, password: password) {
-                            (success) -> Void in
-                            if success {
-                                
+                            .overlay(RoundedRectangle(cornerRadius: 5.0)
+                                .stroke(Color.white, lineWidth: 1.0))
+                            .padding(.bottom, 20)
+                            .autocapitalization(.none)
+                        
+                        SecureField("", text: $password)
+                            .placeholder(when: password.isEmpty) {
+                                Text("Password").foregroundColor(.gray)
+                            }
+                            .foregroundColor(.white)
+                            .padding()
+                            .overlay(RoundedRectangle(cornerRadius: 5.0)
+                                .stroke(Color.white, lineWidth: 1.0))
+                            .padding(.bottom, 20)
+                            .autocapitalization(.none)
+                        
+                        SecureField("", text: $confirmPassword)
+                            .placeholder(when: confirmPassword.isEmpty) {
+                                Text("Confirm Password").foregroundColor(.gray)
+                            }
+                            .foregroundColor(.white)
+                            .padding()
+                            .overlay(RoundedRectangle(cornerRadius: 5.0)
+                                .stroke(Color.white, lineWidth: 1.0))
+                            .padding(.bottom, 20)
+                            .autocapitalization(.none)
+                        
+                        Button(action:{
+                            if(password == confirmPassword){
+                                registerUser(email: username, password: password){
+                                    (success) -> Void in
+                                    if success {
+                                        self.showingPopup = true
+                                        self.errorBoxColor = "40C9A2"
+                                        errorMessage = "Your account has been successfully created. You can now login."
+                                    } else {
+                                        self.showingPopup = true
+                                        self.errorBoxColor = "ff4d4d"
+                                    }
+                                }
                             } else {
                                 self.showingPopup = true
+                                self.errorBoxColor = "ff4d4d"
+                                errorMessage = "Entered passwords do not match"
                             }
+                        }){
+                            Text("Create an account")
+                                .padding(15)
+                                .frame(maxWidth: .infinity)
+                                .background(Color(UIColor.systemIndigo))
+                                .foregroundColor(.white)
+                                .cornerRadius(8)
                         }
-                    }){
-                        Text("Sign-in")
-                            .padding(15)
-                            .frame(maxWidth: .infinity)
-                            .background(Color(UIColor.systemIndigo))
+                        
+                        
+                        Button(action:{
+                            self.createAccount = false
+                        }){
+                            Text("I already have an account")
+                                .padding(15)
+                                .frame(maxWidth: .infinity)
+                                .background(Color(UIColor.systemIndigo))
+                                .foregroundColor(.white)
+                                .cornerRadius(8)
+                        }
+                    } else {
+                        HStack{
+                            Spacer()
+                            Image(uiImage: UIImage(named: "welcome")!)
+                                .resizable()
+                                .frame(width: 300, height: 300)
+                                .padding()
+                            Spacer()
+                        }
+                        
+                        TextField("", text: $username)
+                            .placeholder(when: username.isEmpty) {
+                                Text("Email").foregroundColor(.gray)
+                            }
                             .foregroundColor(.white)
-                            .cornerRadius(8)
-                    }
-                    
-                    
-                    Button(action:{
-                        self.createAccount = true
-                    }){
-                        Text("Create an account")
-                            .padding(15)
-                            .frame(maxWidth: .infinity)
-                            .background(Color(UIColor.systemIndigo))
+                            .padding()
+                            .overlay(RoundedRectangle(cornerRadius: 5.0)
+                                .stroke(Color.white, lineWidth: 1.0))
+                            .padding(.bottom, 20)
+                            .autocapitalization(.none)
+                        
+                        SecureField("", text: $password)
+                            .placeholder(when: password.isEmpty) {
+                                Text("Password").foregroundColor(.gray)
+                            }
                             .foregroundColor(.white)
-                            .cornerRadius(8)
+                            .padding()
+                            .overlay(RoundedRectangle(cornerRadius: 5.0)
+                                .stroke(Color.white, lineWidth: 1.0))
+                            .padding(.bottom, 20)
+                            .autocapitalization(.none)
+                        
+                        NavigationLink(destination: HomeView(), isActive: $showHome){
+                            
+                        }
+                        Button(action:{
+                            signInUser(email: username, password: password) {
+                                (success) -> Void in
+                                if success {
+                                    self.showHome = true
+                                } else {
+                                    self.showingPopup = true
+                                    self.errorBoxColor = "ff4d4d"
+                                }
+                            }
+                        }){
+                            Text("Sign-in")
+                                .padding(15)
+                                .frame(maxWidth: .infinity)
+                                .background(Color(UIColor.systemIndigo))
+                                .foregroundColor(.white)
+                                .cornerRadius(8)
+                        }
+                        
+                        
+                        Button(action:{
+                            self.createAccount = true
+                        }){
+                            Text("Create an account")
+                                .padding(15)
+                                .frame(maxWidth: .infinity)
+                                .background(Color(UIColor.systemIndigo))
+                                .foregroundColor(.white)
+                                .cornerRadius(8)
+                        }
                     }
                 }
-            }
-            .frame(
-                  minWidth: 0,
-                  maxWidth: .infinity,
-                  minHeight: 0,
-                  maxHeight: .infinity,
-                  alignment: .topLeading
+                .frame(
+                    minWidth: 0,
+                    maxWidth: .infinity,
+                    minHeight: 0,
+                    maxHeight: .infinity,
+                    alignment: .topLeading
                 )
-            .padding(15)
-        }
-        .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, dragToDismiss: true) {
-            VStack{
-                Text("Error: \(errorMessage)")
-                    .font(.title3)
-                    .padding(10)
+                .padding(15)
             }
+            .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, autohideIn: 2, dragToDismiss: true) {
+                VStack{
+                    Text(errorMessage)
+                        .font(.title3)
+                        .padding(10)
+                }
                 .font(.body)
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity, minHeight: 100.0)
-                .background(Color(hex: "ff4d4d"))
+                .background(Color(hex: "\(errorBoxColor)"))
                 .cornerRadius(20)
                 .padding(15)
+            }
         }
     }
 }
