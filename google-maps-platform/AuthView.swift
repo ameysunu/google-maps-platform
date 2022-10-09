@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PopupView
 
 struct AuthView: View {
     
@@ -14,6 +15,7 @@ struct AuthView: View {
     @State var confirmPassword: String
     @StateObject var keyboardHandler = KeyboardHandler()
     @State var createAccount: Bool = false
+    @State var showingPopup: Bool = false
     
     var body: some View {
         ZStack(alignment: .leading){
@@ -72,11 +74,12 @@ struct AuthView: View {
                                 if success {
 
                                 } else {
-                                   
+                                    self.showingPopup = true
                                 }
                             }
                         } else {
-                            print("Entered passwords do not match.")
+                            self.showingPopup = true
+                            errorMessage = "Entered passwords do not match"
                         }
                     }){
                         Text("Create an account")
@@ -136,7 +139,7 @@ struct AuthView: View {
                             if success {
                                 
                             } else {
-                                
+                                self.showingPopup = true
                             }
                         }
                     }){
@@ -169,6 +172,19 @@ struct AuthView: View {
                   alignment: .topLeading
                 )
             .padding(15)
+        }
+        .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, dragToDismiss: true) {
+            VStack{
+                Text("Error: \(errorMessage)")
+                    .font(.title3)
+                    .padding(10)
+            }
+                .font(.body)
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity, minHeight: 100.0)
+                .background(Color(hex: "ff4d4d"))
+                .cornerRadius(20)
+                .padding(15)
         }
     }
 }

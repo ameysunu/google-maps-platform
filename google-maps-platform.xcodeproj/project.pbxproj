@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77123A2028F2EE0400674B4B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A1F28F2EE0400674B4B /* Model.swift */; };
 		772B6F8128D3790B00E49F63 /* google_maps_platformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */; };
 		772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B6F8228D3790B00E49F63 /* ContentView.swift */; };
 		772B6F8528D3790D00E49F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8428D3790D00E49F63 /* Assets.xcassets */; };
 		772B6F8928D3790D00E49F63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8828D3790D00E49F63 /* Preview Assets.xcassets */; };
+		772FF17128F0CBA70002E423 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 772FF17028F0CBA70002E423 /* PopupView */; };
 		773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773814A528DE34A000D978E8 /* ViewDesign.swift */; };
 		776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEDE28DDBAA9000E1765 /* AuthView.swift */; };
 		776EEEE128DDBD20000E1765 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEE028DDBD20000E1765 /* Color.swift */; };
@@ -23,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77123A1F28F2EE0400674B4B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		772B6F7D28D3790B00E49F63 /* google-maps-platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-maps-platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_maps_platformApp.swift; sourceTree = "<group>"; };
 		772B6F8228D3790B00E49F63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772FF17128F0CBA70002E423 /* PopupView in Frameworks */,
 				77DCC07228DF0BAD003B5A33 /* FirebaseAuth in Frameworks */,
 				77DCC07428DF0BAD003B5A33 /* FirebaseFirestore in Frameworks */,
 				77DCC07628DF0BAD003B5A33 /* FirebaseStorage in Frameworks */,
@@ -77,6 +81,7 @@
 				77DCC07728E20E9B003B5A33 /* Authentication.swift */,
 				77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */,
 				773814A528DE34A000D978E8 /* ViewDesign.swift */,
+				77123A1F28F2EE0400674B4B /* Model.swift */,
 				776EEEE028DDBD20000E1765 /* Color.swift */,
 				772B6F8428D3790D00E49F63 /* Assets.xcassets */,
 				772B6F8628D3790D00E49F63 /* google_maps_platform.entitlements */,
@@ -113,6 +118,7 @@
 				77DCC07128DF0BAD003B5A33 /* FirebaseAuth */,
 				77DCC07328DF0BAD003B5A33 /* FirebaseFirestore */,
 				77DCC07528DF0BAD003B5A33 /* FirebaseStorage */,
+				772FF17028F0CBA70002E423 /* PopupView */,
 			);
 			productName = "google-maps-platform";
 			productReference = 772B6F7D28D3790B00E49F63 /* google-maps-platform.app */;
@@ -145,6 +151,7 @@
 			packageReferences = (
 				773814A728DE37FC00D978E8 /* XCRemoteSwiftPackageReference "Macaw" */,
 				77DCC07028DF0BAD003B5A33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				772FF16F28F0CBA70002E423 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = 772B6F7E28D3790B00E49F63 /* Products */;
 			projectDirPath = "";
@@ -180,6 +187,7 @@
 				77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */,
 				776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */,
 				773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */,
+				77123A2028F2EE0400674B4B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +403,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		772FF16F28F0CBA70002E423 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		773814A728DE37FC00D978E8 /* XCRemoteSwiftPackageReference "Macaw" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/exyte/Macaw";
@@ -414,6 +430,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		772FF17028F0CBA70002E423 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 772FF16F28F0CBA70002E423 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
 		77DCC07128DF0BAD003B5A33 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 77DCC07028DF0BAD003B5A33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
