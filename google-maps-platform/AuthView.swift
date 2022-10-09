@@ -74,11 +74,12 @@ struct AuthView: View {
                                 if success {
 
                                 } else {
-                                   
+                                    self.showingPopup = true
                                 }
                             }
                         } else {
-                            print("Entered passwords do not match.")
+                            self.showingPopup = true
+                            errorMessage = "Entered passwords do not match"
                         }
                     }){
                         Text("Create an account")
@@ -138,7 +139,7 @@ struct AuthView: View {
                             if success {
                                 
                             } else {
-                                
+                                self.showingPopup = true
                             }
                         }
                     }){
@@ -153,7 +154,6 @@ struct AuthView: View {
                     
                     Button(action:{
                         self.createAccount = true
-                        self.showingPopup = true
                     }){
                         Text("Create an account")
                             .padding(15)
@@ -175,10 +175,9 @@ struct AuthView: View {
         }
         .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, dragToDismiss: true) {
             VStack{
-                Text("Error")
+                Text("Error: \(errorMessage)")
                     .font(.title3)
                     .padding(10)
-                
             }
                 .font(.body)
                 .foregroundColor(.white)

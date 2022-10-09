@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77123A2028F2EE0400674B4B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A1F28F2EE0400674B4B /* Model.swift */; };
 		772B6F8128D3790B00E49F63 /* google_maps_platformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */; };
 		772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B6F8228D3790B00E49F63 /* ContentView.swift */; };
 		772B6F8528D3790D00E49F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8428D3790D00E49F63 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77123A1F28F2EE0400674B4B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		772B6F7D28D3790B00E49F63 /* google-maps-platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-maps-platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_maps_platformApp.swift; sourceTree = "<group>"; };
 		772B6F8228D3790B00E49F63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				77DCC07728E20E9B003B5A33 /* Authentication.swift */,
 				77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */,
 				773814A528DE34A000D978E8 /* ViewDesign.swift */,
+				77123A1F28F2EE0400674B4B /* Model.swift */,
 				776EEEE028DDBD20000E1765 /* Color.swift */,
 				772B6F8428D3790D00E49F63 /* Assets.xcassets */,
 				772B6F8628D3790D00E49F63 /* google_maps_platform.entitlements */,
@@ -184,6 +187,7 @@
 				77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */,
 				776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */,
 				773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */,
+				77123A2028F2EE0400674B4B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,12 +8,14 @@
 import Foundation
 import Firebase
 
+var errorMessage: String = ""
 typealias success = Bool
 
 func registerUser(email: String, password: String, completion: @escaping (success) -> Void){
     Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
         if (error != nil) {
             print(error!.localizedDescription)
+            errorMessage = error!.localizedDescription
             completion(false)
         } else {
             print("account created")
@@ -26,6 +28,7 @@ func signInUser(email: String, password: String, completion: @escaping (success)
     Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
         if (error != nil) {
             print(error!.localizedDescription)
+            errorMessage = error!.localizedDescription
             completion(false)
         } else {
             print("successfully signed in")
