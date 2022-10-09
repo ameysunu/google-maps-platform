@@ -7,8 +7,12 @@
 
 import SwiftUI
 import Firebase
+import PopupView
 
 struct SheetView: View {
+    
+    @State var showingPopup: Bool = false
+    
     var body: some View {
         ZStack(alignment: .leading){
             Color(hex: "231651").ignoresSafeArea()
@@ -19,6 +23,8 @@ struct SheetView: View {
                         try firebaseAuth.signOut()
                     } catch let signOutError as NSError {
                         print("Error signing out: %@", signOutError)
+                        self.showingPopup = true
+                        errorMessage = signOutError.localizedDescription
                     }
                     
                 }){
@@ -31,6 +37,19 @@ struct SheetView: View {
                 }
             }
             .padding()
+        }
+        .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, autohideIn: 2, dragToDismiss: true) {
+            VStack{
+                Text(errorMessage)
+                    .font(.title3)
+                    .padding(10)
+            }
+            .font(.body)
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity, minHeight: 100.0)
+            .background(Color(hex: "ff4d4d"))
+            .cornerRadius(20)
+            .padding(15)
         }
     }
 }
