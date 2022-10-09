@@ -17,6 +17,7 @@ struct AuthView: View {
     @State var createAccount: Bool = false
     @State var showingPopup: Bool = false
     @State var showHome: Bool = false
+    @State var errorBoxColor: String = "ff4d4d"
     
     var body: some View {
         NavigationStack {
@@ -74,13 +75,17 @@ struct AuthView: View {
                                 registerUser(email: username, password: password){
                                     (success) -> Void in
                                     if success {
-                                        
+                                        self.showingPopup = true
+                                        self.errorBoxColor = "40C9A2"
+                                        errorMessage = "Your account has been successfully created. You can now login."
                                     } else {
                                         self.showingPopup = true
+                                        self.errorBoxColor = "ff4d4d"
                                     }
                                 }
                             } else {
                                 self.showingPopup = true
+                                self.errorBoxColor = "ff4d4d"
                                 errorMessage = "Entered passwords do not match"
                             }
                         }){
@@ -145,6 +150,7 @@ struct AuthView: View {
                                     self.showHome = true
                                 } else {
                                     self.showingPopup = true
+                                    self.errorBoxColor = "ff4d4d"
                                 }
                             }
                         }){
@@ -180,14 +186,14 @@ struct AuthView: View {
             }
             .popup(isPresented: $showingPopup, type: .floater(verticalPadding: 10.0, useSafeAreaInset: true), position: .top, autohideIn: 2, dragToDismiss: true) {
                 VStack{
-                    Text("Error: \(errorMessage)")
+                    Text(errorMessage)
                         .font(.title3)
                         .padding(10)
                 }
                 .font(.body)
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity, minHeight: 100.0)
-                .background(Color(hex: "ff4d4d"))
+                .background(Color(hex: "\(errorBoxColor)"))
                 .cornerRadius(20)
                 .padding(15)
             }

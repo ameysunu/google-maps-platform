@@ -9,7 +9,9 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack{
+            Color(hex: "231651").ignoresSafeArea()
+        }
     }
 }
 
