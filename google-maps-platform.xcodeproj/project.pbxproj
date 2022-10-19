@@ -17,6 +17,7 @@
 		773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773814A528DE34A000D978E8 /* ViewDesign.swift */; };
 		776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEDE28DDBAA9000E1765 /* AuthView.swift */; };
 		776EEEE128DDBD20000E1765 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEE028DDBD20000E1765 /* Color.swift */; };
+		77718069290063E3006FAB9E /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77718068290063E3006FAB9E /* GoogleMapsView.swift */; };
 		77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */; };
 		77DCC06F28DF0A97003B5A33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */; };
 		77DCC07828E20E9C003B5A33 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC07728E20E9B003B5A33 /* Authentication.swift */; };
@@ -38,6 +39,7 @@
 		773814A528DE34A000D978E8 /* ViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
 		776EEEDE28DDBAA9000E1765 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		776EEEE028DDBD20000E1765 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		77718068290063E3006FAB9E /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
 		77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveKeyboard.swift; sourceTree = "<group>"; };
 		77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		77DCC07728E20E9B003B5A33 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				772B6F8228D3790B00E49F63 /* ContentView.swift */,
 				776EEEDE28DDBAA9000E1765 /* AuthView.swift */,
 				77123A2128F2FABD00674B4B /* HomeView.swift */,
+				77718068290063E3006FAB9E /* GoogleMapsView.swift */,
 				77DCC07728E20E9B003B5A33 /* Authentication.swift */,
 				77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */,
 				773814A528DE34A000D978E8 /* ViewDesign.swift */,
@@ -241,6 +244,7 @@
 				77DCC07828E20E9C003B5A33 /* Authentication.swift in Sources */,
 				77123A2428F3020A00674B4B /* SheetView.swift in Sources */,
 				772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */,
+				77718069290063E3006FAB9E /* GoogleMapsView.swift in Sources */,
 				776EEEE128DDBD20000E1765 /* Color.swift in Sources */,
 				772B6F8128D3790B00E49F63 /* google_maps_platformApp.swift in Sources */,
 				77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */,

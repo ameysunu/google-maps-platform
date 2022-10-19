@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import GoogleMaps
 
 struct HomeView: View {
     @State var isSettingsPresented = false
+    let scrollViewHeight: CGFloat = 80
     var body: some View {
         ZStack{
             Color(hex: "231651").ignoresSafeArea()
@@ -21,6 +23,8 @@ struct HomeView: View {
                 }
                 .padding()
                 Spacer()
+                GoogleMapsView()
+                    .edgesIgnoringSafeArea(.all)
             }
         }
         .sheet(isPresented: $isSettingsPresented) {

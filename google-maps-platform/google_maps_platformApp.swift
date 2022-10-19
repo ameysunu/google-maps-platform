@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FirebaseCore
+import GoogleMaps
 
 //class AppDelegate: NSObject, UIApplicationDelegate {
 //  func application(_ application: UIApplication,
@@ -17,9 +18,15 @@ import FirebaseCore
 //  }
 //}
 
+let googleMapsAPIkey = "AIzaSyBoFTC3Kx1zjPwioogYYhU7dsB55DD087g"
+
 @main
 struct google_maps_platformApp: App {
 //    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    init(){
+        GMSServices.provideAPIKey(googleMapsAPIkey)
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
