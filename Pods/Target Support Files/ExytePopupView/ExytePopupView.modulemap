@@ -1,0 +1,6 @@
+module ExytePopupView {
+  umbrella header "ExytePopupView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C0E6B39E5296D2EE73CED26 /* libPods-google-maps-platform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA870036E46D30D74F516790 /* libPods-google-maps-platform.a */; };
 		77123A2028F2EE0400674B4B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A1F28F2EE0400674B4B /* Model.swift */; };
 		77123A2228F2FABD00674B4B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A2128F2FABD00674B4B /* HomeView.swift */; };
 		77123A2428F3020A00674B4B /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A2328F3020A00674B4B /* SheetView.swift */; };
@@ -15,19 +14,18 @@
 		772B6F8328D3790B00E49F63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B6F8228D3790B00E49F63 /* ContentView.swift */; };
 		772B6F8528D3790D00E49F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8428D3790D00E49F63 /* Assets.xcassets */; };
 		772B6F8928D3790D00E49F63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772B6F8828D3790D00E49F63 /* Preview Assets.xcassets */; };
-		772FF17128F0CBA70002E423 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 772FF17028F0CBA70002E423 /* PopupView */; };
 		773814A628DE34A000D978E8 /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773814A528DE34A000D978E8 /* ViewDesign.swift */; };
 		776EEEDF28DDBAA9000E1765 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEDE28DDBAA9000E1765 /* AuthView.swift */; };
 		776EEEE128DDBD20000E1765 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776EEEE028DDBD20000E1765 /* Color.swift */; };
 		77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */; };
 		77DCC06F28DF0A97003B5A33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */; };
-		77DCC07228DF0BAD003B5A33 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 77DCC07128DF0BAD003B5A33 /* FirebaseAuth */; };
-		77DCC07428DF0BAD003B5A33 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 77DCC07328DF0BAD003B5A33 /* FirebaseFirestore */; };
-		77DCC07628DF0BAD003B5A33 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 77DCC07528DF0BAD003B5A33 /* FirebaseStorage */; };
 		77DCC07828E20E9C003B5A33 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC07728E20E9B003B5A33 /* Authentication.swift */; };
+		F77CD340DAE1A3FC53BBF9D9 /* libPods-google-maps-platform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEB0BF2FC9D294988D2C0AF /* libPods-google-maps-platform.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EEB0BF2FC9D294988D2C0AF /* libPods-google-maps-platform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-google-maps-platform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E130C84C89DC727AD4325BE /* Pods-google-maps-platform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-maps-platform.debug.xcconfig"; path = "Target Support Files/Pods-google-maps-platform/Pods-google-maps-platform.debug.xcconfig"; sourceTree = "<group>"; };
 		77123A1F28F2EE0400674B4B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		77123A2128F2FABD00674B4B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		77123A2328F3020A00674B4B /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
@@ -43,9 +41,7 @@
 		77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveKeyboard.swift; sourceTree = "<group>"; };
 		77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		77DCC07728E20E9B003B5A33 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
-		7B2493F0D9A49236E59C28A0 /* Pods-google-maps-platform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-maps-platform.debug.xcconfig"; path = "Target Support Files/Pods-google-maps-platform/Pods-google-maps-platform.debug.xcconfig"; sourceTree = "<group>"; };
-		BA870036E46D30D74F516790 /* libPods-google-maps-platform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-google-maps-platform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC07DA9C94F38E50D6D5471D /* Pods-google-maps-platform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-maps-platform.release.xcconfig"; path = "Target Support Files/Pods-google-maps-platform/Pods-google-maps-platform.release.xcconfig"; sourceTree = "<group>"; };
+		9EE7436E1631CE073EE4D9FE /* Pods-google-maps-platform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-maps-platform.release.xcconfig"; path = "Target Support Files/Pods-google-maps-platform/Pods-google-maps-platform.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,32 +49,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				772FF17128F0CBA70002E423 /* PopupView in Frameworks */,
-				77DCC07228DF0BAD003B5A33 /* FirebaseAuth in Frameworks */,
-				77DCC07428DF0BAD003B5A33 /* FirebaseFirestore in Frameworks */,
-				77DCC07628DF0BAD003B5A33 /* FirebaseStorage in Frameworks */,
-				6C0E6B39E5296D2EE73CED26 /* libPods-google-maps-platform.a in Frameworks */,
+				F77CD340DAE1A3FC53BBF9D9 /* libPods-google-maps-platform.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DB0FAC49B259494AA90585D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BA870036E46D30D74F516790 /* libPods-google-maps-platform.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		772B6F7428D3790B00E49F63 = {
 			isa = PBXGroup;
 			children = (
 				772B6F7F28D3790B00E49F63 /* google-maps-platform */,
 				772B6F7E28D3790B00E49F63 /* Products */,
 				F2A108FA7A47D9F66F43A66B /* Pods */,
-				4DB0FAC49B259494AA90585D /* Frameworks */,
+				856C8251C783721BC399853E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,13 +103,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		856C8251C783721BC399853E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB0BF2FC9D294988D2C0AF /* libPods-google-maps-platform.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2A108FA7A47D9F66F43A66B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B2493F0D9A49236E59C28A0 /* Pods-google-maps-platform.debug.xcconfig */,
-				CC07DA9C94F38E50D6D5471D /* Pods-google-maps-platform.release.xcconfig */,
+				5E130C84C89DC727AD4325BE /* Pods-google-maps-platform.debug.xcconfig */,
+				9EE7436E1631CE073EE4D9FE /* Pods-google-maps-platform.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,23 +127,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 772B6F8C28D3790D00E49F63 /* Build configuration list for PBXNativeTarget "google-maps-platform" */;
 			buildPhases = (
-				312573A585B80652CBEE1CF4 /* [CP] Check Pods Manifest.lock */,
+				A4F0564C212D138FB4570FA1 /* [CP] Check Pods Manifest.lock */,
 				772B6F7928D3790B00E49F63 /* Sources */,
 				772B6F7A28D3790B00E49F63 /* Frameworks */,
 				772B6F7B28D3790B00E49F63 /* Resources */,
-				6F1DB109C8139A31493370C7 /* [CP] Copy Pods Resources */,
+				BF8B01DDF9D7393B2E38A496 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "google-maps-platform";
-			packageProductDependencies = (
-				77DCC07128DF0BAD003B5A33 /* FirebaseAuth */,
-				77DCC07328DF0BAD003B5A33 /* FirebaseFirestore */,
-				77DCC07528DF0BAD003B5A33 /* FirebaseStorage */,
-				772FF17028F0CBA70002E423 /* PopupView */,
-			);
 			productName = "google-maps-platform";
 			productReference = 772B6F7D28D3790B00E49F63 /* google-maps-platform.app */;
 			productType = "com.apple.product-type.application";
@@ -182,9 +167,6 @@
 			);
 			mainGroup = 772B6F7428D3790B00E49F63;
 			packageReferences = (
-				773814A728DE37FC00D978E8 /* XCRemoteSwiftPackageReference "Macaw" */,
-				77DCC07028DF0BAD003B5A33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				772FF16F28F0CBA70002E423 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = 772B6F7E28D3790B00E49F63 /* Products */;
 			projectDirPath = "";
@@ -209,7 +191,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		312573A585B80652CBEE1CF4 /* [CP] Check Pods Manifest.lock */ = {
+		A4F0564C212D138FB4570FA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,7 +213,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F1DB109C8139A31493370C7 /* [CP] Copy Pods Resources */ = {
+		BF8B01DDF9D7393B2E38A496 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,7 +364,7 @@
 		};
 		772B6F8D28D3790D00E49F63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B2493F0D9A49236E59C28A0 /* Pods-google-maps-platform.debug.xcconfig */;
+			baseConfigurationReference = 5E130C84C89DC727AD4325BE /* Pods-google-maps-platform.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,7 +404,7 @@
 		};
 		772B6F8E28D3790D00E49F63 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC07DA9C94F38E50D6D5471D /* Pods-google-maps-platform.release.xcconfig */;
+			baseConfigurationReference = 9EE7436E1631CE073EE4D9FE /* Pods-google-maps-platform.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -433,6 +415,7 @@
 				DEVELOPMENT_TEAM = 548AU6WH8M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "error build: Building for iOS Simulator, but linking in object file built for iOS, file '/Users/ameysunu/Desktop/google-maps-platform/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/GoogleMaps' for architecture arm64\n";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "google-maps-platform";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -482,56 +465,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		772FF16F28F0CBA70002E423 /* XCRemoteSwiftPackageReference "PopupView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/exyte/PopupView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		773814A728DE37FC00D978E8 /* XCRemoteSwiftPackageReference "Macaw" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/exyte/Macaw";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.9;
-			};
-		};
-		77DCC07028DF0BAD003B5A33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		772FF17028F0CBA70002E423 /* PopupView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 772FF16F28F0CBA70002E423 /* XCRemoteSwiftPackageReference "PopupView" */;
-			productName = PopupView;
-		};
-		77DCC07128DF0BAD003B5A33 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 77DCC07028DF0BAD003B5A33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		77DCC07328DF0BAD003B5A33 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 77DCC07028DF0BAD003B5A33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		77DCC07528DF0BAD003B5A33 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 77DCC07028DF0BAD003B5A33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 772B6F7528D3790B00E49F63 /* Project object */;
 }

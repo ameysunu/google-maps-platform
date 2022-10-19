@@ -1,0 +1,6 @@
+module Pods_google_maps_platform {
+  umbrella header "Pods-google-maps-platform-umbrella.h"
+
+  export *
+  module * { export * }
+}

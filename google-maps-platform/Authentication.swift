@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Firebase
+import FirebaseAuth
 
 var errorMessage: String = ""
 typealias success = Bool

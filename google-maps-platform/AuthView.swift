@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PopupView
+import ExytePopupView
 
 struct AuthView: View {
     

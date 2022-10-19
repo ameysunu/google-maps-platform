@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-import Firebase
-import PopupView
+import FirebaseAuth
+import ExytePopupView
 
 struct SheetView: View {
     
