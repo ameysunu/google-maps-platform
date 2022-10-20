@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct AlertItem: Identifiable {
     var id = UUID()
     var title: Text
     var message: Text
     var dismissButton: Alert.Button
+}
+
+struct City {
+    var name: String
+    var coordinate: CLLocationCoordinate2D
 }
