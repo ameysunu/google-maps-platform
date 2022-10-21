@@ -17,5 +17,6 @@ struct AlertItem: Identifiable {
 
 struct City {
     var name: String
-    var coordinate: CLLocationCoordinate2D
+    var latitude: Double
+    var longitude: Double
 }
