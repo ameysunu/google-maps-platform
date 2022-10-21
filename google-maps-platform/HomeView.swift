@@ -15,6 +15,12 @@ struct HomeView: View {
     let scrollViewHeight: CGFloat = 80
     @State var welcomeScreen: Bool = true
     
+    init() {
+       UITableView.appearance().separatorStyle = .none
+       UITableViewCell.appearance().backgroundColor = .white
+       UITableView.appearance().backgroundColor = .white
+    }
+    
     var body: some View {
         ZStack{
             Color(hex: "231651").ignoresSafeArea()
@@ -35,21 +41,6 @@ struct HomeView: View {
                         .edgesIgnoringSafeArea(.all)
                     
                 }
-                
-                //                Text("Hello Ireland!")
-                //                    .foregroundColor(.white)
-                //                    .fontWeight(.bold)
-                //                    .font(.title)
-                //                    .padding()
-                //
-                //                    ForEach(cities,id: \.self) { city in
-                //                        Button(action: {
-                //                            print(city.name)
-                //                        }) {
-                //                            Text(city.name ?? "")
-                //                                .padding()
-                //                        }
-                //                    }
             }
         }
         .sheet(isPresented: $isSettingsPresented) {
@@ -58,26 +49,29 @@ struct HomeView: View {
         .navigationBarBackButtonHidden(true)
         .popup(isPresented: $welcomeScreen, position: .top) {
             VStack {
-                Text("Hello Ireland!")
+                Text("Hello there!")
                     .foregroundColor(.indigo)
                     .fontWeight(.bold)
                     .font(.title)
                     .padding(10)
                 
-                Text("Select your current city")
+                Text("Choose your current city. We are currently only in the below available cities.")
                     .foregroundColor(.indigo)
                     .padding(10)
-                HStack{
+                
+                List{
                     ForEach(cities, id: \.self){city in
                         Button(action:{
                             print(city.name)
                         }){
                             Text(city.name)
-                                .foregroundColor(.white)
-                                .background(.indigo)
+                                .foregroundColor(.indigo)
                         }
                     }
+                    .listRowBackground(Color.white)
                 }
+                .listStyle(.plain)
+                .frame(height: 170)
             }
             .font(.body)
             .foregroundColor(.white)
