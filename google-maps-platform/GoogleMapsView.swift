@@ -9,16 +9,16 @@ import SwiftUI
 import GoogleMaps
 
 let cities = [
-    City(name: "Dublin", latitude: 53.350140, longitude: -6.266155),
-    City(name: "Cork", latitude: 51.903614, longitude: -8.468399),
-    City(name: "Limerick", latitude: 52.668018, longitude: -8.630498),
-    City(name: "Galway", latitude: 53.270962, longitude: -9.062691)
+    City(name: "Dublin", latitude: 53.350140, longitude: -6.266155, key: "dublin"),
+    City(name: "Cork", latitude: 51.903614, longitude: -8.468399, key: "cork"),
+    City(name: "Limerick", latitude: 52.668018, longitude: -8.630498, key: "limerick"),
+    City(name: "Galway", latitude: 53.270962, longitude: -9.062691, key: "galway")
 ]
 
 struct GoogleMapsView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> GMSMapView {
-        let camera = GMSCameraPosition.dublin
+        let camera = GMSCameraPosition.cameraLocation
         
         let mapView = GMSMapView(frame: CGRect.zero, camera: camera)
         
@@ -39,8 +39,12 @@ struct GoogleMapsView: UIViewRepresentable {
  }
 
 extension GMSCameraPosition  {
-    static var currentLocation = GMSCameraPosition.camera(withLatitude: 51.507, longitude: 0, zoom: 10)
-    static var london = GMSCameraPosition.camera(withLatitude: 51.507, longitude: 0, zoom: 10)
+    static var cameraLocation = ireland
+    static var ireland = GMSCameraPosition.camera(withLatitude: 53.142400, longitude: -7.692100, zoom: 6)
     static var dublin = GMSCameraPosition.camera(withLatitude: 53.35837, longitude: -6.3233002, zoom: 6)
+    static var galway = GMSCameraPosition.camera(withLatitude: 53.270962, longitude: -9.062691, zoom: 6)
+    static var cork = GMSCameraPosition.camera(withLatitude: 51.903614, longitude: -8.468399, zoom: 6)
+    static var limerick = GMSCameraPosition.camera(withLatitude: 52.668018, longitude: -8.630498, zoom: 6)
+
  }
 

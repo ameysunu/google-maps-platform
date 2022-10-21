@@ -63,6 +63,7 @@ struct HomeView: View {
                     ForEach(cities, id: \.self){city in
                         Button(action:{
                             print(city.name)
+                            print(GMSCameraPosition.cameraLocation)
                         }){
                             Text(city.name)
                                 .foregroundColor(.indigo)
