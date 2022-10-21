@@ -8,11 +8,13 @@
 import SwiftUI
 import GoogleMaps
 import CoreLocationUI
+import ExytePopupView
 
 struct HomeView: View {
     @State var isSettingsPresented = false
     let scrollViewHeight: CGFloat = 80
-        
+    @State var welcomeScreen: Bool = true
+    
     var body: some View {
         ZStack{
             Color(hex: "231651").ignoresSafeArea()
@@ -28,14 +30,63 @@ struct HomeView: View {
                 }
                 .padding()
                 
-                GoogleMapsView()
-                    .edgesIgnoringSafeArea(.all)
+                ZStack(alignment: .bottomTrailing){
+                    GoogleMapsView()
+                        .edgesIgnoringSafeArea(.all)
+                    
+                }
+                
+                //                Text("Hello Ireland!")
+                //                    .foregroundColor(.white)
+                //                    .fontWeight(.bold)
+                //                    .font(.title)
+                //                    .padding()
+                //
+                //                    ForEach(cities,id: \.self) { city in
+                //                        Button(action: {
+                //                            print(city.name)
+                //                        }) {
+                //                            Text(city.name ?? "")
+                //                                .padding()
+                //                        }
+                //                    }
             }
         }
         .sheet(isPresented: $isSettingsPresented) {
             SheetView()
         }
         .navigationBarBackButtonHidden(true)
+        .popup(isPresented: $welcomeScreen, position: .top) {
+            VStack {
+                Text("Hello Ireland!")
+                    .foregroundColor(.indigo)
+                    .fontWeight(.bold)
+                    .font(.title)
+                    .padding(10)
+                
+                Text("Select your current city")
+                    .foregroundColor(.indigo)
+                    .padding(10)
+                HStack{
+                    ForEach(cities, id: \.self){city in
+                        Button(action:{
+                            print(city.name)
+                        }){
+                            Text(city.name)
+                                .foregroundColor(.white)
+                                .background(.indigo)
+                        }
+                    }
+                }
+            }
+            .font(.body)
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity, minHeight: 100.0)
+            .background(.white)
+            .cornerRadius(20)
+            .padding(15)
+        }
+
     }
 }
 
