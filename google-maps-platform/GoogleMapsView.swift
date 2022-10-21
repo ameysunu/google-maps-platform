@@ -41,6 +41,6 @@ struct GoogleMapsView: UIViewRepresentable {
 extension GMSCameraPosition  {
     static var currentLocation = GMSCameraPosition.camera(withLatitude: 51.507, longitude: 0, zoom: 10)
     static var london = GMSCameraPosition.camera(withLatitude: 51.507, longitude: 0, zoom: 10)
-    static var dublin = GMSCameraPosition.camera(withLatitude: 53.35837, longitude: -6.3233002, zoom: 50)
+    static var dublin = GMSCameraPosition.camera(withLatitude: 53.35837, longitude: -6.3233002, zoom: 6)
  }
 
