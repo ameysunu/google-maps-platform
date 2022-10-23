@@ -18,7 +18,7 @@ let cities = [
 struct GoogleMapsView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> GMSMapView {
-        let camera = GMSCameraPosition.cameraLocation
+        let camera = GMSCameraPosition.dublin
         
         let mapView = GMSMapView(frame: CGRect.zero, camera: camera)
         
@@ -39,9 +39,9 @@ struct GoogleMapsView: UIViewRepresentable {
  }
 
 extension GMSCameraPosition  {
-    static var cameraLocation = ireland
+    //static var cameraLocation = ireland
     static var ireland = GMSCameraPosition.camera(withLatitude: 53.142400, longitude: -7.692100, zoom: 6)
-    static var dublin = GMSCameraPosition.camera(withLatitude: 53.35837, longitude: -6.3233002, zoom: 6)
+    static var dublin = GMSCameraPosition.camera(withLatitude: 53.35837, longitude: -6.3233002, zoom: 10)
     static var galway = GMSCameraPosition.camera(withLatitude: 53.270962, longitude: -9.062691, zoom: 6)
     static var cork = GMSCameraPosition.camera(withLatitude: 51.903614, longitude: -8.468399, zoom: 6)
     static var limerick = GMSCameraPosition.camera(withLatitude: 52.668018, longitude: -8.630498, zoom: 6)

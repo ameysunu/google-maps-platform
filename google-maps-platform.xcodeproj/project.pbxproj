@@ -60,6 +60,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77037A0E2905C493003BED20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				776EEEDE28DDBAA9000E1765 /* AuthView.swift */,
+				77123A2128F2FABD00674B4B /* HomeView.swift */,
+				77718068290063E3006FAB9E /* GoogleMapsView.swift */,
+				77123A2328F3020A00674B4B /* SheetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77037A0F2905C4A9003BED20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77123A1F28F2EE0400674B4B /* Model.swift */,
+				7771806A290064AB006FAB9E /* LocationManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77037A102905C4C9003BED20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77DCC07728E20E9B003B5A33 /* Authentication.swift */,
+				77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */,
+				773814A528DE34A000D978E8 /* ViewDesign.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		772B6F7428D3790B00E49F63 = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +114,9 @@
 				77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */,
 				772B6F8028D3790B00E49F63 /* google_maps_platformApp.swift */,
 				772B6F8228D3790B00E49F63 /* ContentView.swift */,
-				776EEEDE28DDBAA9000E1765 /* AuthView.swift */,
-				77123A2128F2FABD00674B4B /* HomeView.swift */,
-				77718068290063E3006FAB9E /* GoogleMapsView.swift */,
-				7771806A290064AB006FAB9E /* LocationManager.swift */,
-				77DCC07728E20E9B003B5A33 /* Authentication.swift */,
-				77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */,
-				773814A528DE34A000D978E8 /* ViewDesign.swift */,
-				77123A2328F3020A00674B4B /* SheetView.swift */,
-				77123A1F28F2EE0400674B4B /* Model.swift */,
+				77037A0E2905C493003BED20 /* Views */,
+				77037A102905C4C9003BED20 /* Controllers */,
+				77037A0F2905C4A9003BED20 /* Models */,
 				776EEEE028DDBD20000E1765 /* Color.swift */,
 				772B6F8428D3790D00E49F63 /* Assets.xcassets */,
 				772B6F8628D3790D00E49F63 /* google_maps_platform.entitlements */,
