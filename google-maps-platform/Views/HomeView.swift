@@ -11,14 +11,12 @@ import CoreLocationUI
 import ExytePopupView
 
 struct HomeView: View {
+    
     @State var isSettingsPresented = false
     let scrollViewHeight: CGFloat = 80
-    @State var welcomeScreen: Bool = true
     
     init() {
-       UITableView.appearance().separatorStyle = .none
-       UITableViewCell.appearance().backgroundColor = .white
-       UITableView.appearance().backgroundColor = .white
+        print(centres)
     }
     
     var body: some View {

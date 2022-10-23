@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77037A142905E49F003BED20 /* COVID-19_HSE_Daily_Booster_Vaccination_Figures.json in Resources */ = {isa = PBXBuildFile; fileRef = 77037A132905E49F003BED20 /* COVID-19_HSE_Daily_Booster_Vaccination_Figures.json */; };
 		77123A2028F2EE0400674B4B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A1F28F2EE0400674B4B /* Model.swift */; };
 		77123A2228F2FABD00674B4B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A2128F2FABD00674B4B /* HomeView.swift */; };
 		77123A2428F3020A00674B4B /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123A2328F3020A00674B4B /* SheetView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		0EEB0BF2FC9D294988D2C0AF /* libPods-google-maps-platform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-google-maps-platform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E130C84C89DC727AD4325BE /* Pods-google-maps-platform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-maps-platform.debug.xcconfig"; path = "Target Support Files/Pods-google-maps-platform/Pods-google-maps-platform.debug.xcconfig"; sourceTree = "<group>"; };
+		77037A132905E49F003BED20 /* COVID-19_HSE_Daily_Booster_Vaccination_Figures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "COVID-19_HSE_Daily_Booster_Vaccination_Figures.json"; sourceTree = "<group>"; };
 		77123A1F28F2EE0400674B4B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		77123A2128F2FABD00674B4B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		77123A2328F3020A00674B4B /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		77037A0F2905C4A9003BED20 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				77037A132905E49F003BED20 /* COVID-19_HSE_Daily_Booster_Vaccination_Figures.json */,
 				77123A1F28F2EE0400674B4B /* Model.swift */,
 				7771806A290064AB006FAB9E /* LocationManager.swift */,
 			);
@@ -215,6 +218,7 @@
 				772B6F8928D3790D00E49F63 /* Preview Assets.xcassets in Resources */,
 				772B6F8528D3790D00E49F63 /* Assets.xcassets in Resources */,
 				77DCC06F28DF0A97003B5A33 /* GoogleService-Info.plist in Resources */,
+				77037A142905E49F003BED20 /* COVID-19_HSE_Daily_Booster_Vaccination_Figures.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
