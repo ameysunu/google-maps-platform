@@ -46,3 +46,28 @@ extension GMSCameraPosition  {
 
  }
 
+struct CentresMap: UIViewRepresentable {
+    
+    @State var latitude: CLLocationDegrees
+    @State var longitude: CLLocationDegrees
+    
+    func makeUIView(context: Context) -> GMSMapView {
+        let camera = GMSCameraPosition.camera(withLatitude: latitude, longitude: longitude, zoom: 10)
+        
+        let mapView = GMSMapView(frame: CGRect.zero, camera: camera)
+        
+        
+        return mapView
+        
+    }
+    
+    func updateUIView(_ uiView: GMSMapView, context: Context) {
+        for centre in healthCentres {
+            let marker : GMSMarker = GMSMarker()
+            marker.position = CLLocationCoordinate2D(latitude: centre.x, longitude: centre.y)
+            marker.map = uiView
+        }
+    }
+     
+ }
+

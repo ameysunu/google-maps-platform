@@ -11,7 +11,13 @@ struct CentresView: View {
     var body: some View {
         List {
             ForEach (healthCentres, id: \.self) { centre in
-                Text(centre.name)
+                NavigationLink(destination: CentresDetailView(centreName: centre.name, address: centre.address, eircode: centre.eircode,latitude: centre.x, longitude: centre.y) ){
+                    VStack(alignment: .leading){
+                        Text(centre.name)
+                        Text(centre.address)
+                            .foregroundColor(.gray)
+                    }
+                }
             }
         }
         .navigationTitle("Health Centres")
