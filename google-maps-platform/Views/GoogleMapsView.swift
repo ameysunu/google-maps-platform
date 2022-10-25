@@ -27,11 +27,9 @@ struct GoogleMapsView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: GMSMapView, context: Context) {
-        for city in cities {
+        for centre in centres {
             let marker : GMSMarker = GMSMarker()
-            marker.position = CLLocationCoordinate2D(latitude: city.latitude , longitude: city.longitude)
-            marker.title = city.name
-            marker.snippet = "Welcome to \(city.name)!"
+            marker.position = CLLocationCoordinate2D(latitude: centre.geometry.coordinates[1] , longitude: centre.geometry.coordinates[0])
             marker.map = uiView
         }
     }
