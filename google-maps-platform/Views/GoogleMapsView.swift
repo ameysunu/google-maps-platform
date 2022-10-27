@@ -27,9 +27,9 @@ struct GoogleMapsView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: GMSMapView, context: Context) {
-        for centre in centres {
+        for county in counties {
             let marker : GMSMarker = GMSMarker()
-            marker.position = CLLocationCoordinate2D(latitude: centre.geometry.coordinates[1] , longitude: centre.geometry.coordinates[0])
+            marker.position = CLLocationCoordinate2D(latitude: county.Lat , longitude: county.Long)
             marker.map = uiView
         }
     }

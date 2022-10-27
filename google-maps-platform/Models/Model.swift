@@ -57,8 +57,16 @@ struct HealthCentres: Codable, Hashable {
     
 }
 
+struct County: Codable {
+    var CountyName: String
+    var PopulationCensus16: Int
+    var Lat: Double
+    var Long: Double
+}
+
 var centres: [Centres] = load("COVID-19_HSE_Daily_Booster_Vaccination_Figures.json")
 var healthCentres: [HealthCentres] = load("listofhealthcentresinireland.json")
+var counties: [County] = load("COVID-19_HPSC_County_Statistics_Historic_Data.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

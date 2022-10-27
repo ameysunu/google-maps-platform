@@ -23,6 +23,7 @@
 		77C32C7C2908195D004389A4 /* listofhealthcentresinireland.json in Resources */ = {isa = PBXBuildFile; fileRef = 77C32C7B2908195D004389A4 /* listofhealthcentresinireland.json */; };
 		77C32C7E290832B1004389A4 /* CentresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C32C7D290832B1004389A4 /* CentresView.swift */; };
 		77C32C8029083D30004389A4 /* CentresDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C32C7F29083D30004389A4 /* CentresDetailView.swift */; };
+		77C32C82290B4137004389A4 /* COVID-19_HPSC_County_Statistics_Historic_Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 77C32C81290B4137004389A4 /* COVID-19_HPSC_County_Statistics_Historic_Data.json */; };
 		77DCC06D28DEF328003B5A33 /* MoveKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */; };
 		77DCC06F28DF0A97003B5A33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */; };
 		77DCC07828E20E9C003B5A33 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCC07728E20E9B003B5A33 /* Authentication.swift */; };
@@ -50,6 +51,7 @@
 		77C32C7B2908195D004389A4 /* listofhealthcentresinireland.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listofhealthcentresinireland.json; sourceTree = "<group>"; };
 		77C32C7D290832B1004389A4 /* CentresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentresView.swift; sourceTree = "<group>"; };
 		77C32C7F29083D30004389A4 /* CentresDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentresDetailView.swift; sourceTree = "<group>"; };
+		77C32C81290B4137004389A4 /* COVID-19_HPSC_County_Statistics_Historic_Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "COVID-19_HPSC_County_Statistics_Historic_Data.json"; sourceTree = "<group>"; };
 		77DCC06C28DEF328003B5A33 /* MoveKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveKeyboard.swift; sourceTree = "<group>"; };
 		77DCC06E28DF0A96003B5A33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		77DCC07728E20E9B003B5A33 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		77037A0F2905C4A9003BED20 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				77C32C81290B4137004389A4 /* COVID-19_HPSC_County_Statistics_Historic_Data.json */,
 				77C32C7B2908195D004389A4 /* listofhealthcentresinireland.json */,
 				77037A132905E49F003BED20 /* COVID-19_HSE_Daily_Booster_Vaccination_Figures.json */,
 				77123A1F28F2EE0400674B4B /* Model.swift */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				772B6F8928D3790D00E49F63 /* Preview Assets.xcassets in Resources */,
+				77C32C82290B4137004389A4 /* COVID-19_HPSC_County_Statistics_Historic_Data.json in Resources */,
 				772B6F8528D3790D00E49F63 /* Assets.xcassets in Resources */,
 				77C32C7C2908195D004389A4 /* listofhealthcentresinireland.json in Resources */,
 				77DCC06F28DF0A97003B5A33 /* GoogleService-Info.plist in Resources */,

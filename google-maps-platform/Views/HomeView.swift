@@ -16,7 +16,7 @@ struct HomeView: View {
     @State var centresShow = false
     
     init() {
-        print(centres)
+        print(counties)
     }
     
     var body: some View {
