@@ -46,6 +46,7 @@ struct HomeView: View {
                     ZStack(alignment: .bottomTrailing){
                         GoogleMapsView()
                             .edgesIgnoringSafeArea(.all)
+                        ListView()
                         
                     }
                 }

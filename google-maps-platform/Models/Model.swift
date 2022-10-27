@@ -57,7 +57,7 @@ struct HealthCentres: Codable, Hashable {
     
 }
 
-struct County: Codable {
+struct County: Codable, Hashable {
     var CountyName: String
     var PopulationCensus16: Int
     var Lat: Double

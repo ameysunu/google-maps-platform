@@ -18,7 +18,7 @@ let cities = [
 struct GoogleMapsView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> GMSMapView {
-        let camera = GMSCameraPosition.dublin
+        let camera = GMSCameraPosition.ireland
         
         let mapView = GMSMapView(frame: CGRect.zero, camera: camera)
         
@@ -30,6 +30,7 @@ struct GoogleMapsView: UIViewRepresentable {
         for county in counties {
             let marker : GMSMarker = GMSMarker()
             marker.position = CLLocationCoordinate2D(latitude: county.Lat , longitude: county.Long)
+            marker.title = county.CountyName
             marker.map = uiView
         }
     }
