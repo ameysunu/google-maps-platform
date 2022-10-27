@@ -1,0 +1,5238 @@
+[
+ {
+   "name": "Lusk",
+   "address": "Main Street, Lusk, Co. Dublin.",
+   "eircode": "",
+   "x": 53.5275275,
+   "y": -6.2192442
+ },
+ {
+   "name": "Dowra",
+   "address": "Drumnafinnila, Dowra, Co. Leitrim",
+   "eircode": "",
+   "x": 54.1580909,
+   "y": -8.0023488
+ },
+ {
+   "name": "Clonakilty",
+   "address": "Primary Care Centre Hospital Grounds, Scartagh, Clonakilty, Co. Cork.",
+   "eircode": "",
+   "x": 51.621701,
+   "y": -8.8868667
+ },
+ {
+   "name": "Hartstown",
+   "address": "Cherryfield Lawns, Hartstown, Dublin 15",
+   "eircode": "",
+   "x": 53.3917916,
+   "y": -6.4215161,
+ },
+ {
+   "name": "The Ballagh",
+   "address": "Ballymurry, The Ballagh, Enniscorthy, Co. Wexford.",
+   "eircode": "",
+   "x": 52.3537272,
+   "y": -6.7878825
+ },
+ {
+   "name": "Milltown",
+   "address": "Bridge Street, Milltown, Co. Kerry",
+   "eircode": "",
+   "x": 52.1433442,
+   "y": -9.7200842
+ },
+ {
+   "name": "Butler Centre",
+   "address": "Butler Community Centre, Saint John's Park, Waterford.",
+   "eircode": "",
+   "x": 52.2411418,
+   "y": -7.1102453
+ },
+ {
+   "name": "Carigeen",
+   "address": "Church Hall, Carigeen, Co. Kilkenny.",
+   "eircode": "",
+   "x": 253571.156,
+   "y": 113447.023
+ },
+ {
+   "name": "Ferrybank",
+   "address": "Community Hall, Ferrybank, Waterford.",
+   "eircode": "",
+   "x": 261541.14,
+   "y": 113159.563
+ },
+ {
+   "name": "Kill",
+   "address": "Community Hall, Kill, Co. Waterford.",
+   "eircode": "",
+   "x": 245314.5,
+   "y": 102968.672
+ },
+ {
+   "name": "Passage East",
+   "address": "Community Hall, Passage East, Co. Waterford.",
+   "eircode": "",
+   "x": 270296.625,
+   "y": 110186.57
+ },
+ {
+   "name": "Emly",
+   "address": "Galtee View, Emly, Co. Tipperary.",
+   "eircode": "",
+   "x": 176343.531,
+   "y": 134599.328
+ },
+ {
+   "name": "Kilsheelan",
+   "address": "Chapel Road, Kilsheelan, Clonmel, Co. Tipperary.",
+   "eircode": "",
+   "x": 228587.734,
+   "y": 123534.672
+ },
+ {
+   "name": "Ballymahon",
+   "address": "Ballymahon, Co. Longford.",
+   "eircode": "",
+   "x": 215508.84,
+   "y": 257247.07
+ },
+ {
+   "name": "Muirhevnamore",
+   "address": "Muirhevnamore, Co. Louth.",
+   "eircode": "",
+   "x": 306288.26,
+   "y": 305843.059
+ },
+ {
+   "name": "Oylegate",
+   "address": "Oylegate, Enniscorthy, Co. Wexford.",
+   "eircode": "",
+   "x": 300187.59,
+   "y": 131287.98
+ },
+ {
+   "name": "Rosslare",
+   "address": "St. Martin's Road, Rosslare Harbour, Co. Wexford.",
+   "eircode": "",
+   "x": 313510.25,
+   "y": 112152.484
+ },
+ {
+   "name": "Oldcastle",
+   "address": "Oldcastle, Co. Meath.",
+   "eircode": "",
+   "x": 255420.406,
+   "y": 280261.094
+ },
+ {
+   "name": "Dillons Cross",
+   "address": "Harrington Square, Ballyhooly Road, Cork.",
+   "eircode": "",
+   "x": 168606.63,
+   "y": 72939.482
+ },
+ {
+   "name": "Rockchapel",
+   "address": "Community Hall, Rockchapel, Co. Cork.",
+   "eircode": "",
+   "x": 121733.609,
+   "y": 115744.703
+ },
+ {
+   "name": "Paulstown",
+   "address": "Gowran Road, Paulstown, Co. Kilkenny.",
+   "eircode": "",
+   "x": 266208.56,
+   "y": 159397.63
+ },
+ {
+   "name": "Stradbally",
+   "address": "Credit Union Building, Stradbally, Co. Waterford.",
+   "eircode": "",
+   "x": 237068.016,
+   "y": 97907.102
+ },
+ {
+   "name": "Ballymacarbry",
+   "address": "Four Mile Water, Clonmel, Co. Tipperary.",
+   "eircode": "",
+   "x": 216956.844,
+   "y": 114236.133
+ },
+ {
+   "name": "Ballysloe",
+   "address": "Ballysloe, Gortnahoe, Co. Tipperary.",
+   "eircode": "",
+   "x": 226608.063,
+   "y": 154042.984
+ },
+ {
+   "name": "Bansha",
+   "address": "Main Street, Bansha, Co. Tipperary.",
+   "eircode": "",
+   "x": 195820.969,
+   "y": 132731.641
+ },
+ {
+   "name": "Cahir",
+   "address": "Pearse Street, Cahir, Co. Tipperary.",
+   "eircode": "",
+   "x": 205461.05,
+   "y": 124692.094
+ },
+ {
+   "name": "Cappawhite",
+   "address": "Cappawhite, Co. Tipperary.",
+   "eircode": "",
+   "x": 188961.484,
+   "y": 147828.516
+ },
+ {
+   "name": "Carrick on Suir",
+   "address": "Waterford Road, Carrick on Suir, Co. Tipperary.",
+   "eircode": "",
+   "x": 240682.853,
+   "y": 121917.113
+ },
+ {
+   "name": "Clonea",
+   "address": "Clodagh Drive, Clonea Power, Carrick, Co. Tipperary.",
+   "eircode": "",
+   "x": 237871.469,
+   "y": 114568.656
+ },
+ {
+   "name": "Mullinahone",
+   "address": "Carrick Steet, Mullinahone, Co. Tipperary.",
+   "eircode": "",
+   "x": 233751.22,
+   "y": 140229.98
+ },
+ {
+   "name": "New Inn",
+   "address": "New Inn, Cashel, Co. Tipperary.",
+   "eircode": "",
+   "x": 208349.453,
+   "y": 132097.516
+ },
+ {
+   "name": "Newcastle",
+   "address": "Newcastle, Clonmel, Co. Tipperary.",
+   "eircode": "",
+   "x": 213029.984,
+   "y": 113360.086
+ },
+ {
+   "name": "Tipperary",
+   "address": "St. Vincent's Hospital, Tipperary Town, Co. Tipperary.",
+   "eircode": "",
+   "x": 189375.702,
+   "y": 135046.053
+ },
+ {
+   "name": "Bannow",
+   "address": "Bannow, Duncormick, Co. Wexford.",
+   "eircode": "",
+   "x": 288640.41,
+   "y": 111034.17
+ },
+ {
+   "name": "Blackwater",
+   "address": "Blackwater Co. Wexford",
+   "eircode": "",
+   "x": 312409.813,
+   "y": 133982.906
+ },
+ {
+   "name": "Bree",
+   "address": "Bree, Enniscorthy, Co. Wexford.",
+   "eircode": "",
+   "x": 293112.88,
+   "y": 131126.03
+ },
+ {
+   "name": "Bridgetown",
+   "address": "Bridgetown, Co. Wexford.",
+   "eircode": "",
+   "x": 298892.687,
+   "y": 109886.218
+ },
+ {
+   "name": "Bunclody",
+   "address": "Mill Road, Bunclody, Enniscorthy, Co. Wexford.",
+   "eircode": "",
+   "x": 290985.5,
+   "y": 156328.688
+ },
+ {
+   "name": "Camolin",
+   "address": "Camolin, Enniscorthy, Co. Wexford.",
+   "eircode": "",
+   "x": 306965.656,
+   "y": 153034.187
+ },
+ {
+   "name": "Campile",
+   "address": "Ballykeeroge, Campile, New Ross, Co. Wexford.",
+   "eircode": "",
+   "x": 272017.125,
+   "y": 116040.016
+ },
+ {
+   "name": "Castlebridge",
+   "address": "Castlebridge, Co. Wexford.",
+   "eircode": "",
+   "x": 305586.781,
+   "y": 126574.93
+ },
+ {
+   "name": "Clonroche",
+   "address": "Clonroche, Enniscorthy, Co. Wexford.",
+   "eircode": "",
+   "x": 293111.75,
+   "y": 131122.922
+ },
+ {
+   "name": "Enniscorthy",
+   "address": "Millpark Road, Enniscorthy, Co. Wexford.",
+   "eircode": "",
+   "x": 297398.23,
+   "y": 139531.883
+ },
+ {
+   "name": "Ferns",
+   "address": "Ferns, Enniscorthy, Co. Wexfrod.",
+   "eircode": "",
+   "x": 301469.56,
+   "y": 149901.868
+ },
+ {
+   "name": "Taghmon",
+   "address": "Main Street, Taghmon, Co. Wexford.",
+   "eircode": "",
+   "x": 292036.42,
+   "y": 119782.748
+ },
+ {
+   "name": "Wexford",
+   "address": "County Clinic, Grogans Road, Wexford",
+   "eircode": "",
+   "x": 304722.262,
+   "y": 121436.93
+ },
+ {
+   "name": "Caltra",
+   "address": "Caltra, Ballinasloe, Co. Galway.",
+   "eircode": "",
+   "x": 170890.703,
+   "y": 242827.156
+ },
+ {
+   "name": "Clifden",
+   "address": "Hospital Road, Clifden, Co. Galway.",
+   "eircode": "",
+   "x": 66195.977,
+   "y": 250715.875
+ },
+ {
+   "name": "Corrandulla",
+   "address": "Corrandulla, Co. Galway.",
+   "eircode": "",
+   "x": 133968.125,
+   "y": 239092.938
+ },
+ {
+   "name": "Craughwell",
+   "address": "Killora, Craughwell, Co. Galway.",
+   "eircode": "",
+   "x": 151134.02,
+   "y": 219799.377
+ },
+ {
+   "name": "Dunmore",
+   "address": "The Square, Dunmore, Co. Galway.",
+   "eircode": "",
+   "x": 150811.234,
+   "y": 263245.656
+ },
+ {
+   "name": "Glenamaddy",
+   "address": "Kilkerrin Road, Glenamaddy, Ballinasloe, Co. Galway.",
+   "eircode": "",
+   "x": 162961.578,
+   "y": 261801.813
+ },
+ {
+   "name": "Gort",
+   "address": "Ennis Road, Gort, Co. Galway.",
+   "eircode": "",
+   "x": 145492.992,
+   "y": 201593.565
+ },
+ {
+   "name": "Gorteeney",
+   "address": "Gorteeney, Woodford, Loughrea, Co. Galway.",
+   "eircode": "",
+   "x": 175743.859,
+   "y": 196549.891
+ },
+ {
+   "name": "Headford",
+   "address": "Galway Road, Headford, Co. Galway.",
+   "eircode": "",
+   "x": 126529.094,
+   "y": 247027.922
+ },
+ {
+   "name": "Kilconnell",
+   "address": "Kilconnell, Ballinasloe, Co. Galway.",
+   "eircode": "",
+   "x": 173551.984,
+   "y": 231431.094
+ },
+ {
+   "name": "Killimor",
+   "address": "Killimor, Ballinasloe, Co. Galway.",
+   "eircode": "",
+   "x": 180430.813,
+   "y": 212854.922
+ },
+ {
+   "name": "Kiltormer",
+   "address": "Mount Prospect, Kiltormer, Co. Galway.",
+   "eircode": "",
+   "x": 182321.88,
+   "y": 220461.98
+ },
+ {
+   "name": "Lackagh",
+   "address": "Lackaghmore, Turloughmore, Athenry, Co. Galway",
+   "eircode": "",
+   "x": 140578.75,
+   "y": 235766.875
+ },
+ {
+   "name": "Laurencetown",
+   "address": "Laurencetown, Ballinasloe, Co. Galway.",
+   "eircode": "",
+   "x": 187910,
+   "y": 220608
+ },
+ {
+   "name": "Leenane",
+   "address": "Derraheeda, Leenane, Co. Galway.",
+   "eircode": "",
+   "x": 88034.094,
+   "y": 261846.063
+ },
+ {
+   "name": "Liscune",
+   "address": "Liscune Lower, Ballymacward, Co. Galway.",
+   "eircode": "",
+   "x": 168968.359,
+   "y": 235043.797
+ },
+ {
+   "name": "Mervue",
+   "address": "Michael Collins Road, Mervue, Galway.",
+   "eircode": "",
+   "x": 132260.794,
+   "y": 226101.443
+ },
+ {
+   "name": "Milltown",
+   "address": "Milltown, Tuam, Co. Galway.",
+   "eircode": "",
+   "x": 140694.875,
+   "y": 262708.125
+ },
+ {
+   "name": "Monivea",
+   "address": "Monivea, Athenry, Co. Galway.",
+   "eircode": "",
+   "x": 153203.379,
+   "y": 236245.923
+ },
+ {
+   "name": "Mountbellew",
+   "address": "College Road, Mountbellew, Co. Galway.",
+   "eircode": "",
+   "x": 167076.594,
+   "y": 246607.734
+ },
+ {
+   "name": "Oranmore",
+   "address": "Dublin Road, Oranmore, Co. Galway.",
+   "eircode": "",
+   "x": 138524.391,
+   "y": 224853.016
+ },
+ {
+   "name": "Oughterard",
+   "address": "Lemon Field, Oughterard, Co. Galway.",
+   "eircode": "",
+   "x": 112483.57,
+   "y": 242779.25
+ },
+ {
+   "name": "Renvyle",
+   "address": "Tully More, Renvyle, Co. Galway.",
+   "eircode": "",
+   "x": 69279.61,
+   "y": 262490.41
+ },
+ {
+   "name": "Shantalla",
+   "address": "25 Newcastle Road, Galway.",
+   "eircode": "",
+   "x": 128938.94,
+   "y": 225427.4
+ },
+ {
+   "name": "Tuam",
+   "address": "Vicar Street, Tuam, Co. Galway.",
+   "eircode": "",
+   "x": 143456.2,
+   "y": 251650.9
+ },
+ {
+   "name": "Tynagh",
+   "address": "Tynagh, Loughrea, Co. Galway.",
+   "eircode": "",
+   "x": 175078.75,
+   "y": 211077.406
+ },
+ {
+   "name": "Williamstown",
+   "address": "Ballyroe, Williamstown, Castlerea, Co. Galway",
+   "eircode": "",
+   "x": 162232.078,
+   "y": 270084.875
+ },
+ {
+   "name": "Woodford",
+   "address": "Woodford, Loughrea, Co. Galway.",
+   "eircode": "",
+   "x": 172994.547,
+   "y": 200345.234
+ },
+ {
+   "name": "Balla",
+   "address": "Ballyrourke, Balla, Co. Mayo.",
+   "eircode": "",
+   "x": 125831.133,
+   "y": 285055.688
+ },
+ {
+   "name": "Ballina",
+   "address": "Moy Valley, Cathedral Road, Ballina, County Mayo",
+   "eircode": "",
+   "x": 124809.612,
+   "y": 318867.377
+ },
+ {
+   "name": "Ballindine",
+   "address": "Main Street, Ballindine, Co. Mayo.",
+   "eircode": "",
+   "x": 136680.938,
+   "y": 269501.813
+ },
+ {
+   "name": "Ballyvary",
+   "address": "Ballyvary, Castlebar, Co. Mayo.",
+   "eircode": "",
+   "x": 124402.352,
+   "y": 294558.063
+ },
+ {
+   "name": "Bangor Erris",
+   "address": "Main Street, Bangor Erris, Co. Mayo.",
+   "eircode": "",
+   "x": 86402.45,
+   "y": 323101.66
+ },
+ {
+   "name": "Clare Island",
+   "address": "Capnagower, Clare Island, Co. Mayo.",
+   "eircode": "",
+   "x": 71463.914,
+   "y": 285469.344
+ },
+ {
+   "name": "Claremorris",
+   "address": "Knock Road, Claremorris, Co. Mayo.",
+   "eircode": "",
+   "x": 134315.342,
+   "y": 275436.557
+ },
+ {
+   "name": "Cong",
+   "address": "Cong, Co. Mayo.",
+   "eircode": "",
+   "x": 115838.945,
+   "y": 255291.203
+ },
+ {
+   "name": "Castlebar",
+   "address": "H.S.E., Westport Road, Castlebar, Co. Mayo.",
+   "eircode": "",
+   "x": 114297.947,
+   "y": 290046.406
+ },
+ {
+   "name": "Crossmolina",
+   "address": "Erris Street, Crossmolina, Co. Mayo.",
+   "eircode": "",
+   "x": 113396.671,
+   "y": 317470.052
+ },
+ {
+   "name": "Foxford",
+   "address": "Dispensary Road, Foxford, Co. Mayo.",
+   "eircode": "",
+   "x": 127405.55,
+   "y": 304005.53
+ },
+ {
+   "name": "Hollymount",
+   "address": "Hollymount, Co. Mayo.",
+   "eircode": "",
+   "x": 126137.211,
+   "y": 268068.063
+ },
+ {
+   "name": "Inishturk",
+   "address": "The Harbour, Inishturk Island, Co. Mayo.",
+   "eircode": "",
+   "x": 61727,
+   "y": 274885
+ },
+ {
+   "name": "Kilkelly",
+   "address": "Ballaghdareen Road, Kilkelly, Co. Mayo.",
+   "eircode": "",
+   "x": 144476.938,
+   "y": 291836.563
+ },
+ {
+   "name": "Killala",
+   "address": "Killala, Co. Mayo.",
+   "eircode": "",
+   "x": 120756.73,
+   "y": 329680.06
+ },
+ {
+   "name": "Kilmovee",
+   "address": "Kilmovee, Co. Mayo.",
+   "eircode": "",
+   "x": 154827.938,
+   "y": 293645.125
+ },
+ {
+   "name": "Kiltimagh",
+   "address": "Chapel Street, Kiltimagh, Co. Mayo.",
+   "eircode": "",
+   "x": 134103.859,
+   "y": 288999.25
+ },
+ {
+   "name": "Rathmines",
+   "address": "36 Upper Rathmines Road, Dublin 6.",
+   "eircode": "",
+   "x": 315666.24,
+   "y": 231421.527
+ },
+ {
+   "name": "Rathfarnham",
+   "address": "Dispensary Road, off Grange Road, Rathfarnham, Dublin 14.",
+   "eircode": "",
+   "x": 314677.922,
+   "y": 228328.995
+ },
+ {
+   "name": "Brookfield",
+   "address": "Rossfield Avenue, Tallaght, Dublin 24.",
+   "eircode": "",
+   "x": 306458.625,
+   "y": 227611.766
+ },
+ {
+   "name": "Killinarden",
+   "address": "Killinarden, Tallaght, Dublin 24.",
+   "eircode": "",
+   "x": 308147.364,
+   "y": 226308.931
+ },
+ {
+   "name": "Mary Mercer",
+   "address": "Fortunestown Road, Jobstown, Tallaght, Dublin 24.",
+   "eircode": "",
+   "x": 306760.25,
+   "y": 226537.172
+ },
+ {
+   "name": "Louisburgh",
+   "address": "Caher, Louisburgh, Co. Mayo.",
+   "eircode": "",
+   "x": 80367.828,
+   "y": 280644.938
+ },
+ {
+   "name": "Newport",
+   "address": "Newport, Co. Mayo.",
+   "eircode": "",
+   "x": 98423.781,
+   "y": 293762.531
+ },
+ {
+   "name": "Shrule",
+   "address": "Dalgan Road, Shrule, Co. Mayo.",
+   "eircode": "",
+   "x": 127901.648,
+   "y": 253048.031
+ },
+ {
+   "name": "Swinford",
+   "address": "Aras Attracta, Park Road, Swinford, Co. Mayo.",
+   "eircode": "",
+   "x": 137477.38,
+   "y": 298968.53
+ },
+ {
+   "name": "Westport",
+   "address": "St. Mary's Crescent, Westport, Co. Mayo.",
+   "eircode": "",
+   "x": 99729.542,
+   "y": 284606.52
+ },
+ {
+   "name": "Limekiln Lane",
+   "address": "Whitehall Road West, Walkinstown, Dublin 12.",
+   "eircode": "",
+   "x": 311621.511,
+   "y": 230081.795
+ },
+ {
+   "name": "Rowlagh",
+   "address": "Rowlagh, Clondalkin, Dublin 22.",
+   "eircode": "",
+   "x": 306823.305,
+   "y": 233842.685
+ },
+ {
+   "name": "Boot Road",
+   "address": "Boot Road, Clondalkin, Dublin 22.",
+   "eircode": "",
+   "x": 306933.557,
+   "y": 230778.083
+ },
+ {
+   "name": "Rathcoole",
+   "address": "Main Street, Rathcoole, Co. Dublin.",
+   "eircode": "",
+   "x": 302502.053,
+   "y": 226758.647
+ },
+ {
+   "name": "Ballymore Eustace",
+   "address": "Chapel Street, Ballymore Eustace, Co. Kildare.",
+   "eircode": "",
+   "x": 292697.563,
+   "y": 209961.078
+ },
+ {
+   "name": "Baltinglas",
+   "address": "Belan Street, Baltinglas, Co. Wicklow.",
+   "eircode": "",
+   "x": 286690.063,
+   "y": 188494.391
+ },
+ {
+   "name": "Castledermot",
+   "address": "Main Street, Castledermot, Co. Kildare.",
+   "eircode": "",
+   "x": 278303.281,
+   "y": 185451.313
+ },
+ {
+   "name": "Boyle",
+   "address": "Elphin Street, Boyle, Co. Roscommon.",
+   "eircode": "",
+   "x": 180145.568,
+   "y": 302361.701
+ },
+ {
+   "name": "Brideswell",
+   "address": "Brideswell, Athlone, Co. Roscommon.",
+   "eircode": "",
+   "x": 194233.578,
+   "y": 244371.5
+ },
+ {
+   "name": "Cloonfad",
+   "address": "Cloonfad West, Co. Roscommon.",
+   "eircode": "",
+   "x": 150352.578,
+   "y": 270932.938
+ },
+ {
+   "name": "Derrinisky",
+   "address": "Derrinisky, Arigna, Co. Roscommon.",
+   "eircode": "",
+   "x": 193045.313,
+   "y": 314397.875
+ },
+ {
+   "name": "Dolanstown",
+   "address": "Dolanstown, Ballydangan, Athlone, Co. Roscommon.",
+   "eircode": "",
+   "x": 194349.984,
+   "y": 233279.531
+ },
+ {
+   "name": "Elphin",
+   "address": "Elphin, Co. Roscommon.",
+   "eircode": "",
+   "x": 186789.391,
+   "y": 288411.125
+ },
+ {
+   "name": "Keadue",
+   "address": "Keadue, Co. Roscommon.",
+   "eircode": "",
+   "x": 191049.578,
+   "y": 311327.094
+ },
+ {
+   "name": "Loughglynn",
+   "address": "Loughglynn, Co. Roscommon.",
+   "eircode": "",
+   "x": 162564.8,
+   "y": 286685.25
+ },
+ {
+   "name": "Derrinturn",
+   "address": "Derrinturn, Co. Kildare.",
+   "eircode": "",
+   "x": 270610.438,
+   "y": 232728.75
+ },
+ {
+   "name": "Donard",
+   "address": "Donard, Co. Wicklow.",
+   "eircode": "",
+   "x": 293138.594,
+   "y": 197614.344
+ },
+ {
+   "name": "Fontstown",
+   "address": "Rathsillagh Upper, Fontstown, Co. Kildare.",
+   "eircode": "",
+   "x": 275641.438,
+   "y": 201655.859
+ },
+ {
+   "name": "Johnstownbridge",
+   "address": "Johnstownbridge, Co. Kildare.",
+   "eircode": "",
+   "x": 276039.875,
+   "y": 239583.578
+ },
+ {
+   "name": "Kilcullen",
+   "address": "St. Brigid's Avenue, Kilcullen, Co. Kildare.",
+   "eircode": "",
+   "x": 283931.094,
+   "y": 209366.953
+ },
+ {
+   "name": "Kildare",
+   "address": "Tully Road, Kildare Town, Co. Kildare.",
+   "eircode": "",
+   "x": 272882.323,
+   "y": 212060.777
+ },
+ {
+   "name": "Kilmeague",
+   "address": "Kilmeague, Co. Kildare.",
+   "eircode": "",
+   "x": 277412.563,
+   "y": 222816.578
+ },
+ {
+   "name": "Kiltegan",
+   "address": "Kiltegan, Co. Wicklow.",
+   "eircode": "",
+   "x": 293818.94,
+   "y": 184683.58
+ },
+ {
+   "name": "Leixlip",
+   "address": "Main Street, Leixlip, Co. Kildare.",
+   "eircode": "",
+   "x": 300583.643,
+   "y": 235862.359
+ },
+ {
+   "name": "Maynooth",
+   "address": "Leinster Street, Maynooth, Co. Kildare.",
+   "eircode": "",
+   "x": 293778.966,
+   "y": 237454.658
+ },
+ {
+   "name": "Rathangan",
+   "address": "Rathangan, Co. Kildare.",
+   "eircode": "",
+   "x": 266670.5,
+   "y": 219451.641
+ },
+ {
+   "name": "Monksland",
+   "address": "Monksland, Athlone, Co. Roscommon.",
+   "eircode": "",
+   "x": 201249.609,
+   "y": 241471.578
+ },
+ {
+   "name": "Ballyshannon",
+   "address": "Bishop Street, Ballyshannon, Co. Donegal.",
+   "eircode": "",
+   "x": 187513.139,
+   "y": 361731.268
+ },
+ {
+   "name": "Buncrana",
+   "address": "Maginn Avenue, Buncrana, Co. Donegal.",
+   "eircode": "",
+   "x": 235162.375,
+   "y": 431943.25
+ },
+ {
+   "name": "Roundwood",
+   "address": "Roundwood, Co. Wicklow.",
+   "eircode": "",
+   "x": 318978.875,
+   "y": 202683.328
+ },
+ {
+   "name": "Templerainey",
+   "address": "7 Inbhear Mor Park, Templerainey, Arklow, Co. Wicklow.",
+   "eircode": "",
+   "x": 324727.563,
+   "y": 174442.391
+ },
+ {
+   "name": "Borris in Ossory",
+   "address": "Sentryhill, Borris in Ossory, Co. Laois.",
+   "eircode": "",
+   "x": 225912.39,
+   "y": 187730.08
+ },
+ {
+   "name": "Clonaslee",
+   "address": "Clonaslee, Co. Laois.",
+   "eircode": "",
+   "x": 231506,
+   "y": 211172
+ },
+ {
+   "name": "Durrow",
+   "address": "Mary Street, Durrow, Co. Laois.",
+   "eircode": "",
+   "x": 240843.266,
+   "y": 177394.594
+ },
+ {
+   "name": "Errill",
+   "address": "Errill, Co. Laois.",
+   "eircode": "",
+   "x": 221519.656,
+   "y": 178672.109
+ },
+ {
+   "name": "Bundoran",
+   "address": "Station Road, Bundoran, Co. Donegal.",
+   "eircode": "",
+   "x": 182073.297,
+   "y": 358919.781
+ },
+ {
+   "name": "Burt",
+   "address": "Burt, Carrownamaddy, Speenoge, Co. Donegal.",
+   "eircode": "",
+   "x": 236627.219,
+   "y": 421529.75
+ },
+ {
+   "name": "Carndonagh",
+   "address": "Ballyloskey Road, Carndonagh, Co. Donegal.",
+   "eircode": "",
+   "x": 246859.984,
+   "y": 444649.844
+ },
+ {
+   "name": "Castlefin",
+   "address": "CPI Centre, Knockrawer, Castlefin, Co. Donegal.",
+   "eircode": "",
+   "x": 226572.031,
+   "y": 395039.375
+ },
+ {
+   "name": "Cappry",
+   "address": "Cappry, Ballybofey, Co. Donegal.",
+   "eircode": "",
+   "x": 211451.922,
+   "y": 393640.25
+ },
+ {
+   "name": "Churchill",
+   "address": "Keeloges, Churchill, Co. Donegal.",
+   "eircode": "",
+   "x": 207183.797,
+   "y": 414960.125
+ },
+ {
+   "name": "Cloghan",
+   "address": "Cloghan, Co. Donegal.",
+   "eircode": "",
+   "x": 204293.313,
+   "y": 399313.344
+ },
+ {
+   "name": "Clonmany",
+   "address": "Clonmany, Co. Donegal.",
+   "eircode": "",
+   "x": 238098.391,
+   "y": 445797.031
+ },
+ {
+   "name": "Convoy",
+   "address": "Convoy, Convoy Enterprise Centre, Co. Donegal.",
+   "eircode": "",
+   "x": 221954.941,
+   "y": 401188.003
+ },
+ {
+   "name": "Graigue",
+   "address": "Oakley Park, Graigue, Co. Laois",
+   "eircode": "",
+   "x": 271221.26,
+   "y": 177107.38
+ },
+ {
+   "name": "Luggacurren",
+   "address": "Luggacurren, Co. Laois.",
+   "eircode": "",
+   "x": 258658.75,
+   "y": 188787.563
+ },
+ {
+   "name": "Mountrath",
+   "address": "Link Road, Mountrath, Co. Laois.",
+   "eircode": "",
+   "x": 235355.01,
+   "y": 194442.28
+ },
+ {
+   "name": "Portlaoise",
+   "address": "Dublin Road, Portlaoise, Co. Laois.",
+   "eircode": "",
+   "x": 248052.922,
+   "y": 198670.578
+ },
+ {
+   "name": "Rathdowney",
+   "address": "Rathdowney, Co. Laois.",
+   "eircode": "",
+   "x": 227361.861,
+   "y": 178334.461
+ },
+ {
+   "name": "Stradbally",
+   "address": "Stradbally, Co. Laois.",
+   "eircode": "",
+   "x": 257045.406,
+   "y": 196567.172
+ },
+ {
+   "name": "The Swan",
+   "address": "The Swan, Co. Laois",
+   "eircode": "",
+   "x": 256958.625,
+   "y": 181851.766
+ },
+ {
+   "name": "Timahoe",
+   "address": "Timahoe, Co. Laois.",
+   "eircode": "",
+   "x": 253641.406,
+   "y": 190253.859
+ },
+ {
+   "name": "Birr",
+   "address": "St. John's Terrace, Birr, Co. Offaly.",
+   "eircode": "",
+   "x": 206267.511,
+   "y": 204859.438
+ },
+ {
+   "name": "Banagher",
+   "address": "Cuba Avenue, Banagher, Co. Offaly.",
+   "eircode": "",
+   "x": 201395.797,
+   "y": 215259.438
+ },
+ {
+   "name": "Blueball",
+   "address": "Pallas, Blueball, Co. Offaly.",
+   "eircode": "",
+   "x": 225729.03,
+   "y": 219734.83
+ },
+ {
+   "name": "Cloghan",
+   "address": "Castle Street, Cloghan, Co. Offaly.",
+   "eircode": "",
+   "x": 207726.313,
+   "y": 219369.703
+ },
+ {
+   "name": "Clonbullogue",
+   "address": "Clonbullogue, Co. Offaly.",
+   "eircode": "",
+   "x": 261108.781,
+   "y": 223506.891
+ },
+ {
+   "name": "Cloneygowan",
+   "address": "Cloneygowan, Co. Offaly.",
+   "eircode": "",
+   "x": 248077.047,
+   "y": 215440.469
+ },
+ {
+   "name": "Culdaff",
+   "address": "Main Street, Culdaff, Co. Donegal.",
+   "eircode": "",
+   "x": 252879.766,
+   "y": 449241.281
+ },
+ {
+   "name": "Donegal",
+   "address": "Donegal Hospital, Donegal Town, Co. Donegal.",
+   "eircode": "",
+   "x": 193655.051,
+   "y": 378607.769
+ },
+ {
+   "name": "Doochary",
+   "address": "Doochary, Co. Donegal.",
+   "eircode": "",
+   "x": 186679.19,
+   "y": 406516.59
+ },
+ {
+   "name": "Dunkineely",
+   "address": "Main Street, Dunkineely, Co. Donegal.",
+   "eircode": "",
+   "x": 176503.547,
+   "y": 375928.25
+ },
+ {
+   "name": "Church Road",
+   "address": "Church Road, Falcarragh, Co. Donegal.",
+   "eircode": "",
+   "x": 193631.172,
+   "y": 432172.344
+ },
+ {
+   "name": "St. Martins",
+   "address": "St. Martin's, Church Road, Falcarragh, Co. Donegal.",
+   "eircode": "",
+   "x": 193580.547,
+   "y": 432242.063
+ },
+ {
+   "name": "Fahan",
+   "address": "Fahan, Co. Donegal.",
+   "eircode": "",
+   "x": 235791.594,
+   "y": 424854.25
+ },
+ {
+   "name": "Frosses",
+   "address": "Frosses, Co. Donegal.",
+   "eircode": "",
+   "x": 184434.266,
+   "y": 379993.469
+ },
+ {
+   "name": "Ferbane",
+   "address": "Belmount Road, Ferbane, Co. Offaly.",
+   "eircode": "",
+   "x": 211122.5,
+   "y": 224579.75
+ },
+ {
+   "name": "Kinnity",
+   "address": "Castletown, Kinnity, Co. Offaly.",
+   "eircode": "",
+   "x": 219092.563,
+   "y": 205307.906
+ },
+ {
+   "name": "Shannonbridge",
+   "address": "Main Street, Shannonbridge, Co. Offaly.",
+   "eircode": "",
+   "x": 197012.03,
+   "y": 225436.77
+ },
+ {
+   "name": "Shinrone",
+   "address": "Roscrea Road, Shinrone, Co. Offaly.",
+   "eircode": "",
+   "x": 205149.047,
+   "y": 192574.313
+ },
+ {
+   "name": "Tullamore",
+   "address": "Arden Road, Tullamore, Co. Offaly.",
+   "eircode": "",
+   "x": 234016.624,
+   "y": 225780.611
+ },
+ {
+   "name": "Colehill",
+   "address": "Colehill, Co. Longford",
+   "eircode": "",
+   "x": 221175.75,
+   "y": 260964.33
+ },
+ {
+   "name": "Drumlish",
+   "address": "Drumlish, Co. Longford.",
+   "eircode": "",
+   "x": 215111.047,
+   "y": 285432.219
+ },
+ {
+   "name": "Edgeworthstown",
+   "address": "Edgeworthstown, Co. Longford.",
+   "eircode": "",
+   "x": 225856.001,
+   "y": 271574.445
+ },
+ {
+   "name": "Kilashee",
+   "address": "Kilashee, Co. Longford.",
+   "eircode": "",
+   "x": 208079.78,
+   "y": 270174.94
+ },
+ {
+   "name": "Glengad",
+   "address": "Glengad, Co. Donegal.",
+   "eircode": "",
+   "x": 252160.188,
+   "y": 453737.344
+ },
+ {
+   "name": "Killybegs",
+   "address": "St. Catherine's Road, Killybegs, Co. Donegal.",
+   "eircode": "",
+   "x": 171202.121,
+   "y": 376379.262
+ },
+ {
+   "name": "Killygordon",
+   "address": "Killygordon, Co. Donegal.",
+   "eircode": "",
+   "x": 220507.188,
+   "y": 394390.063
+ },
+ {
+   "name": "Kilmacrennan",
+   "address": "Kilmacrrennan, Co. Donegal.",
+   "eircode": "",
+   "x": 214283.844,
+   "y": 420427.844
+ },
+ {
+   "name": "Lifford",
+   "address": "Lifford Bridge, Lifford, Co. Donegal.",
+   "eircode": "",
+   "x": 233256.588,
+   "y": 398321.279
+ },
+ {
+   "name": "Lanesboro",
+   "address": "Lanesboro, Co. Longford.",
+   "eircode": "",
+   "x": 200782.27,
+   "y": 269075.91
+ },
+ {
+   "name": "Legga",
+   "address": "Legga, Co. Longford.",
+   "eircode": "",
+   "x": 222608.13,
+   "y": 293779.84
+ },
+ {
+   "name": "Newtowncashel",
+   "address": "Newtowncashel, Co. Longford.",
+   "eircode": "",
+   "x": 204187.516,
+   "y": 259958.703
+ },
+ {
+   "name": "Smear",
+   "address": "Smear, Co. Longford.",
+   "eircode": "",
+   "x": 226406.578,
+   "y": 291319.75
+ },
+ {
+   "name": "Ballynacargy",
+   "address": "Wood Row, Ballynacargy, Co. Westmeath",
+   "eircode": "",
+   "x": 230576.781,
+   "y": 259327.234
+ },
+ {
+   "name": "Castlepollard",
+   "address": "Castlepollard, Co. Westmeath.",
+   "eircode": "",
+   "x": 246313.906,
+   "y": 269871.219
+ },
+ {
+   "name": "Castletown Geoghegan",
+   "address": "Woodside, Castletown Geoghegan, Co. Westmeath.",
+   "eircode": "",
+   "x": 234331.141,
+   "y": 243732.016
+ },
+ {
+   "name": "Clonmellon",
+   "address": "Killallon Road, Clonmellon, Co. Westmeath.",
+   "eircode": "",
+   "x": 264591.094,
+   "y": 268783.594
+ },
+ {
+   "name": "Delvin",
+   "address": "Main Street, Delvin, Co. Westmeath.",
+   "eircode": "",
+   "x": 260172.047,
+   "y": 262983.063
+ },
+ {
+   "name": "Finea",
+   "address": "Finea, Co. Westmeath.",
+   "eircode": "",
+   "x": 240638.219,
+   "y": 281171.094
+ },
+ {
+   "name": "Glasson",
+   "address": "Glasson, Co. Westmeath.",
+   "eircode": "",
+   "x": 209067.764,
+   "y": 246877.049
+ },
+ {
+   "name": "Malin",
+   "address": "Malin, Co. Donegal.",
+   "eircode": "",
+   "x": 246907.609,
+   "y": 450195.125
+ },
+ {
+   "name": "Manorcunningham",
+   "address": "Manorcunningham, Co. Donegal.",
+   "eircode": "",
+   "x": 224238.078,
+   "y": 411451.156
+ },
+ {
+   "name": "Milford",
+   "address": "Main Street, Milford, Co. Donegal.",
+   "eircode": "",
+   "x": 219380.97,
+   "y": 426660.78
+ },
+ {
+   "name": "Mountcharles",
+   "address": "Station Road, Mountcharles, Co. Donegal.",
+   "eircode": "",
+   "x": 187626.922,
+   "y": 377371.688
+ },
+ {
+   "name": "Kilbeggan",
+   "address": "Mullingar Road, Kilbeggan, Co. Westmeath.",
+   "eircode": "",
+   "x": 233519.406,
+   "y": 235530.641
+ },
+ {
+   "name": "Killucan",
+   "address": "Rathwire Lower, Killucan, Co. Westmeath.",
+   "eircode": "",
+   "x": 256742.641,
+   "y": 251361.844
+ },
+ {
+   "name": "Rochfortsbridge",
+   "address": "79 Derrygreenagh Park, Rochfortsbridge, Co. Westmeath.",
+   "eircode": "",
+   "x": 246834.44,
+   "y": 241264.22
+ },
+ {
+   "name": "Streete",
+   "address": "Cornacauske, Streete, Co. Westmeath.",
+   "eircode": "",
+   "x": 233728.13,
+   "y": 270475.19
+ },
+ {
+   "name": "Ballsgrove",
+   "address": "Ballsgrove Estate, Ballsgrove, Drogheda, Co. Louth.",
+   "eircode": "",
+   "x": 308223.679,
+   "y": 274776.933
+ },
+ {
+   "name": "Haymarket",
+   "address": "The Haymarket, John Street, Drogheda, Co. Louth.",
+   "eircode": "",
+   "x": 308853.313,
+   "y": 274918.844
+ },
+ {
+   "name": "Castlebellingham",
+   "address": "Castlebellingham, Co. Louth.",
+   "eircode": "",
+   "x": 305757.844,
+   "y": 295750.938
+ },
+ {
+   "name": "Dunleer",
+   "address": "School Lane, Dunleer, Co. Louth.",
+   "eircode": "",
+   "x": 305763.969,
+   "y": 287649.563
+ },
+ {
+   "name": "Market Street",
+   "address": "Market Street, Dundalk, Co. Louth.",
+   "eircode": "",
+   "x": 304951.922,
+   "y": 307428.6
+ },
+ {
+   "name": "Dublin Road",
+   "address": "Dublin Road, Dundalk, Co. Louth.",
+   "eircode": "",
+   "x": 305040.198,
+   "y": 305496.508
+ },
+ {
+   "name": "Ravensdale",
+   "address": "Ravensdale, Co. Louth.",
+   "eircode": "",
+   "x": 308200.188,
+   "y": 312390.688
+ },
+ {
+   "name": "Termonfeckin",
+   "address": "Termonfeckin, Co. Louth.",
+   "eircode": "",
+   "x": 313809.813,
+   "y": 280135.625
+ },
+ {
+   "name": "Corduff",
+   "address": "Corduff Green, Blanchardstown, Dublin 15.",
+   "eircode": "",
+   "x": 308052.875,
+   "y": 239802.828
+ },
+ {
+   "name": "Lisburn Street",
+   "address": "Lisburn Street, Dublin 7.",
+   "eircode": "",
+   "x": 315047.281,
+   "y": 234756.609
+ },
+ {
+   "name": "Roselawn",
+   "address": "Roselawn Road, Castleknock, Dublin 15.",
+   "eircode": "",
+   "x": 307679.641,
+   "y": 238326.038
+ },
+ {
+   "name": "Muff",
+   "address": "Muff, Co. Donegal.",
+   "eircode": "",
+   "x": 246680.406,
+   "y": 424670
+ },
+ {
+   "name": "Newtowncunningham",
+   "address": "Colehill, Newtowncunningham, Co. Donegal.",
+   "eircode": "",
+   "x": 231616.984,
+   "y": 416806.656
+ },
+ {
+   "name": "Pettigo",
+   "address": "Main Street, Pettigo, Co. Donegal.",
+   "eircode": "",
+   "x": 210844.172,
+   "y": 366786.219
+ },
+ {
+   "name": "Quigleys Point",
+   "address": "Quigleys Point, Inishowen, Co. Donegal.",
+   "eircode": "",
+   "x": 251324.406,
+   "y": 431088.531
+ },
+ {
+   "name": "Raphoe",
+   "address": "Meetinghouse Street, Raphoe, Co. Donegal.",
+   "eircode": "",
+   "x": 225558.688,
+   "y": 402904.719
+ },
+ {
+   "name": "Mohill",
+   "address": "Water Street, Mohill, Carrick on Shannon, Co. Leitrim.",
+   "eircode": "",
+   "x": 208889.063,
+   "y": 297114.25
+ },
+ {
+   "name": "Ballymun",
+   "address": "Ballymun Health Care Facility, Civic Offices, Ballymun Road, Dublin 11",
+   "eircode": "",
+   "x": 315552,
+   "y": 239738
+ },
+ {
+   "name": "East Wall",
+   "address": "Church Road, Dublin 3.",
+   "eircode": "",
+   "x": 317471.803,
+   "y": 234957.758
+ },
+ {
+   "name": "Killester",
+   "address": "Killester Avenue, Dublin 5.",
+   "eircode": "",
+   "x": 319008.351,
+   "y": 237834.415
+ },
+ {
+   "name": "Marino",
+   "address": "1A Griffith Avenue, Dublin 9.",
+   "eircode": "",
+   "x": 318016.453,
+   "y": 236772.703
+ },
+ {
+   "name": "Summerhill",
+   "address": "90 Summerhill, Dublin 1.",
+   "eircode": "",
+   "x": 316430.844,
+   "y": 235404.094
+ },
+ {
+   "name": "Darndale",
+   "address": "Darndale Primary Care Centre, Darndale/Belcamp Village Centre, Darndale, Dublin 17.",
+   "eircode": "",
+   "x": 320150.563,
+   "y": 240531.625
+ },
+ {
+   "name": "Donabate",
+   "address": "St. Patrick's Terrace, Donabate, Co. Dublin.",
+   "eircode": "",
+   "x": 323028.663,
+   "y": 249968.009
+ },
+ {
+   "name": "Edenmore",
+   "address": "Edenmore Shopping Centre, Edenmore Park, Raheny, Dublin 5.",
+   "eircode": "",
+   "x": 320958.055,
+   "y": 239073.707
+ },
+ {
+   "name": "Rathmullan",
+   "address": "Rathmullan, Co. Donegal.",
+   "eircode": "",
+   "x": 229795.313,
+   "y": 427699.406
+ },
+ {
+   "name": "Stranorlar",
+   "address": "Pound Street, Stranorlar, Co. Donegal.",
+   "eircode": "",
+   "x": 215079.625,
+   "y": 395271.25
+ },
+ {
+   "name": "St. Johnston",
+   "address": "St. Johnston Resource Centre, Chapel Road, St. Johnston, Co. Donegal.",
+   "eircode": "",
+   "x": 234400.188,
+   "y": 409623.094
+ },
+ {
+   "name": "Tamney",
+   "address": "Tamney, Co. Donegal.",
+   "eircode": "",
+   "x": 219729.922,
+   "y": 439163.813
+ },
+ {
+   "name": "Ballymote",
+   "address": "Fairgreen Road, Ballymote, Co. Sligo.",
+   "eircode": "",
+   "x": 166417.906,
+   "y": 315786.594
+ },
+ {
+   "name": "Carrigeens",
+   "address": "Carrigeens, Ballinful, Co. Sligo.",
+   "eircode": "",
+   "x": 160455.781,
+   "y": 345275.25
+ },
+ {
+   "name": "Cliffoney",
+   "address": "Cliffoney, Co. Sligo.",
+   "eircode": "",
+   "x": 170685.69,
+   "y": 353650.59
+ },
+ {
+   "name": "Collooney",
+   "address": "Lower Main Street, Collooney, Co. Sligo.",
+   "eircode": "",
+   "x": 168096.875,
+   "y": 326398.938
+ },
+ {
+   "name": "Oldtown",
+   "address": "Clonmethan, Oldtown, Co. Dublin.",
+   "eircode": "",
+   "x": 311621.094,
+   "y": 253337.313
+ },
+ {
+   "name": "Portmarnock",
+   "address": "Strand Shopping Centre, Portmarnock, Co. Dublin.",
+   "eircode": "",
+   "x": 323803.281,
+   "y": 242763
+ },
+ {
+   "name": "Raheny",
+   "address": "33 Main Street, Raheny, Dublin 5.",
+   "eircode": "",
+   "x": 321483.004,
+   "y": 238066.99
+ },
+ {
+   "name": "Daisy Hill",
+   "address": "Daisy Hill, Ballyconnell, Co. Cavan.",
+   "eircode": "",
+   "x": 227421.98,
+   "y": 318482.5
+ },
+ {
+   "name": "Coolaney",
+   "address": "Coolaney, Co. Sligo.",
+   "eircode": "",
+   "x": 160343.891,
+   "y": 324734.531
+ },
+ {
+   "name": "Geevagh",
+   "address": "Ballynashee, Geevagh, Co. Sligo.",
+   "eircode": "",
+   "x": 183945.938,
+   "y": 316896.219
+ },
+ {
+   "name": "Gurteen",
+   "address": "Rathmadder, Gurteen, Co. Sligo.",
+   "eircode": "",
+   "x": 166060.234,
+   "y": 305083.5
+ },
+ {
+   "name": "Riverstown",
+   "address": "Cuiltylough, Riverstown, Co. Sligo.",
+   "eircode": "",
+   "x": 174332.313,
+   "y": 320447.5
+ },
+ {
+   "name": "Skreen",
+   "address": "Gerrib Little, Skreen, Co. Sligo.",
+   "eircode": "",
+   "x": 154254.11,
+   "y": 332906.03
+ },
+ {
+   "name": "Tubbercurry",
+   "address": "Tubbercurry, Co. Sligo.",
+   "eircode": "",
+   "x": 140748.578,
+   "y": 309864.594
+ },
+ {
+   "name": "Blacklion",
+   "address": "Main Street, Blacklion.",
+   "eircode": "",
+   "x": 207993.61,
+   "y": 338095.38
+ },
+ {
+   "name": "Carrick on Shannon",
+   "address": "Community Care Offices, Leitrim Road, Carrick on Shannon, Co. Leitrim",
+   "eircode": "",
+   "x": 194077.151,
+   "y": 299934.575
+ },
+ {
+   "name": "Carrigallen",
+   "address": "Clooncorick, Carrigallen, Co. Leitrim",
+   "eircode": "",
+   "x": 223632.203,
+   "y": 303111.344
+ },
+ {
+   "name": "Deanery Street",
+   "address": "Deanery St, Belturbet",
+   "eircode": "",
+   "x": 236692.609,
+   "y": 317146.406
+ },
+ {
+   "name": "Drumalee",
+   "address": "Drumalee Cross, Cavan Town",
+   "eircode": "",
+   "x": 242394.719,
+   "y": 305974.813
+ },
+ {
+   "name": "Church View",
+   "address": "Church Street, Cavan",
+   "eircode": "",
+   "x": 242023.458,
+   "y": 305251.365
+ },
+ {
+   "name": "Corlough",
+   "address": "Corlough, Co Cavan",
+   "eircode": "",
+   "x": 214840.625,
+   "y": 319759.25
+ },
+ {
+   "name": "Drumkeerin",
+   "address": "Lugmeen, Drumkeerin, Co. Leitrim.",
+   "eircode": "",
+   "x": 190801.063,
+   "y": 324379.375
+ },
+ {
+   "name": "Drumshanbo",
+   "address": "Ballinamore Road, Drumshambo, Co. Leitrim.",
+   "eircode": "",
+   "x": 197694.016,
+   "y": 310871.344
+ },
+ {
+   "name": "Glenfarne",
+   "address": "Brockagh Lower, Glenfarne, Co. Leitrim.",
+   "eircode": "",
+   "x": 200979.891,
+   "y": 337310.156
+ },
+ {
+   "name": "Kiltyclogher",
+   "address": "Main Street, Kiltyclogher, Co. Leitrim.",
+   "eircode": "",
+   "x": 197557.453,
+   "y": 345241
+ },
+ {
+   "name": "Kinlough",
+   "address": "Kinlough, Co. Leitrim.",
+   "eircode": "",
+   "x": 181465.12,
+   "y": 355604.12
+ },
+ {
+   "name": "Darley",
+   "address": "Fairgreen, Cootehill, Co. Cavan",
+   "eircode": "",
+   "x": 260033.344,
+   "y": 314395.125
+ },
+ {
+   "name": "Kilcogy",
+   "address": "Kilcogy Village, Co. Cavan",
+   "eircode": "",
+   "x": 237923.19,
+   "y": 286560.63
+ },
+ {
+   "name": "Killeshandra",
+   "address": "Railway Road, Killeshandra, Co. Cavan.",
+   "eircode": "",
+   "x": 230933.516,
+   "y": 307244.719
+ },
+ {
+   "name": "Kilnaleck",
+   "address": "Realtog Centre -  Kilnaleck, Co. Cavan.",
+   "eircode": "",
+   "x": 244754.88,
+   "y": 290282.13
+ },
+ {
+   "name": "Lisdaran",
+   "address": "Lisdaran, Co. Cavan",
+   "eircode": "",
+   "x": 241552.078,
+   "y": 306234.594
+ },
+ {
+   "name": "Loch Gowna",
+   "address": "Loch Gowna, Co. Cavan.",
+   "eircode": "",
+   "x": 230530.8,
+   "y": 291847.75
+ },
+ {
+   "name": "Lynton House",
+   "address": "Main Street, Cavan",
+   "eircode": "",
+   "x": 241887.285,
+   "y": 304995.453
+ },
+ {
+   "name": "Mountain Lodge",
+   "address": "Mountain Lodge, Cootehill, Co. Cavan",
+   "eircode": "",
+   "x": 258479.234,
+   "y": 303801.844
+ },
+ {
+   "name": "Graiguenamanagh",
+   "address": "Convent Lane, Graiguenamanagh, Co. Kilkenny.",
+   "eircode": "",
+   "x": 270992.7805,
+   "y": 143885.9499
+ },
+ {
+   "name": "Mullagh",
+   "address": "Mullagh, Kells, Co. Meath",
+   "eircode": "",
+   "x": 269275.63,
+   "y": 285275.59
+ },
+ {
+   "name": "Shercock",
+   "address": "Fair Green, Shercock, Co. Cavan.",
+   "eircode": "",
+   "x": 272499.375,
+   "y": 305554.531
+ },
+ {
+   "name": "Stradone",
+   "address": "Community Resource Centre, Stradone, Co. Cavan.",
+   "eircode": "",
+   "x": 250110.609,
+   "y": 304015
+ },
+ {
+   "name": "Newtowngore",
+   "address": "Newtowngore, Carrick on Shannon, Co. Leitrim",
+   "eircode": "",
+   "x": 221215.7,
+   "y": 310366.5
+ },
+ {
+   "name": "Dromod",
+   "address": "Station Road, Dromod, Co. Leitrim.",
+   "eircode": "",
+   "x": 205436.125,
+   "y": 289833.844
+ },
+ {
+   "name": "Broadford",
+   "address": "O'Shea's Acres, Broadford, Co. Clare.",
+   "eircode": "",
+   "x": 157305.219,
+   "y": 173194.047
+ },
+ {
+   "name": "Clarecastle",
+   "address": "Old Road, Clarecastle, Co. Clare.",
+   "eircode": "",
+   "x": 134905.168,
+   "y": 174034.329
+ },
+ {
+   "name": "Corofin",
+   "address": "Kilvoydan, Corofin, Co. Clare.",
+   "eircode": "",
+   "x": 128924.25,
+   "y": 188992.422
+ },
+ {
+   "name": "Ennis",
+   "address": "Mill Road, Ennis, Co. Clare",
+   "eircode": "",
+   "x": 133667.001,
+   "y": 177698.584
+ },
+ {
+   "name": "Ennistymon",
+   "address": "Ennis Road, Ennistymon, Co. Clare",
+   "eircode": "",
+   "x": 113376.281,
+   "y": 188114.922
+ },
+ {
+   "name": "Kilkee",
+   "address": "Church Road, Kilkee, Co. Clare",
+   "eircode": "",
+   "x": 88388.464,
+   "y": 159584.191
+ },
+ {
+   "name": "Kilmihil",
+   "address": "Main Street, Kilmihil, Co. Clare.",
+   "eircode": "",
+   "x": 111051.352,
+   "y": 164007.828
+ },
+ {
+   "name": "Kilrush",
+   "address": "Fahy's Road, Kilrush, Co. Clare",
+   "eircode": "",
+   "x": 99365.603,
+   "y": 155429.055
+ },
+ {
+   "name": "Swanlinbar",
+   "address": "Creamery Road, Swanlinbar, Co. Cavan.",
+   "eircode": "",
+   "x": 219321.141,
+   "y": 326943.063
+ },
+ {
+   "name": "Termon",
+   "address": "Termon, Virginia, Co. Cavan",
+   "eircode": "",
+   "x": 257396.775,
+   "y": 296363.508
+ },
+ {
+   "name": "Tullyvin",
+   "address": "Aghatotan, Tullyvin, Co. Cavan.",
+   "eircode": "",
+   "x": 255911,
+   "y": 311531.16
+ },
+ {
+   "name": "Virginia",
+   "address": "Bailieboro Road, Virginia, Co. Cavan.",
+   "eircode": "",
+   "x": 260808.953,
+   "y": 287640.344
+ },
+ {
+   "name": "Carrickmacross",
+   "address": "Emmet Street, Carrickmacross, Co. Monaghan.",
+   "eircode": "",
+   "x": 284349.708,
+   "y": 303622.079
+ },
+ {
+   "name": "Lisdoonvarna",
+   "address": "Main Street, Lisdoonvarna, Co. Clare",
+   "eircode": "",
+   "x": 113407.359,
+   "y": 198196.406
+ },
+ {
+   "name": "Mullagh",
+   "address": "Mullagh, Co. Clare.",
+   "eircode": "",
+   "x": 104394.789,
+   "y": 172985.766
+ },
+ {
+   "name": "Scariff",
+   "address": "Drewsborough, Scariff, Co. Clare.",
+   "eircode": "",
+   "x": 164095.969,
+   "y": 184222.141
+ },
+ {
+   "name": "Shannon",
+   "address": "Shannon Town Centre, Shannon, Co. Clare.",
+   "eircode": "",
+   "x": 140740.086,
+   "y": 162254.774
+ },
+ {
+   "name": "Sixmilebridge",
+   "address": "Lodge Road, Sixmilebridge, Co. Clare.",
+   "eircode": "",
+   "x": 147610.734,
+   "y": 165935.375
+ },
+ {
+   "name": "Tulla",
+   "address": "Tulla, Co. Clare.",
+   "eircode": "",
+   "x": 149196.438,
+   "y": 179639.266
+ },
+ {
+   "name": "Marian Avenue",
+   "address": "Marian Avenue, Borrisokane, Co. Tipperary.",
+   "eircode": "",
+   "x": 191809.797,
+   "y": 193448.078
+ },
+ {
+   "name": "Borrisoleigh",
+   "address": "Lower Main Street, Borrisoleigh, Co. Tipperary.",
+   "eircode": "",
+   "x": 203165.13,
+   "y": 166639.2
+ },
+ {
+   "name": "Cloughjordan",
+   "address": "Step Road, Cloughjordan, Co. Tipperary.",
+   "eircode": "",
+   "x": 197661.641,
+   "y": 188026.609
+ },
+ {
+   "name": "Clones",
+   "address": "Analore Street, Clones, Co. Monaghan.",
+   "eircode": "",
+   "x": 250392.796,
+   "y": 325646.348
+ },
+ {
+   "name": "Clontibret",
+   "address": "Clontibret, Co. Monaghan.",
+   "eircode": "",
+   "x": 275099.75,
+   "y": 330381.438
+ },
+ {
+   "name": "Emyvale",
+   "address": "Main Street, Emyvale, Co. Monaghan",
+   "eircode": "",
+   "x": 267722.5,
+   "y": 344082.94
+ },
+ {
+   "name": "Mulladuff",
+   "address": "Mulladuff, Smithboro, Co. Monaghan.",
+   "eircode": "",
+   "x": 258484.23,
+   "y": 330496.94
+ },
+ {
+   "name": "Rockcorry",
+   "address": "Main Street, Rockcorry, Co. Monaghan",
+   "eircode": "",
+   "x": 264455.469,
+   "y": 319137.438
+ },
+ {
+   "name": "Rooskey",
+   "address": "St. Davnet's Hospital Complex, Rooskey, Co. Monaghan.",
+   "eircode": "",
+   "x": 267828.056,
+   "y": 334172.99
+ },
+ {
+   "name": "Scotstown",
+   "address": "Bog Road, Scotstown, Co. Monaghan.",
+   "eircode": "",
+   "x": 260701.656,
+   "y": 336791.25
+ },
+ {
+   "name": "Tullyvara",
+   "address": "Tullyvara, Broomfield, Co. Monaghan.",
+   "eircode": "",
+   "x": 284783.69,
+   "y": 310034.19
+ },
+ {
+   "name": "Littleton",
+   "address": "Littleton, Thurles, Co. Tipperary.",
+   "eircode": "",
+   "x": 217725.109,
+   "y": 153835.172
+ },
+ {
+   "name": "Moyne",
+   "address": "Moyne, Thurles, Co. Tipperary.",
+   "eircode": "",
+   "x": 219380.547,
+   "y": 164845.938
+ },
+ {
+   "name": "Newport",
+   "address": "Pound Street, Newport, Co. Tipperary.",
+   "eircode": "",
+   "x": 172810.48,
+   "y": 162440.27
+ },
+ {
+   "name": "Portroe",
+   "address": "Portroe, Nenagh, Co. Tipperary.",
+   "eircode": "",
+   "x": 176279.828,
+   "y": 181244.922
+ },
+ {
+   "name": "Rathcabbin",
+   "address": "Rathcabbin, Roscrea, Co. Tipperary.",
+   "eircode": "",
+   "x": 197796.563,
+   "y": 207295.156
+ },
+ {
+   "name": "Rearcross",
+   "address": "Rearcross, Newport, Co. Tipperary.",
+   "eircode": "",
+   "x": 184046.563,
+   "y": 159476.703
+ },
+ {
+   "name": "Gaol Road",
+   "address": "Gaol Road, Roscrea, Co. Tipperary.",
+   "eircode": "",
+   "x": 213783.649,
+   "y": 189143.021
+ },
+ {
+   "name": "Traynor Court",
+   "address": "Traynor Court, Chapel Lane, Roscrea, Co. Tipperary.",
+   "eircode": "",
+   "x": 213466,
+   "y": 189331.875
+ },
+ {
+   "name": "Templederry",
+   "address": "Templederry, Nenagh, Co. Tipperary.",
+   "eircode": "",
+   "x": 194964.859,
+   "y": 169184.953
+ },
+ {
+   "name": "Castletown/Wilkinstown",
+   "address": "Balsaw, Wilkinstown, Co. Meath.",
+   "eircode": "",
+   "x": 285360.594,
+   "y": 276361.188
+ },
+ {
+   "name": "Drumconrath",
+   "address": "Drumconrath, Co. Meath",
+   "eircode": "",
+   "x": 288812.5,
+   "y": 289739.406
+ },
+ {
+   "name": "Duleek",
+   "address": "Navan Road, Duleek, Co. Meath",
+   "eircode": "",
+   "x": 304516.813,
+   "y": 268333.094
+ },
+ {
+   "name": "Mosney",
+   "address": "Mosney, Co. Meath",
+   "eircode": "",
+   "x": 316283.688,
+   "y": 269381.031
+ },
+ {
+   "name": "Templemore",
+   "address": "Templemore Medical Centre, Bank Street, Co. Tipperary.",
+   "eircode": "",
+   "x": 211359.07,
+   "y": 171576.432
+ },
+ {
+   "name": "Toomevara",
+   "address": "Toomevara, Nenagh, Co. Tipperary.",
+   "eircode": "",
+   "x": 197521.469,
+   "y": 177611.656
+ },
+ {
+   "name": "St. Mary's",
+   "address": "Parnell Street, Thurles, Co. Tipperary.",
+   "eircode": "",
+   "x": 212235.78,
+   "y": 158851.67
+ },
+ {
+   "name": "Upperchurch",
+   "address": "Upperchurch, Thurles, Co. Tipperary.",
+   "eircode": "",
+   "x": 198804.84,
+   "y": 161234.86
+ },
+ {
+   "name": "Bishop Street",
+   "address": "Bishop Street, Limerick.",
+   "eircode": "",
+   "x": 157953.003,
+   "y": 157690.758
+ },
+ {
+   "name": "Cappamore",
+   "address": "Moore Street, Cappamore, Co. Limerick.",
+   "eircode": "",
+   "x": 177281.344,
+   "y": 151453.156
+ },
+ {
+   "name": "Caherconlish",
+   "address": "Main Street, Caherconlish, Co. Limerick.",
+   "eircode": "",
+   "x": 168211.438,
+   "y": 149225.891
+ },
+ {
+   "name": "Castleconnell",
+   "address": "Castleconnell, Co. Limerick.",
+   "eircode": "",
+   "x": 166125.969,
+   "y": 162537.672
+ },
+ {
+   "name": "Laytown/Stamullen",
+   "address": "Alverno Heights, Laytown, Co. Meath.",
+   "eircode": "",
+   "x": 316327.75,
+   "y": 271561.375
+ },
+ {
+   "name": "Johnstown",
+   "address": "Johnstown, Navan, Co. Meath",
+   "eircode": "",
+   "x": 289590.594,
+   "y": 265869.844
+ },
+ {
+   "name": "Nobber",
+   "address": "Muff, Nobber, Co. Meath.",
+   "eircode": "",
+   "x": 281965.313,
+   "y": 286970.656
+ },
+ {
+   "name": "Slane",
+   "address": "Chapel Street, Slane, Co. Meath.",
+   "eircode": "",
+   "x": 296346.063,
+   "y": 274435.531
+ },
+ {
+   "name": "Murroe",
+   "address": "Main Street, Murroe, Co. Limerick.",
+   "eircode": "",
+   "x": 173075.641,
+   "y": 155659.469
+ },
+ {
+   "name": "Roxtown",
+   "address": "Roxtown Health Centre, Old Clare Street, Limerick",
+   "eircode": "",
+   "x": 161263.588,
+   "y": 157678.552
+ },
+ {
+   "name": "Ballykenny",
+   "address": "Ballykenny, Co. Limerick.",
+   "eircode": "",
+   "x": 125872.891,
+   "y": 127568.805
+ },
+ {
+   "name": "Broadford",
+   "address": "Main Street, Broadford, Co. Limerick.",
+   "eircode": "",
+   "x": 133463.844,
+   "y": 121923.305
+ },
+ {
+   "name": "Bruff",
+   "address": "Main Street, Bruff, Co. Limerick.",
+   "eircode": "",
+   "x": 162821.652,
+   "y": 136230.458
+ },
+ {
+   "name": "Bruree",
+   "address": "Main Street, Bruree, Co. Limerick.",
+   "eircode": "",
+   "x": 155105.938,
+   "y": 130498.625
+ },
+ {
+   "name": "Castletown",
+   "address": "Castletown, Kilmallock, Co. Limerick.",
+   "eircode": "",
+   "x": 144857.031,
+   "y": 130561.063
+ },
+ {
+   "name": "Croom",
+   "address": "High Street, Croom, Co. Limerick.",
+   "eircode": "",
+   "x": 151389.031,
+   "y": 141044.953
+ },
+ {
+   "name": "Dooradoyle",
+   "address": "St. Nessan's Road, Dooradoyle, Limerick.",
+   "eircode": "",
+   "x": 155672.052,
+   "y": 154053.991
+ },
+ {
+   "name": "Dromcollogher",
+   "address": "Dromcollogher, Co. Limerick.",
+   "eircode": "",
+   "x": 138304.33,
+   "y": 121138.48
+ },
+ {
+   "name": "Fedamore",
+   "address": "Fedamore, Co. Limerick.",
+   "eircode": "",
+   "x": 159185.953,
+   "y": 143935.188
+ },
+ {
+   "name": "Foynes",
+   "address": "Main Street, Foynes, Co. Limerick.",
+   "eircode": "",
+   "x": 124992.406,
+   "y": 151673.563
+ },
+ {
+   "name": "Galbally",
+   "address": "Galbally, Co. Limerick.",
+   "eircode": "",
+   "x": 180274.328,
+   "y": 127614.281
+ },
+ {
+   "name": "Enniskeane",
+   "address": "Community Centre, Enniskeane, Co. Cork",
+   "eircode": "",
+   "x": 134979.61,
+   "y": 54052.802
+ },
+ {
+   "name": "Togher",
+   "address": "Togher Community Association, Togher Road, Cork",
+   "eircode": "",
+   "x": 165905.576,
+   "y": 69257.995
+ },
+ {
+   "name": "Glin",
+   "address": "Glin, Co. Limerick.",
+   "eircode": "",
+   "x": 112767.945,
+   "y": 147224.656
+ },
+ {
+   "name": "Kilfinanne",
+   "address": "Kilfinanne, Co. Limerick.",
+   "eircode": "",
+   "x": 167859.766,
+   "y": 122986.406
+ },
+ {
+   "name": "Kilmallock",
+   "address": "Railway Road, Kilmallock, Co. Limerick.",
+   "eircode": "",
+   "x": 161506.484,
+   "y": 127306.961
+ },
+ {
+   "name": "Kilmeedy",
+   "address": "Kilmeedy, Co. Limerick.",
+   "eircode": "",
+   "x": 137714.109,
+   "y": 129645.539
+ },
+ {
+   "name": "Moyross",
+   "address": "Moyross Community Enterprise Centre, Moyross, Limerick.",
+   "eircode": "",
+   "x": 156314.781,
+   "y": 159074.563
+ },
+ {
+   "name": "Gortboy",
+   "address": "Gortboy, Newcastlewest, Co. Limerick.",
+   "eircode": "",
+   "x": 128448.406,
+   "y": 134193.172
+ },
+ {
+   "name": "Rathkeale",
+   "address": "Rathkeale, Co. Limerick.",
+   "eircode": "",
+   "x": 137017.875,
+   "y": 141801.813
+ },
+ {
+   "name": "Roxtown",
+   "address": "Old Clare Street, Limerick.",
+   "eircode": "",
+   "x": 158407.984,
+   "y": 157263.813
+ },
+ {
+   "name": "Southill",
+   "address": "291A Donough O'Malley Park, Southill, Limerick.",
+   "eircode": "",
+   "x": 158853.438,
+   "y": 155063.125
+ },
+ {
+   "name": "Grattan Street",
+   "address": "Grattan Street, Cork.",
+   "eircode": "",
+   "x": 167059.701,
+   "y": 71914.714
+ },
+ {
+   "name": "Blackpool",
+   "address": "Blackpool Community Centre, Great William O'Brien Street, Blackpool, Cork.",
+   "eircode": "",
+   "x": 167405.016,
+   "y": 73244.547
+ },
+ {
+   "name": "Macroom",
+   "address": "Middle Square, Macroom, Co. Cork.",
+   "eircode": "",
+   "x": 133500.89,
+   "y": 73144.84
+ },
+ {
+   "name": "Rylane",
+   "address": "Knocknagoun, Rylane, Co. Cork.",
+   "eircode": "",
+   "x": 142253.234,
+   "y": 81576.883
+ },
+ {
+   "name": "Enniscrone",
+   "address": "Nephin Drive, Enniscrone, Co. Sligo.",
+   "eircode": "",
+   "x": 129439.734,
+   "y": 330157.219
+ },
+ {
+   "name": "Coolock",
+   "address": "Cromcastle Road, Coolock, Dublin 5.",
+   "eircode": "",
+   "x": 318719.23,
+   "y": 239825.639
+ },
+ {
+   "name": "Ramelton",
+   "address": "Back Road, Ramelton, Co. Donegal",
+   "eircode": "",
+   "x": 222500.8,
+   "y": 420817.88
+ },
+ {
+   "name": "Damastown",
+   "address": "Damastown Industrial Estate, Mulhuddart, Dublin 15",
+   "eircode": "",
+   "x": 305859.66,
+   "y": 241179.77
+ },
+ {
+   "name": "Cois Abhann Residential Centre",
+   "address": "Greencloyne, Youghal, Co. Cork",
+   "eircode": "",
+   "x": 209694.935,
+   "y": 78823.722
+ },
+ {
+   "name": "Blarney",
+   "address": "The Square, Blarney, Co. Cork.",
+   "eircode": "",
+   "x": 160931.484,
+   "y": 75740.664
+ },
+ {
+   "name": "Gurranebraher",
+   "address": "St. Mary's Orthopaedic Hospital, Gurranebraher, Co. Cork.",
+   "eircode": "",
+   "x": 165820.49,
+   "y": 72600.27
+ },
+ {
+   "name": "Farranree",
+   "address": "Farranree Community Centre, Popham's Road, Farranree, Cork.",
+   "eircode": "",
+   "x": 166971.024,
+   "y": 73673.053
+ },
+ {
+   "name": "Mayfield",
+   "address": "Old Youghal Road, Cork.",
+   "eircode": "",
+   "x": 169647.581,
+   "y": 73325.74
+ },
+ {
+   "name": "Riverstown",
+   "address": "Riverstown Village, Glanmire, Cork.",
+   "eircode": "",
+   "x": 172824.156,
+   "y": 75177.875
+ },
+ {
+   "name": "Cobh",
+   "address": "Bishop's Street, Cobh, Co. Cork.",
+   "eircode": "",
+   "x": 179751.443,
+   "y": 66779.209
+ },
+ {
+   "name": "Ballymacoda",
+   "address": "Ballymacoda, Youghal, Co. Cork.",
+   "eircode": "",
+   "x": 203981.422,
+   "y": 71063.203
+ },
+ {
+   "name": "Youghal",
+   "address": "The Lodge Youghal Community Centre, Cork Hill, Youghal, Co. Cork.",
+   "eircode": "",
+   "x": 209715.014,
+   "y": 78279.606
+ },
+ {
+   "name": "Castlemartyr",
+   "address": "Main Street, Castlemartyr, Co. Cork.",
+   "eircode": "",
+   "x": 196256.292,
+   "y": 73244.014
+ },
+ {
+   "name": "Kilmurray",
+   "address": "Kilmurray, Macroom, Co. Cork.",
+   "eircode": "",
+   "x": 139280.19,
+   "y": 65892.16
+ },
+ {
+   "name": "Cobh",
+   "address": "Canon O'Leary Place, Cobh, Co. Cork.",
+   "eircode": "",
+   "x": 179708.021,
+   "y": 66694.09
+ },
+ {
+   "name": "Killbrittain",
+   "address": "Killbrittain, Co. Cork.",
+   "eircode": "",
+   "x": 152159.97,
+   "y": 46941.79
+ },
+ {
+   "name": "Curry",
+   "address": "Curry, Co. Sligo.",
+   "eircode": "",
+   "x": 149344.17,
+   "y": 306076.78
+ },
+ {
+   "name": "Carrigtwohill",
+   "address": "Main Street, Carrigtwohill, Co. Cork.",
+   "eircode": "",
+   "x": 182343.422,
+   "y": 72990.797
+ },
+ {
+   "name": "Cloyne",
+   "address": "Canon Lynch Place, Chapel Street, Cloyne, Co. Cork.",
+   "eircode": "",
+   "x": 191580.813,
+   "y": 67759.008
+ },
+ {
+   "name": "Fairhill",
+   "address": "27 Bridevalley View, Fairhill, Cork.",
+   "eircode": "",
+   "x": 182343.422,
+   "y": 72990.797
+ },
+ {
+   "name": "Eason's Hill",
+   "address": "Eason's Hill, Cork.",
+   "eircode": "",
+   "x": 167305.298,
+   "y": 72453.044
+ },
+ {
+   "name": "The Glen",
+   "address": "The Glen Resource and Leisure Centre, The Glen, Cork.",
+   "eircode": "",
+   "x": 168538.375,
+   "y": 73331.031
+ },
+ {
+   "name": "Carrignavar",
+   "address": "Carrignavar, Co. Cork.",
+   "eircode": "",
+   "x": 167206.938,
+   "y": 81850.016
+ },
+ {
+   "name": "Lotamore",
+   "address": "20 Lotamore Park, Mayfield, Cork.",
+   "eircode": "",
+   "x": 171215.73,
+   "y": 73659.503
+ },
+ {
+   "name": "Baltimore",
+   "address": "Baltimore, Co. Cork.",
+   "eircode": "",
+   "x": 104654.055,
+   "y": 26451.99
+ },
+ {
+   "name": "Bere Island",
+   "address": "Rerrin, Bere Island, Co. Cork.",
+   "eircode": "",
+   "x": 71325.33,
+   "y": 44672.51
+ },
+ {
+   "name": "Tralee",
+   "address": "Kerry Community Services, Rathass, Co. Kerry",
+   "eircode": "",
+   "x": 85000.438,
+   "y": 114125.898
+ },
+ {
+   "name": "Drimoleague",
+   "address": "East End, Drimoleague, Co. Cork.",
+   "eircode": "",
+   "x": 112955.352,
+   "y": 46167.375
+ },
+ {
+   "name": "Drinagh",
+   "address": "Drinagh, Co. Cork.",
+   "eircode": "",
+   "x": 119908.27,
+   "y": 44347.98
+ },
+ {
+   "name": "Bray",
+   "address": "Block B Civic Centre, Main Street, Bray, Co. Wicklow.",
+   "eircode": "",
+   "x": 326381.596,
+   "y": 218399.828
+ },
+ {
+   "name": "Blessington",
+   "address": "Kilbride Road, Blessington, Co. Wicklow.",
+   "eircode": "",
+   "x": 298270.156,
+   "y": 214198.391
+ },
+ {
+   "name": "Dunmanway",
+   "address": "Main Street, Dunmanway, Co. Cork",
+   "eircode": "",
+   "x": 123339.523,
+   "y": 52828.102
+ },
+ {
+   "name": "Eyeries",
+   "address": "Eyeries, Co. Cork.",
+   "eircode": "",
+   "x": 64741.44,
+   "y": 50929.45
+ },
+ {
+   "name": "Glengarriff",
+   "address": "Glengarriff, Co. Cork.",
+   "eircode": "",
+   "x": 92980.164,
+   "y": 56366.113
+ },
+ {
+   "name": "Goleen",
+   "address": "Church Road, Goleen, Co. Cork.",
+   "eircode": "",
+   "x": 81102.8,
+   "y": 28219.07
+ },
+ {
+   "name": "Inchigeela",
+   "address": "Inchigeela, Co. Cork.",
+   "eircode": "",
+   "x": 122364.148,
+   "y": 66060.961
+ },
+ {
+   "name": "Johnstown",
+   "address": "Johnstown, Macroom, Co. Cork.",
+   "eircode": "",
+   "x": 125278.26,
+   "y": 62428.91
+ },
+ {
+   "name": "Kealkil",
+   "address": "Kealkil, Co. Cork.",
+   "eircode": "",
+   "x": 104307.266,
+   "y": 55989.895
+ },
+ {
+   "name": "Kilcrohane",
+   "address": "Kilcrohane, Co. Cork",
+   "eircode": "",
+   "x": 81944.07,
+   "y": 37798.5
+ },
+ {
+   "name": "Leap",
+   "address": "Main Street, Leap, Co. Cork.",
+   "eircode": "",
+   "x": 120993.594,
+   "y": 37079.688
+ },
+ {
+   "name": "Mountview",
+   "address": "Shelerin Road, Clonsilla, Dublin 15.",
+   "eircode": "",
+   "x": 305931.281,
+   "y": 238840
+ },
+ {
+   "name": "Mullingar",
+   "address": "Longford Road, Mullingar, Co. Westmeath.",
+   "eircode": "",
+   "x": 243215.281,
+   "y": 253904.984
+ },
+ {
+   "name": "Moyderwell",
+   "address": "Tralee Health Centre, Moyderwell, Tralee, Co. Kerry",
+   "eircode": "",
+   "x": 84018.771,
+   "y": 114149.209
+ },
+ {
+   "name": "Clontarf",
+   "address": "161 - 171 Vernon Avenue, Dublin 3.",
+   "eircode": "",
+   "x": 320096.071,
+   "y": 236944.558
+ },
+ {
+   "name": "Schull",
+   "address": "Hospital Grounds, Schull, Co. Cork.",
+   "eircode": "",
+   "x": 92746.42,
+   "y": 30979.83
+ },
+ {
+   "name": "Union Hall",
+   "address": "Main Street, Union Hall, Co. Cork.",
+   "eircode": "",
+   "x": 120900.211,
+   "y": 34517.59
+ },
+ {
+   "name": "Ballynoe",
+   "address": "Ballynoe, Co. Cork.",
+   "eircode": "",
+   "x": 193405.188,
+   "y": 89584.813
+ },
+ {
+   "name": "Buttevant",
+   "address": "Mercy Day Care Centre, Buttevant, Co. Cork.",
+   "eircode": "",
+   "x": 154280.276,
+   "y": 108763.929
+ },
+ {
+   "name": "Castletownroche",
+   "address": "Community Hall, Castletownroche, Co. Cork.",
+   "eircode": "",
+   "x": 168203.093,
+   "y": 102252.601
+ },
+ {
+   "name": "Newtownbarry",
+   "address": "Newtownbarry, Charleville, Co. Cork.",
+   "eircode": "",
+   "x": 153787.053,
+   "y": 123023.214
+ },
+ {
+   "name": "FRC Broad Street",
+   "address": "Family Resource Centre, Broad Street, Charleville, Co. Cork.",
+   "eircode": "",
+   "x": 153596.375,
+   "y": 122746.461
+ },
+ {
+   "name": "Rhode",
+   "address": "Rhode, Co. Offaly.",
+   "eircode": "",
+   "x": 253410.438,
+   "y": 233461.563
+ },
+ {
+   "name": "Cre House",
+   "address": "Grange, Templemore Road, Roscrea, Co. Tipperary",
+   "eircode": "",
+   "x": 214008.969,
+   "y": 188107.328
+ },
+ {
+   "name": "Skerries",
+   "address": "Thomas Hand Street, Skerries, Co. Dublin.",
+   "eircode": "",
+   "x": 325192.344,
+   "y": 260445.531
+ },
+ {
+   "name": "Dromina",
+   "address": "Community Centre, Dromina, Co. Cork.",
+   "eircode": "",
+   "x": 145370.672,
+   "y": 118293.766
+ },
+ {
+   "name": "Chapel Hill",
+   "address": "Chapel Hill, Fermoy, Co. Cork.",
+   "eircode": "",
+   "x": 180856.093,
+   "y": 98307.646
+ },
+ {
+   "name": "Blackwater",
+   "address": "Blackwater Day Centre, Fermoy, Co. Cork.",
+   "eircode": "",
+   "x": 181016.089,
+   "y": 98475.152
+ },
+ {
+   "name": "Freemount",
+   "address": "Community Centre, Freemount, Co. Cork.",
+   "eircode": "",
+   "x": 139698.61,
+   "y": 114301.38
+ },
+ {
+   "name": "Glantane",
+   "address": "Community Hall, Glantane, Co. Cork.",
+   "eircode": "",
+   "x": 148772.08,
+   "y": 95002.96
+ },
+ {
+   "name": "Glanworth",
+   "address": "Main Street, Glanworth, Co. Cork.",
+   "eircode": "",
+   "x": 175638.83,
+   "y": 103857.27
+ },
+ {
+   "name": "Wicklow",
+   "address": "Glenside Road, Wicklow Town, Co. Wicklow.",
+   "eircode": "",
+   "x": 332007.127,
+   "y": 193631.898
+ },
+ {
+   "name": "Peter Street Primary Care Unit",
+   "address": "Laurence Town Centre, Peter Street, Drogheda, Co. Louth",
+   "eircode": "",
+   "x": 308937.5,
+   "y": 275274.188
+ },
+ {
+   "name": "Kanturk",
+   "address": "Community Hospital, Hospital Hill, Kanturk, Co. Cork.",
+   "eircode": "",
+   "x": 137481.406,
+   "y": 103036.164
+ },
+ {
+   "name": "Kildorrery",
+   "address": "Limerick Road, Kildorrery, Co. Cork.",
+   "eircode": "",
+   "x": 170806.453,
+   "y": 110622.625
+ },
+ {
+   "name": "Killavullen",
+   "address": "Dispensary, Killavullen, Co. Cork.",
+   "eircode": "",
+   "x": 164618.27,
+   "y": 99324.41
+ },
+ {
+   "name": "Kilworth",
+   "address": "Main Street, Kilworth, Co. Cork.",
+   "eircode": "",
+   "x": 183304.656,
+   "y": 102620.508
+ },
+ {
+   "name": "Kiskeam",
+   "address": "Community Centre, Kiskeam, Co. Cork.",
+   "eircode": "",
+   "x": 121044.727,
+   "y": 103326.016
+ },
+ {
+   "name": "Bank Place",
+   "address": "134 Bank Place, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 155954.703,
+   "y": 98454.172
+ },
+ {
+   "name": "Millmount",
+   "address": "Millmount Avenue, Drumcondra, Dublin 9.",
+   "eircode": "",
+   "x": 315960.502,
+   "y": 236895.032
+ },
+ {
+   "name": "Gouldshill",
+   "address": "Gouldshill House, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 154765.359,
+   "y": 96530.516
+ },
+ {
+   "name": "Newberry",
+   "address": "Newberry Hospital, Kilvealaton East, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 153145.359,
+   "y": 97226.313
+ },
+ {
+   "name": "Norwood",
+   "address": "Norwood Day Centre, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 155510.844,
+   "y": 98591.125
+ },
+ {
+   "name": "St. Joseph's",
+   "address": "St. Joseph's Road, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 156225.266,
+   "y": 98340.969
+ },
+ {
+   "name": "Comm Hosp",
+   "address": "Community Hospital, Millstreet, Co. Cork.",
+   "eircode": "",
+   "x": 126113.211,
+   "y": 90025.461
+ },
+ {
+   "name": "Claragh Road",
+   "address": "Claragh Road, Millstreet, Co.Cork.",
+   "eircode": "",
+   "x": 126833.962,
+   "y": 90127.66
+ },
+ {
+   "name": "Drishane",
+   "address": "Drishane Castle, Millstreet, Co. Cork.",
+   "eircode": "",
+   "x": 128210.98,
+   "y": 92204.31
+ },
+ {
+   "name": "Wellmount",
+   "address": "Wellmount Park, Finglas, Dublin 11.",
+   "eircode": "",
+   "x": 312390.283,
+   "y": 238543.333
+ },
+ {
+   "name": "Tearmon Ui Chaoimh",
+   "address": "Tearmon Ui Chaoimh Day Centre, Mitchelstown, Co. Cork.",
+   "eircode": "",
+   "x": 181444.219,
+   "y": 112556.078
+ },
+ {
+   "name": "Newmarket",
+   "address": "Charleville Road, Newmarket, Co. Cork.",
+   "eircode": "",
+   "x": 131720.359,
+   "y": 107589.024
+ },
+ {
+   "name": "Newtown",
+   "address": "Newtown, Co. Cork.",
+   "eircode": "",
+   "x": 99999.445,
+   "y": 49102.363
+ },
+ {
+   "name": "Church Road",
+   "address": "Church Road, Ardfert, Co. Kerry.",
+   "eircode": "",
+   "x": 78542,
+   "y": 120911.688
+ },
+ {
+   "name": "Ballybunion",
+   "address": "C/o Dr. Jim O' Sullivan, Ballybunion, Co. Kerry",
+   "eircode": "",
+   "x": 86419.57,
+   "y": 141340.239
+ },
+ {
+   "name": "Brosna",
+   "address": "The Health Centre, Brosna, Co. Kerry",
+   "eircode": "",
+   "x": 113343.7,
+   "y": 118620.66
+ },
+ {
+   "name": "Caherciveen",
+   "address": "East End, Caherciveen, Co. Kerry.",
+   "eircode": "",
+   "x": 47410.598,
+   "y": 79676.898
+ },
+ {
+   "name": "Camp",
+   "address": "Camp Cross, Tralee, Co. Kerry",
+   "eircode": "",
+   "x": 69423.648,
+   "y": 109352.523
+ },
+ {
+   "name": "Tonachy House",
+   "address": "Killarney Rd., Castleisland, Co. Kerry",
+   "eircode": "",
+   "x": 99881.313,
+   "y": 109663.305
+ },
+ {
+   "name": "Castlemaine",
+   "address": "Community Centre, Castlemaine, Co. Kerry",
+   "eircode": "",
+   "x": 83713.516,
+   "y": 103611.016
+ },
+ {
+   "name": "Causeway",
+   "address": "Marian Trc., Causeway, Co. Kerry",
+   "eircode": "",
+   "x": 82111.52,
+   "y": 130238.48
+ },
+ {
+   "name": "Farranfore",
+   "address": "Farranfore, Co. Kerry",
+   "eircode": "",
+   "x": 93992.133,
+   "y": 103305.148
+ },
+ {
+   "name": "Glenbeigh",
+   "address": "Kilnabrack Lower, Glenbeigh Co. Kerry",
+   "eircode": "",
+   "x": 66658.203,
+   "y": 90959.367
+ },
+ {
+   "name": "Gneeveguilla",
+   "address": "Gneeveguilla, Co. Kerry",
+   "eircode": "",
+   "x": 112920.617,
+   "y": 96703.055
+ },
+ {
+   "name": "Kielduff",
+   "address": "Community Centre, Rathanny, Co. Kerry",
+   "eircode": "",
+   "x": 90498.16,
+   "y": 117134.99
+ },
+ {
+   "name": "Kilgarven",
+   "address": "Kilgarven, Co. Kerry",
+   "eircode": "",
+   "x": 100787.484,
+   "y": 73306.648
+ },
+ {
+   "name": "Park Road",
+   "address": "Park Rd., Killarney, Co. Kerry",
+   "eircode": "",
+   "x": 98147.097,
+   "y": 90844.208
+ },
+ {
+   "name": "Knocknagoshel",
+   "address": "Community Centre, Knocknagoshel, Co. Kerry",
+   "eircode": "",
+   "x": 105640.797,
+   "y": 120739.68
+ },
+ {
+   "name": "Listowel",
+   "address": "Grounds of Listowel Hospital, Co. Kerry",
+   "eircode": "",
+   "x": 98225.711,
+   "y": 133981.422
+ },
+ {
+   "name": "Listowel OPD",
+   "address": "Hospital Grounds, Listowel, Co. Kerry",
+   "eircode": "",
+   "x": 98225.711,
+   "y": 133981.422
+ },
+ {
+   "name": "Lixnaw",
+   "address": "C/o Dr. Fahys Surgery, Lixnaw, Co. Kerry",
+   "eircode": "",
+   "x": 89980.352,
+   "y": 129784.844
+ },
+ {
+   "name": "Moyvane",
+   "address": "Community Centre, Moyvane, Co. Kerry",
+   "eircode": "",
+   "x": 107069.992,
+   "y": 139733.188
+ },
+ {
+   "name": "Portmagee",
+   "address": "Portmagee Village, Co. Kerry",
+   "eircode": "",
+   "x": 37201.05,
+   "y": 72985.68
+ },
+ {
+   "name": "Rathmore",
+   "address": "Bleak House, Rathmore, Co. Kerry",
+   "eircode": "",
+   "x": 114335.305,
+   "y": 92302.93
+ },
+ {
+   "name": "Scariff",
+   "address": "Emlagh, Waterville, Co. Kerry",
+   "eircode": "",
+   "x": 50416.29,
+   "y": 68895.28
+ },
+ {
+   "name": "Sneem",
+   "address": "South Square, Sneem, Co. Kerry",
+   "eircode": "",
+   "x": 69125.172,
+   "y": 66719.781
+ },
+ {
+   "name": "Tarbert",
+   "address": "Tarbert, Co. Kerry",
+   "eircode": "",
+   "x": 106410.367,
+   "y": 147820.453
+ },
+ {
+   "name": "Waterville",
+   "address": "Main Street, Waterville, Co. Kerry",
+   "eircode": "",
+   "x": 50326.641,
+   "y": 65801.617
+ },
+ {
+   "name": "Ballyragget",
+   "address": "Chapel Avenue, Ballyragget, Co. Kilkenny.",
+   "eircode": "",
+   "x": 245140.281,
+   "y": 171031.859
+ },
+ {
+   "name": "Bennettsbridge",
+   "address": "Bennettsbridge, Co. Kilkenny.",
+   "eircode": "",
+   "x": 255621.5,
+   "y": 149145.359
+ },
+ {
+   "name": "Castlecomer",
+   "address": "Kilkenny Street, Castlecomer, Co. Kilkenny.",
+   "eircode": "",
+   "x": 253306.563,
+   "y": 172383.047
+ },
+ {
+   "name": "Clogh",
+   "address": "Clogh, Castlecomer, Co. Kilkenny.",
+   "eircode": "",
+   "x": 256356.891,
+   "y": 179259.578
+ },
+ {
+   "name": "Coolbawn",
+   "address": "Castlecomer, Co. Kilkenny.",
+   "eircode": "",
+   "x": 255532.859,
+   "y": 174644.703
+ },
+ {
+   "name": "Freshford",
+   "address": "Kilkenny Street, Freshford, Co. Kilkenny.",
+   "eircode": "",
+   "x": 241068.375,
+   "y": 164731.703
+ },
+ {
+   "name": "Goresbridge",
+   "address": "Barrack Street, Goresbridge, Co. Kilkenny.",
+   "eircode": "",
+   "x": 268111.719,
+   "y": 153707.891
+ },
+ {
+   "name": "Gowran",
+   "address": "Main Street, Gowran, Co. Kilkenny.",
+   "eircode": "",
+   "x": 263496.25,
+   "y": 153563.516
+ },
+ {
+   "name": "Hacketstown",
+   "address": "Moffets Lane, Hacketstown, Co. Carlow.",
+   "eircode": "",
+   "x": 296969.688,
+   "y": 180287.297
+ },
+ {
+   "name": "Inistioge",
+   "address": "Inistioge, Co. Kilkenny.",
+   "eircode": "",
+   "x": 263833.188,
+   "y": 137459.781
+ },
+ {
+   "name": "Johnstown",
+   "address": "Johnstown, Co. Kilkenny",
+   "eircode": "",
+   "x": 229776.906,
+   "y": 166121.078
+ },
+ {
+   "name": "Kells",
+   "address": "Kells, Co. Kilkenny.",
+   "eircode": "",
+   "x": 249239.516,
+   "y": 143413.156
+ },
+ {
+   "name": "Kilkenny",
+   "address": "Community Care, James's Green, Kilkenny.",
+   "eircode": "",
+   "x": 250221.383,
+   "y": 155793.872
+ },
+ {
+   "name": "Kilmanagh",
+   "address": "Kilmanagh, Co. Kilkenny.",
+   "eircode": "",
+   "x": 239027.703,
+   "y": 152166.719
+ },
+ {
+   "name": "Kilmoganny",
+   "address": "Mill Street, Kilmoganny, Co. Kilkenny.",
+   "eircode": "",
+   "x": 245707.047,
+   "y": 134644.109
+ },
+ {
+   "name": "Leighlinbridge",
+   "address": "St. Lazerian's Street, Leighlinbridge, Co. Carlow.",
+   "eircode": "",
+   "x": 268926.281,
+   "y": 165430.375
+ },
+ {
+   "name": "Lisdowney",
+   "address": "Lisdowney, Co. Kilkenny.",
+   "eircode": "",
+   "x": 241124.875,
+   "y": 171155.516
+ },
+ {
+   "name": "Marley",
+   "address": "Marley, Graiguenamanagh, Co. Kilkenny",
+   "eircode": "",
+   "x": 274453.969,
+   "y": 141533.313
+ },
+ {
+   "name": "Myshall",
+   "address": "Carlow Road, Myshall, Co. Carlow.",
+   "eircode": "",
+   "x": 282426.406,
+   "y": 160210.656
+ },
+ {
+   "name": "Rathvilly",
+   "address": "Phelan Street, Rathvilly, Co. Carlow.",
+   "eircode": "",
+   "x": 288194.38,
+   "y": 181760.77
+ },
+ {
+   "name": "Rosbercon",
+   "address": "Millbanks, Rosbercon, Via New Ross, Co. Kilkenny.",
+   "eircode": "",
+   "x": 271064.458,
+   "y": 127550.102
+ },
+ {
+   "name": "Stoneyford",
+   "address": "Stoneyford, Co. Kilkenny.",
+   "eircode": "",
+   "x": 252293.516,
+   "y": 143053.703
+ },
+ {
+   "name": "Tinnahinch",
+   "address": "Graiguenamanagh, Co. Kilkenny.",
+   "eircode": "",
+   "x": 271002.313,
+   "y": 143399.25
+ },
+ {
+   "name": "Tullaroan",
+   "address": "Tullaroan, Co. Kilkenny.",
+   "eircode": "",
+   "x": 238144.25,
+   "y": 156752.8
+ },
+ {
+   "name": "Tullow",
+   "address": "Shillelagh Road, Tullow, Co. Carlow.",
+   "eircode": "",
+   "x": 285673.16,
+   "y": 173241.41
+ },
+ {
+   "name": "Urlingford",
+   "address": "Main Street, Urlingford, Co. Kilkenny",
+   "eircode": "",
+   "x": 228560.938,
+   "y": 163506.797
+ },
+ {
+   "name": "Windgap",
+   "address": "Coolehill Upper, Windgap, Co. Kilkenny.",
+   "eircode": "",
+   "x": 240922.375,
+   "y": 134458.813
+ },
+ {
+   "name": "Cappoquin",
+   "address": "Cappoquin, Co. Waterford.",
+   "eircode": "",
+   "x": 210797,
+   "y": 99317.18
+ },
+ {
+   "name": "Clashmore",
+   "address": "Chapel Lane, Clashmore, Co. Waterford.",
+   "eircode": "",
+   "x": 212514.063,
+   "y": 84100
+ },
+ {
+   "name": "Dungarvan",
+   "address": "Saint Mary Street, Dungarvan, Co. Waterford.",
+   "eircode": "",
+   "x": 226021.111,
+   "y": 92950.214
+ },
+ {
+   "name": "Dunmore East",
+   "address": "Lower Dunmore, Dunmore East, Co. Waterford.",
+   "eircode": "",
+   "x": 268834.7,
+   "y": 100838.463
+ },
+ {
+   "name": "Glenmore",
+   "address": "Robinstown, Glenmore, Co. Kilkenny.",
+   "eircode": "",
+   "x": 266250.031,
+   "y": 122853.344
+ },
+ {
+   "name": "Kereen",
+   "address": "Kereen, Co. Waterford.",
+   "eircode": "",
+   "x": 214054.125,
+   "y": 93081.484
+ },
+ {
+   "name": "Kilmacow",
+   "address": "Lower Kilmacow, Co. Kilkenny.",
+   "eircode": "",
+   "x": 256919.75,
+   "y": 117099.461
+ },
+ {
+   "name": "Kilmacthomas",
+   "address": "Hillside Crescent, Kilmacthomas, Co. Waterford.",
+   "eircode": "",
+   "x": 239297.016,
+   "y": 105734.031
+ },
+ {
+   "name": "Kilmeaden",
+   "address": "Kilmeaden, Co. Waterford.",
+   "eircode": "",
+   "x": 251887.781,
+   "y": 109115.844
+ },
+ {
+   "name": "Knockanore",
+   "address": "Knockanore, Co. Waterford.",
+   "eircode": "",
+   "x": 207460.52,
+   "y": 89105.63
+ },
+ {
+   "name": "Lemybrien",
+   "address": "Lemybrien, Co. Waterford.",
+   "eircode": "",
+   "x": 232647.094,
+   "y": 102366.852
+ },
+ {
+   "name": "Mooncoin",
+   "address": "Main Street, Mooncoin, Co. Kilkenny.",
+   "eircode": "",
+   "x": 250947.891,
+   "y": 115806.195
+ },
+ {
+   "name": "Mullinavat",
+   "address": "Garrandaragh, Mullinavat, Co. Kilkenny.",
+   "eircode": "",
+   "x": 256503.016,
+   "y": 124374.727
+ },
+ {
+   "name": "Piltown",
+   "address": "Main Street, Piltown, Co. Kilkenny.",
+   "eircode": "",
+   "x": 245504.953,
+   "y": 122374.547
+ },
+ {
+   "name": "Portlaw",
+   "address": "Portlaw, Co. Waterford.",
+   "eircode": "",
+   "x": 246418.452,
+   "y": 115303.99
+ },
+ {
+   "name": "Seskinane",
+   "address": "Seskinane, Touraneena, Ballinamult, Co. Waterford.",
+   "eircode": "",
+   "x": 220653.641,
+   "y": 104594.305
+ },
+ {
+   "name": "Tallow",
+   "address": "Convent Street, Tallow, Co. Waterford.",
+   "eircode": "",
+   "x": 199545.547,
+   "y": 93705.891
+ },
+ {
+   "name": "Ballybeg",
+   "address": "Community Centre, Ballybeg, Cork Road, Waterford.",
+   "eircode": "",
+   "x": 258645.286,
+   "y": 110007.501
+ },
+ {
+   "name": "Roscrea",
+   "address": "Templemore Road, Roscrea, Co. Tipperary",
+   "eircode": "",
+   "x": 213967.141,
+   "y": 188307.844
+ },
+ {
+   "name": "Redhills",
+   "address": "G.a.a. Club, Knockroe, Co. Cavan",
+   "eircode": "",
+   "x": 244393.813,
+   "y": 317046.688
+ },
+ {
+   "name": "Churchtown",
+   "address": "Main Street, Mallow, Co. Cork",
+   "eircode": "",
+   "x": 150106.953,
+   "y": 113520.32
+ },
+ {
+   "name": "St. Frances",
+   "address": "Rathealy Road, Fermoy, Co. Cork",
+   "eircode": "",
+   "x": 181554.203,
+   "y": 98864.148
+ },
+ {
+   "name": "Liscarroll",
+   "address": "Main Street, Co. Cork",
+   "eircode": "",
+   "x": 144992.245,
+   "y": 112285.378
+ },
+ {
+   "name": "Meelin",
+   "address": "Knockduff Upper, Newmarket, Co. Cork",
+   "eircode": "",
+   "x": 129451.492,
+   "y": 111284.461
+ },
+ {
+   "name": "Milford",
+   "address": "Co. Cork",
+   "eircode": "",
+   "x": 141662.629,
+   "y": 121345.173
+ },
+ {
+   "name": "Rathcormac",
+   "address": "Main Street, Co. Cork",
+   "eircode": "",
+   "x": 180608.234,
+   "y": 91724.914
+ },
+ {
+   "name": "Caherdaniel",
+   "address": "An Post, Post Office, Co. Kerry",
+   "eircode": "",
+   "x": 55032.02,
+   "y": 59504.215
+ },
+ {
+   "name": "Granard",
+   "address": "Carra, Granard, Co. Longford.",
+   "eircode": "",
+   "x": 233865.86,
+   "y": 281284.38
+ },
+ {
+   "name": "Bantry",
+   "address": "The Quays, Bantry, Co. Cork.",
+   "eircode": "",
+   "x": 99683.267,
+   "y": 48449.644
+ },
+ {
+   "name": "Loughboy",
+   "address": "Springhill Health Centre, Waterford Road, Kilkenny",
+   "eircode": "",
+   "x": 251382.441,
+   "y": 154715.48
+ },
+ {
+   "name": "Larkhill",
+   "address": "Collins Avenue Extension, Dublin 9.",
+   "eircode": "",
+   "x": 316476.012,
+   "y": 238584.203
+ },
+ {
+   "name": "Swords",
+   "address": "Bridge Street, Swords, Co. Dublin.",
+   "eircode": "",
+   "x": 318164.75,
+   "y": 246976.281
+ },
+ {
+   "name": "Howth",
+   "address": "Main Street, Howth, Co. Dublin.",
+   "eircode": "",
+   "x": 328793.362,
+   "y": 239038.174
+ },
+ {
+   "name": "Terenure",
+   "address": "68 Terenure Road North, Dublin 6.",
+   "eircode": "",
+   "x": 314484.063,
+   "y": 230455.219
+ },
+ {
+   "name": "Lucan",
+   "address": "1a Sarsfield Park, Co. Dublin",
+   "eircode": "",
+   "x": 303318.281,
+   "y": 235189.938
+ },
+ {
+   "name": "Kilcormac",
+   "address": "Freagh, Kilcormac, Co. Offaly.",
+   "eircode": "",
+   "x": 218043.797,
+   "y": 213914.375
+ },
+ {
+   "name": "Thomastown",
+   "address": "Lady's Well Street, Thomastown, Co. Kilkenny.",
+   "eircode": "",
+   "x": 258271.129,
+   "y": 142117.153
+ },
+ {
+   "name": "Navan",
+   "address": "Child And Family Centre, County Clinic, Navan, Co. Meath.",
+   "eircode": "",
+   "x": 286318.583,
+   "y": 267563.145
+ },
+ {
+   "name": "Malahide",
+   "address": "New Street, Malahide, Co. Dublin.",
+   "eircode": "",
+   "x": 322692.853,
+   "y": 246111.994
+ },
+ {
+   "name": "Ballymore",
+   "address": "Moate Road, Ballymore, Co. Westmeath.",
+   "eircode": "",
+   "x": 221263.563,
+   "y": 248936.156
+ },
+ {
+   "name": "Kilbarrack",
+   "address": "Foxfield Crescent, Kilbarrack, Dublin 5.",
+   "eircode": "",
+   "x": 322772.442,
+   "y": 238763.854
+ },
+ {
+   "name": "Ballyporeen",
+   "address": "Church Street, Ballyporeen, Co. Tipperary.",
+   "eircode": "",
+   "x": 193230.484,
+   "y": 113216.836
+ },
+ {
+   "name": "Dromahaire",
+   "address": "Drumlease Estate, Dromahaire, Co. Leitrim",
+   "eircode": "",
+   "x": 180862.08,
+   "y": 331169.16
+ },
+ {
+   "name": "Lismore",
+   "address": "Park's Road, Lismore, Co. Waterford.",
+   "eircode": "",
+   "x": 204998.911,
+   "y": 98323.188
+ },
+ {
+   "name": "Kilcock",
+   "address": "Whitestown House, Kilcock, Co. Kildare.",
+   "eircode": "",
+   "x": 288068.688,
+   "y": 240236.109
+ },
+ {
+   "name": "Deansrath",
+   "address": "St. Cuthbert's Road, Clondalkin, Dublin 22.",
+   "eircode": "",
+   "x": 305035.688,
+   "y": 231526.25
+ },
+ {
+   "name": "Kingscourt",
+   "address": "Kells Road, Kingscourt, Co. Cavan.",
+   "eircode": "",
+   "x": 278647.66,
+   "y": 295291.22
+ },
+ {
+   "name": "Inisboffin",
+   "address": "Middle Quarter, Inisboffin, Co. Galway.",
+   "eircode": "",
+   "x": 53780.773,
+   "y": 264917.156
+ },
+ {
+   "name": "Innishannon",
+   "address": "Innishannon Medical Centre, Main Street, Innishannon, Co. Cork",
+   "eircode": "",
+   "x": 154738.67,
+   "y": 57068.34
+ },
+ {
+   "name": "Tallow",
+   "address": "Conna, Co. Cork.",
+   "eircode": "",
+   "x": 192687.64,
+   "y": 93439.56
+ },
+ {
+   "name": "Emo",
+   "address": "Emo, Co. Laois.",
+   "eircode": "",
+   "x": 253032.844,
+   "y": 205397
+ },
+ {
+   "name": "Edenderry",
+   "address": "Ofalia House, St. Mary's Street, Edenderry, Co. Offaly.",
+   "eircode": "",
+   "x": 262456.725,
+   "y": 232120.305
+ },
+ {
+   "name": "Castletownbere",
+   "address": "Bank Place, Castletownbere, Co. Cork.",
+   "eircode": "",
+   "x": 67638.23,
+   "y": 45866.9
+ },
+ {
+   "name": "Heatherside",
+   "address": "Heatherside Hospital, Doneraile, Co. Cork.",
+   "eircode": "",
+   "x": 159221.92,
+   "y": 113269.77
+ },
+ {
+   "name": "St. Anne's Road",
+   "address": "St. Anne's Road, Killarney, Co. Kerry",
+   "eircode": "",
+   "x": 96623.461,
+   "y": 91103.313
+ },
+ {
+   "name": "Ballybrittas",
+   "address": "Main Street, Co. Laois",
+   "eircode": "",
+   "x": 257921.859,
+   "y": 206915.766
+ },
+ {
+   "name": "Milford",
+   "address": "Kyle House, Kyle, Co. Cork",
+   "eircode": "",
+   "x": 141334.875,
+   "y": 119572.477
+ },
+ {
+   "name": "Armagh Road Primary Care Services",
+   "address": "HSE, SAINT COLUMBA'S, ARMAGH ROAD, DUBLIN 12",
+   "eircode": "",
+   "x": 312734.1213,
+   "y": 231305.257
+ },
+ {
+   "name": "Castlelyons",
+   "address": "1 Main Street, Co. Cork",
+   "eircode": "",
+   "x": 183915.375,
+   "y": 93021.828
+ },
+ {
+   "name": "Boherbue",
+   "address": "The Corner House, 18 Main Street, Co. Cork",
+   "eircode": "",
+   "x": 126846.148,
+   "y": 101279.68
+ },
+ {
+   "name": "Callan Primary Care Centre",
+   "address": "Co. Kilkenny.",
+   "eircode": "",
+   "x": 241483.392,
+   "y": 143688.5627
+ },
+ {
+   "name": "Moate",
+   "address": "The Newtown, Moate, Co. Westmeath.",
+   "eircode": "",
+   "x": 218996.59,
+   "y": 238407.792
+ },
+ {
+   "name": "Monasterevin",
+   "address": "Co. Kildare.",
+   "eircode": "",
+   "x": 263094.721,
+   "y": 210500.676
+ },
+ {
+   "name": "Killenaule",
+   "address": "River Street, Killenaule, Co. Tipperary.",
+   "eircode": "",
+   "x": 222361.48,
+   "y": 146396.47
+ },
+ {
+   "name": "College Road",
+   "address": "Castleisland, Co. Kerry",
+   "eircode": "",
+   "x": 100474.454,
+   "y": 110121.412
+ },
+ {
+   "name": "Castleblaney",
+   "address": "Thomas Street, Castleblaney, Co. Monaghan.",
+   "eircode": "",
+   "x": 282777.519,
+   "y": 319637.688
+ },
+ {
+   "name": "Mizen Primary Care Centre",
+   "address": "Ardmanagh Road, Schull, Co. Cork",
+   "eircode": "",
+   "x": 92566.172,
+   "y": 31667.68
+ },
+ {
+   "name": "Glencrow",
+   "address": "Moville, Co. Donegal.",
+   "eircode": "",
+   "x": 260862.08,
+   "y": 438382.59
+ },
+ {
+   "name": "Ionad Sláinte Inis Bigil",
+   "address": "Inis Bigil, Co. Mhaigh Eo",
+   "eircode": "",
+   "x": 75227.123,
+   "y": 307320.123
+ },
+ {
+   "name": "Ionad Sláinte Béal an Mhuirthead",
+   "address": "Béal an Mhuirthead, Co. Mhaigh Eo",
+   "eircode": "",
+   "x": 70510.641,
+   "y": 332860.5
+ },
+ {
+   "name": "Ionad Sláinte Bhaile na hAbhann",
+   "address": "An Tulach, Bhaile na hAbhann, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 167520.328,
+   "y": 248263.484
+ },
+ {
+   "name": "Ionad Sláinte Bhaile na Cille",
+   "address": "Bhaile na Cille, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 145844.953,
+   "y": 194952.453
+ },
+ {
+   "name": "Ionad Sláinte Chamuis",
+   "address": "Camus, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 97048.18,
+   "y": 237130.359
+ },
+ {
+   "name": "Ionad Sláinte Charna",
+   "address": "Carna, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 78230.672,
+   "y": 231899.688
+ },
+ {
+   "name": "Ionad Sláinte an Fháirche",
+   "address": "An Fháirche, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 109684.609,
+   "y": 255834.906
+ },
+ {
+   "name": "Ionad Sláinte Ros Muc",
+   "address": "Ros Muc, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 91902.25,
+   "y": 236118.594
+ },
+ {
+   "name": "Ionad Sláinte an Spidéil",
+   "address": "An Spidéal, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 112891.344,
+   "y": 222404.891
+ },
+ {
+   "name": "Ionad Sláinte Oileán Thoraí",
+   "address": "An Baile Thiar, Oileán Thoraí, Co. Dhún Na nGall",
+   "eircode": "",
+   "x": 185787.28,
+   "y": 446387.75
+ },
+ {
+   "name": "Oileán Claéire",
+   "address": "Cape Clear Island, Co. Chorcaí",
+   "eircode": "",
+   "x": 95415.95,
+   "y": 21366.26
+ },
+ {
+   "name": "Ionad Sláinte Daingean Uí Chúis",
+   "address": "Hospital Grounds, Dingle, Co. Kerry",
+   "eircode": "",
+   "x": 44317.164,
+   "y": 101592.344
+ },
+ {
+   "name": "Ionad Sláinte Béal an Mhuirthead",
+   "address": "Ospidéal Pobail Bhéal an Mhuirthead, Béal an Mhuirthead Co. Mhaigh Eo",
+   "eircode": "",
+   "x": 70510.641,
+   "y": 332860.5
+ },
+ {
+   "name": "Ionad Sláinte Inis Meáin",
+   "address": "Inis Meáin, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 93897.766,
+   "y": 204972.594
+ },
+ {
+   "name": "Ionad Sláinte Inis Oírr",
+   "address": "Inis Oírr, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 97832.75,
+   "y": 202866.391
+ },
+ {
+   "name": "Ionad Sláinte Béal Átha na mBreac",
+   "address": "Béal Átha na mBreac, An Mám, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 93062.24,
+   "y": 255286.3
+ },
+ {
+   "name": "Ionad Sláinte Anagaire",
+   "address": "Anagaire, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 179094.719,
+   "y": 419356.656
+ },
+ {
+   "name": "Ionad Sláinte Árainn Mhór",
+   "address": "Árainn Mhór, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 167628.656,
+   "y": 414609.531
+ },
+ {
+   "name": "Ionad Sláinte Baile na Finne",
+   "address": "Baile na Finne, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 192394.781,
+   "y": 402211.25
+ },
+ {
+   "name": "Grosvenor Court",
+   "address": "Killarney, Co. Kerry",
+   "eircode": "",
+   "x": 96513.056,
+   "y": 90957.578
+ },
+ {
+   "name": "Longford",
+   "address": "Dublin Road, Longford Town.",
+   "eircode": "",
+   "x": 214232.862,
+   "y": 274889.475
+ },
+ {
+   "name": "Fethard",
+   "address": "Rocklow Road, Fethard, Clonmel, Co. Tipperary.",
+   "eircode": "",
+   "x": 220712.248,
+   "y": 135019.782
+ },
+ {
+   "name": "Ionad Sláinte Leitir Mór",
+   "address": "Leitir Mór, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 89809.53035,
+   "y": 227939.6299
+ },
+ {
+   "name": "Ionad Sláinte An tSléibhe Riabhaigh",
+   "address": "An Sliabh Riabhach, Baile Bhúirne, Co. Chorcaí",
+   "eircode": "",
+   "x": 119700,
+   "y": 77500
+ },
+ {
+   "name": "Ionad Sláinte na Rinne",
+   "address": "Halla Pobail, An Rinn, Co. Phort Láirge.",
+   "eircode": "",
+   "x": 228144.1035,
+   "y": 88479.02278
+ },
+ {
+   "name": "Ionad Sláinte Chill Charthaigh",
+   "address": "Príomhshráid, Cill Charthaigh, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 161876.6104,
+   "y": 376172.7801
+ },
+ {
+   "name": "Ionad Sláinte na Carraige",
+   "address": "Charraig, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 159303.2344,
+   "y": 378946.9381
+ },
+ {
+   "name": "Ionad Sláinte Gleann Cholm Cille",
+   "address": "Ghleann Cholm Cille, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 153758.2034,
+   "y": 384812.9061
+ },
+ {
+   "name": "Ionad Sláinte Ard an Rátha",
+   "address": "Bóthar Phort Nua, Ard an Rátha, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 173637.3804,
+   "y": 390962.6301
+ },
+ {
+   "name": "Ionad Sláinte Leitir Mhic an Bhaird",
+   "address": "Leitir Mhic an Bhaird, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 180293.7815,
+   "y": 400959.0001
+ },
+ {
+   "name": "An Clochán Liath",
+   "address": "Otharlann Ceantair an Chlocháin Léith, An Clochán Liath, Co. Dhún na nGall.",
+   "eircode": "",
+   "x": 177132.7975,
+   "y": 411656.8131
+ },
+ {
+   "name": "Ionad Sláinte Ailt an Chorráin",
+   "address": "Ailt an Chorráin, Leitir Ceanainn, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 171987.8604,
+   "y": 415321.6601
+ },
+ {
+   "name": "Ionad Sláinte Dhoirí Beaga",
+   "address": "Srath na Corcrach, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 181511.2505,
+   "y": 426756.4062
+ },
+ {
+   "name": "Ionad Sláinte Bhun na Leaca",
+   "address": "Bun na Leaca, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 183441.2505,
+   "y": 431005.3402
+ },
+ {
+   "name": "Ionad Sláinte Dhún Fionnachaidh",
+   "address": "Sráid an Phóna, Dún Fionnachaidh, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 201882.7975,
+   "y": 437197.0312
+ },
+ {
+   "name": "Ionad Sláinte an Chraoslaigh",
+   "address": "An Craoslach, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 205791.4505,
+   "y": 430616.4102
+ },
+ {
+   "name": "Dunlavin",
+   "address": "Kilcullen Streeet, Dunlavin, Co. Wicklow.",
+   "eircode": "",
+   "x": 287264.6566,
+   "y": 201764.2339
+ },
+ {
+   "name": "Ionad Sláinte Ghaoth Sáile ",
+   "address": "Gaoth Sáile, Co. Mhaigh Eo",
+   "eircode": "",
+   "x": 75607.227,
+   "y": 320093.656
+ },
+ {
+   "name": "Ionad Sláinte Ghleann na Muaidhe",
+   "address": "Gleann na Muaidhe, Co. Mhaigh Eo",
+   "eircode": "",
+   "x": 89990.117,
+   "y": 333777.594
+ },
+ {
+   "name": "Ionad Sláinte hEachléime",
+   "address": "Eachléim, Co. Mhaigh Eo",
+   "eircode": "",
+   "x": 62595.965,
+   "y": 320832.938
+ },
+ {
+   "name": "Ionad Sláinte Choill Sáile",
+   "address": "Coill Sáile, Co. na Gaillimhe",
+   "eircode": "",
+   "x": 86159.96,
+   "y": 235087.9
+ },
+ {
+   "name": "Ionad Sláinte an Chaiseal",
+   "address": "Leitheanach, Caiseal, Co. na Gaillimhe.",
+   "eircode": "",
+   "x": 80729.71134,
+   "y": 241993.875
+ },
+ {
+   "name": "Ionad Sláinte Chloch na Rón,",
+   "address": "8 Faiche an Aonaigh, Bóthar an Chósta, Cloch na Rón, Co. na Gaillimhe.",
+   "eircode": "",
+   "x": 72276.17233,
+   "y": 239903.7189
+ },
+ {
+   "name": "Ionad Sláinte Sraith Salach",
+   "address": "An Sraith Salach Co na Gaillimhe",
+   "eircode": "",
+   "x": 84490.922,
+   "y": 247735.953
+ },
+ {
+   "name": "Ionad Sláinte Fhionnaithe",
+   "address": "Teach na Sagart, Fionnaithe, Co. Maigh Eo",
+   "eircode": "",
+   "x": 102051.3804,
+   "y": 258541.84
+ },
+ {
+   "name": "Ionad Sláinte Thuar Mhic Éadaigh ",
+   "address": "Tuar Mhic Éadaigh, Co. Mhaigh Eo",
+   "eircode": "",
+   "x": 109478.9454,
+   "y": 267649.406
+ },
+ {
+   "name": "Ionad Sláinte Bhaile an Sceilg",
+   "address": "Baile an Sceilg, Co. Chiarraí",
+   "eircode": "",
+   "x": 42935.82029,
+   "y": 65767.70975
+ },
+ {
+   "name": "Ionad Sláinte na Muirí",
+   "address": "An Mhuiríoch, Baile na nGall, Co. Chiarraí",
+   "eircode": "",
+   "x": 38433.11029,
+   "y": 106448.0598
+ },
+ {
+   "name": "Ionad Sláinte Ché Bhréanainn/an Clochán",
+   "address": "Ionad Pobail, Cé Bhréanainn, Co. Chiarraí",
+   "eircode": "",
+   "x": 50900.00031,
+   "y": 111499.9998
+ },
+ {
+   "name": "Clonmel",
+   "address": "Western Road, Clonmel, Co. Tipperary.",
+   "eircode": "",
+   "x": 220177.2645,
+   "y": 122446.2088
+ },
+ {
+   "name": "Cabra",
+   "address": "Quarry Road, Cabra, Dublin 7.",
+   "eircode": "",
+   "x": 313954.9116,
+   "y": 236279.1999
+ },
+ {
+   "name": "Bandon",
+   "address": "GULLY, CO. CORK",
+   "eircode": "",
+   "x": 148192.8485,
+   "y": 54036.49368
+ },
+ {
+   "name": "Letterkenny",
+   "address": "Pearse Road, Letterkenny, Co. Donegal.",
+   "eircode": "",
+   "x": 217195.9225,
+   "y": 411539.8751
+ },
+ {
+   "name": "Churchfield",
+   "address": "103/105 Knockfree Avenue, Fair Hill, Churchfield, Cork.",
+   "eircode": "",
+   "x": 166277.4534,
+   "y": 72843.91877
+ },
+ {
+   "name": "Newbridge",
+   "address": "Newbridge Health Centre, Henry Street, Newbridge, Kildare",
+   "eircode": "",
+   "x": 280132.0127,
+   "y": 215071.2761
+ },
+ {
+   "name": "Kells",
+   "address": "NAVAN ROAD, CO. MEATH",
+   "eircode": "",
+   "x": 275672.4386,
+   "y": 275362.469
+ },
+ {
+   "name": "Kinsale",
+   "address": "HSE, HEALTH CENTRE, MARKET LANE, CO. CORK",
+   "eircode": "",
+   "x": 163737.18,
+   "y": 50488.53826
+ },
+ {
+   "name": "Donnybrook",
+   "address": "HSE COMMUNITY CARE, VERGEMOUNT HALL, CLONSKEAGH ROAD, DUBLIN 6",
+   "eircode": "",
+   "x": 317299.9281,
+   "y": 230967.8872
+ },
+ {
+   "name": "Ranelagh Primary Care Centre",
+   "address": "22-26 Sandford Road, Ranelagh, Dublin 6",
+   "eircode": "",
+   "x": 316749.2806,
+   "y": 231706.9699
+ },
+ {
+   "name": "Blackrock",
+   "address": "George's Avenue, Blackrock, Co. Dublin.",
+   "eircode": "",
+   "x": 321468.0486,
+   "y": 229400.8399
+ },
+ {
+   "name": "Cabinteely",
+   "address": "Meadowvale, Clonkeen Road, Blackrock, Co. Dublin.",
+   "eircode": "",
+   "x": 323114.5466,
+   "y": 226030.0859
+ },
+ {
+   "name": "Dun Laoghaire",
+   "address": "Centenary House, 35 York Road, Dun Laoghaire, Co. Dublin.",
+   "eircode": "",
+   "x": 323801.3316,
+   "y": 228179.0649
+ },
+ {
+   "name": "Dalkey",
+   "address": "Kilbegnet Close, Dalkey, Co. Dublin.",
+   "eircode": "",
+   "x": 326378.3286,
+   "y": 226803.5009
+ },
+ {
+   "name": "Shankill",
+   "address": "Lower Road, Shankill, Co. Dublin.",
+   "eircode": "",
+   "x": 325178.8336,
+   "y": 221581.2889
+ },
+ {
+   "name": "Stillorgan",
+   "address": "St. Brigids, Church Road, Stillorgan, Co. Dublin.",
+   "eircode": "",
+   "x": 320418.7726,
+   "y": 227466.8199
+ },
+ {
+   "name": "Mallow",
+   "address": "12/14 Fair Street Lower, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 155959.6234,
+   "y": 98527.66179
+ },
+ {
+   "name": "Mallow",
+   "address": "20 West End, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 155656.2124,
+   "y": 98583.3668
+ },
+ {
+   "name": "Mallow",
+   "address": "31/32 Fair Street Upper, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 155983.2504,
+   "y": 98641.2498
+ },
+ {
+   "name": "Mallow",
+   "address": "9 West End, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 155628.6984,
+   "y": 98587.4198
+ },
+ {
+   "name": "Borrisokane Primary Care Centre",
+   "address": "Convent Lane, Borrisokane",
+   "eircode": "",
+   "x": 191388.0785,
+   "y": 194057.1879
+ },
+ {
+   "name": "Chamber House ",
+   "address": "Chamber House, Chamber Square, Tallaght, Dublin 24",
+   "eircode": "",
+   "x": 308435.4336,
+   "y": 227663.8541
+ },
+ {
+   "name": "Kilmaley ",
+   "address": "An Cluainin, Kilmaley, Ennis, Co Clare",
+   "eircode": "",
+   "x": 125310.2004,
+   "y": 175015.2999
+ },
+ {
+   "name": "Doneraile",
+   "address": "Main Street, Doneraile, Co. Cork.",
+   "eircode": "",
+   "x": 160081.7814,
+   "y": 107336.6878
+ },
+ {
+   "name": "Belturbet",
+   "address": "Main Street, Belturbet, Co. Cavan.",
+   "eircode": "",
+   "x": 236570.4705,
+   "y": 317077.81
+ },
+ {
+   "name": "Greystones",
+   "address": "Victoria Road, Greystones, Co. Wicklow.",
+   "eircode": "",
+   "x": 329227.5946,
+   "y": 212737.8589
+ },
+ {
+   "name": "Milford ",
+   "address": "Castletroy, Co. Limerick",
+   "eircode": "",
+   "x": 161238.7194,
+   "y": 157847.1249
+ },
+ {
+   "name": "Cavan",
+   "address": "Townhall Street, Cavan Town",
+   "eircode": "",
+   "x": 241937.1675,
+   "y": 304848.219
+ },
+ {
+   "name": "Mount Alvernia",
+   "address": "Mount Alvernia Hospital, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 153160.1724,
+   "y": 97105.9218
+ },
+ {
+   "name": "Rathdrum",
+   "address": "Fair Green, Rathdrum, Co. Wicklow.",
+   "eircode": "",
+   "x": 318639.5316,
+   "y": 188207.5309
+ },
+ {
+   "name": "Loughlinstown",
+   "address": "Loughlinstown Drive, Loughlinstown, Co. Dublin.",
+   "eircode": "",
+   "x": 324968.6132,
+   "y": 223493.1379
+ },
+ {
+   "name": "Sallynoggin",
+   "address": "1 Oakdale Drive, Upper Glenageary Road, Dun Laoghaire, Co. Dublin.",
+   "eircode": "",
+   "x": 324247.2152,
+   "y": 227183.6319
+ },
+ {
+   "name": "Tinahely",
+   "address": "Barton Street, Tinahely, Arklow, Co. Wicklow.",
+   "eircode": "",
+   "x": 303577.9066,
+   "y": 172946.3129
+ },
+ {
+   "name": "New Ross ",
+   "address": "Hospital Grounds, New Ross, Co Wexford",
+   "eircode": "",
+   "x": 272367.0315,
+   "y": 126903.9678
+ },
+ {
+   "name": "Newcastlewest ",
+   "address": "Newcastlewest, Co. Limerick.",
+   "eircode": "",
+   "x": 128070.0004,
+   "y": 133969.9998
+ },
+ {
+   "name": "Mallow",
+   "address": "O'Brien Street, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 156057.0294,
+   "y": 98443.1208
+ },
+ {
+   "name": "Falcarragh",
+   "address": "Station Road, Falcarragh, Co. Donegal.",
+   "eircode": "",
+   "x": 193427.6255,
+   "y": 432027.0002
+ },
+ {
+   "name": "Douglas ",
+   "address": "Community Centre, Douglas, Cork",
+   "eircode": "",
+   "x": 169961.5013,
+   "y": 69051.1693
+ },
+ {
+   "name": "Cavan",
+   "address": "The Arcade, Main Street, Cavan",
+   "eircode": "",
+   "x": 242062.0785,
+   "y": 304697.185
+ },
+ {
+   "name": "Mallow",
+   "address": "Solas Nua Residential Home, Mallow, Co. Cork.",
+   "eircode": "",
+   "x": 156147.5164,
+   "y": 99382.1168
+ },
+ {
+   "name": "Ionad Sláinte Charraig Airt",
+   "address": "Páirc an Mhaoil Rua, Carraig Airt, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 213326.689,
+   "y": 436640.1563
+ },
+ {
+   "name": "Lucan",
+   "address": "Rosse Court Resource Centre, Balgaddy Road, Lucan, Co. Dublin",
+   "eircode": "",
+   "x": 305909.5012,
+   "y": 233424.8589
+ },
+ {
+   "name": "Eyrecourt",
+   "address": "The Square, Eyrecourt, Co. Galway",
+   "eircode": "",
+   "x": 190989.3285,
+   "y": 216786.9379
+ },
+ {
+   "name": "Curlew Road",
+   "address": "HSE, HEALTH CENTRE, DUBLIN 12",
+   "eircode": "",
+   "x": 311944.6176,
+   "y": 232293.9358
+ },
+ {
+   "name": "North Strand",
+   "address": "Dublin 1.",
+   "eircode": "",
+   "x": 316841.5332,
+   "y": 235350.8459
+ },
+ {
+   "name": "Ionad Sláinte Gaoth Dobhair",
+   "address": "An Bunbeag, Co. Dhún na nGall",
+   "eircode": "",
+   "x": 180782.1889,
+   "y": 423712.0003
+ },
+ {
+   "name": "Castlegregory",
+   "address": "Dr. Sills Surgery, Castlegregory, Co. Kerry",
+   "eircode": "",
+   "x": 62010.68032,
+   "y": 113525.2698
+ },
+ {
+   "name": "Ionad Sláinte na Ceathrú Rua",
+   "address": "Ceathrú Rua, Co. Na Gaillimhe.",
+   "eircode": "",
+   "x": 92835.94536,
+   "y": 224600.5159
+ },
+ {
+   "name": "Cuan Barra",
+   "address": "Béal Átha an Ghaorthaidh, Co. Chorcaí",
+   "eircode": "",
+   "x": 114887.0168,
+   "y": 66851.35152
+ },
+ {
+   "name": "Ionad Sláinte an Seanphobal",
+   "address": "Loiscreán, An Seanphobal, Co. Phort Láirge",
+   "eircode": "",
+   "x": 225974.1305,
+   "y": 84781.38979
+ },
+ {
+   "name": "Youghal Health Centre",
+   "address": "Unit 4a, Millennium Court, Foxhole, Youghal, Co. Cork",
+   "eircode": "",
+   "x": 209404.5006,
+   "y": 79875.51457
+ },
+ {
+   "name": "St. Brendan's",
+   "address": "Adapt House, Donnellan's Buildings, Rosbrien, Limerick.",
+   "eircode": "",
+   "x": 157334.4614,
+   "y": 155804.2189
+ },
+ {
+   "name": "Portumna Primary Care Centre",
+   "address": "Patrick Street, Portumna, Co. Galway",
+   "eircode": "",
+   "x": 185384.4136,
+   "y": 204570.3911
+ },
+ {
+   "name": "Cherry Orchard, Primary Care Centre",
+   "address": "Ballyfermot, Dublin 10.",
+   "eircode": "",
+   "x": 308450.1262,
+   "y": 233055.4999
+ },
+ {
+   "name": "St Alphonsus Health Centre",
+   "address": "HSE, Dundalk Primary Health Care Unit, Saint Alphonsus Road, Dundalk, Co. Louth",
+   "eircode": "",
+   "x": 305792.0459,
+   "y": 307414.2178
+ },
+ {
+   "name": "Doon",
+   "address": "HSE, Health Clinic, Kilmoylan, Co. Limerick",
+   "eircode": "",
+   "x": 183123.219,
+   "y": 150233.672
+ },
+ {
+   "name": "Wexford",
+   "address": "Community Services, HSE, Upper George's Street, Wexford",
+   "eircode": "",
+   "x": 304567.473,
+   "y": 121998.651
+ },
+ {
+   "name": "Kinvara",
+   "address": "Public Health Nurse, HSE, Dungory West, Co. Galway",
+   "eircode": "",
+   "x": 137582.953,
+   "y": 210318.453
+ },
+ {
+   "name": "Mulranny",
+   "address": "HSE, Health Centre, Westport, Co. Mayo",
+   "eircode": "",
+   "x": 83359.289,
+   "y": 296765.906
+ },
+ {
+   "name": "Lisacul",
+   "address": "HSE, Lissdaly Health Centre, Lissydaly, Ballaghadereen, Co. Roscommon",
+   "eircode": "",
+   "x": 157787.3,
+   "y": 290232.1
+ },
+ {
+   "name": "Bree",
+   "address": "HSE, Health Centre, Sheskin, Malin Head, Co. Donegal",
+   "eircode": "",
+   "x": 243225.969,
+   "y": 456400.719
+ },
+ {
+   "name": "Borris",
+   "address": "District Nurse, HSE, Crow Street Medical Centre, Lower Main Street, Co. Carlow",
+   "eircode": "",
+   "x": 273142.031,
+   "y": 150160.359
+ },
+ {
+   "name": "Killorglin",
+   "address": "HSE, Health Centre, 2 Mill Road, Co. Kerry",
+   "eircode": "",
+   "x": 77563.073,
+   "y": 96602.256
+ },
+ {
+   "name": "Owenacurra Mental Health",
+   "address": "HSE, Owenacurra Centre, The Green, Midleton, Co. Cork",
+   "eircode": "",
+   "x": 188038.016,
+   "y": 73874.195
+ },
+ {
+   "name": "Fethard",
+   "address": "HSE, Health Centre, Fethard-on-sea, Co. Wexford",
+   "eircode": "",
+   "x": 278647.063,
+   "y": 105828.008
+ },
+ {
+   "name": "Celbridge",
+   "address": "HSE, Shackleton Road, Celbridge, Co. Kildare",
+   "eircode": "",
+   "x": 296958.0296,
+   "y": 233664.6299
+ },
+ {
+   "name": "Midleton ",
+   "address": "Health Centre, HSE, Midleton Community Hospital, Midleton, Co. Cork",
+   "eircode": "",
+   "x": 188160.3289,
+   "y": 73911.05454
+ },
+ {
+   "name": "Shillelagh",
+   "address": "HSE, Shillelagh Health Centre, Shillelagh, Co. Wicklow",
+   "eircode": "",
+   "x": 298976.417,
+   "y": 168142.7469
+ },
+ {
+   "name": "Wicklow Primary Healthcare Centre",
+   "address": "HSE, Primary Care Health Centre, Colley Street, Wicklow, ",
+   "eircode": "A67A060",
+   "x": 331898.2846,
+   "y": 193650.5339
+ },
+ {
+   "name": "Achill Health Centre",
+   "address": "Saint Fionnans Road, Achill Sound, Co. Mayo, ",
+   "eircode": "F28W925",
+   "x": 73080.22734,
+   "y": 299371.156
+ },
+ {
+   "name": "Adamstown Health Centre,",
+   "address": "Adamstown, Co. Wexford, Y21te82",
+   "eircode": "",
+   "x": 287379.9376,
+   "y": 127526.2338
+ },
+ {
+   "name": "Adrigole Health Centre",
+   "address": "Cappanaparka East, Adrigole, Co. Cork, ",
+   "eircode": "P75YE24",
+   "x": 80050.40634,
+   "y": 49904.47274
+ },
+ {
+   "name": "Allihies Health Centre, ",
+   "address": "Cluin, Allihies, Co. Cork, ",
+   "eircode": "P75EK70",
+   "x": 58453.97331,
+   "y": 45224.41774
+ },
+ {
+   "name": "Ardee Health Centre, ",
+   "address": "Market Street, Ardee, Co. Louth, ",
+   "eircode": "A92K51H",
+   "x": 295998.4586,
+   "y": 290827.218
+ },
+ {
+   "name": "Abbeydorney Health Centre",
+   "address": "Abbeydorney Parish Community Hall, Abbeydorney, Co. Kerry, ",
+   "eircode": "V92YK5X",
+   "x": 84734.01635,
+   "y": 122822.3198
+ },
+ {
+   "name": "Abbeyfeale Health Centre",
+   "address": "Convent Road, Abbeyfeale, Co. Limerick, ",
+   "eircode": "V94NN66",
+   "x": 111977.4384,
+   "y": 126957.9838
+ },
+ {
+   "name": "Abbeyknockmoy Health Centre",
+   "address": "Culliagh North, Abbeyknockmoy, Co. Galway, ",
+   "eircode": "H54H103",
+   "x": 149807.9008,
+   "y": 242950.7999
+ },
+ {
+   "name": "Abbeyleix Health Centre,",
+   "address": "Ballinakill Road, Abbeyleix, Co. Laois, ",
+   "eircode": "R32A006",
+   "x": 244129.6515,
+   "y": 184770.2379
+ },
+ {
+   "name": "Aclare Health Centre, ",
+   "address": "Lisheen, Aclare, Co. Sligo, ",
+   "eircode": "F91P954",
+   "x": 140670.5784,
+   "y": 309887.594
+ },
+ {
+   "name": "Adare Health Centre,",
+   "address": "Rathkeale Road, Adare, Co. Limerick, ",
+   "eircode": "V94R3W0",
+   "x": 146145.5414,
+   "y": 145956.7548
+ },
+ {
+   "name": "Ahascragh Health Centre, ",
+   "address": "Chapel Street, Ahascragh, Ballinasloe, Co. Galway, ",
+   "eircode": "H53TR96",
+   "x": 177961.9535,
+   "y": 238450.75
+ },
+ {
+   "name": "Annacotty Health Centre,",
+   "address": "Annacotty, Co. Limerick, ",
+   "eircode": "V94YAN5",
+   "x": 164121.8004,
+   "y": 157525.0419
+ },
+ {
+   "name": "Annascaul Health Centre, ",
+   "address": "Church Avenue, Annascaul, Co. Kerry, ",
+   "eircode": "V92KA03",
+   "x": 59543.82832,
+   "y": 101965.1018
+ },
+ {
+   "name": "Primary Care Services",
+   "address": "Saint Brigid's Complex, Kells Road, Ardee, Co. Louth, ",
+   "eircode": "A92DRN0",
+   "x": 295431.5656,
+   "y": 290696.778
+ },
+ {
+   "name": "Ardfert Health Centre,",
+   "address": "Farranwilliam, Ardfert, Co. Kerry, ",
+   "eircode": "V92EKX9",
+   "x": 78711.72734,
+   "y": 120748.2028
+ },
+ {
+   "name": "Ardfinnan Health Centre, ",
+   "address": "68 Castleview, Ardfinnan, Co. Tipperary, ",
+   "eircode": "E91T2N6",
+   "x": 207594.7735,
+   "y": 117428.4588
+ },
+ {
+   "name": "Ardmore Health Centre, ",
+   "address": "Rocky Road, Ardmore, Co. Waterford, ",
+   "eircode": "P36TK61",
+   "x": 218877.9535,
+   "y": 77517.60878
+ },
+ {
+   "name": "Ardrahan Health Centre, ",
+   "address": "Ardrahan, Co. Galway, ",
+   "eircode": "H91FP64",
+   "x": 146142.3594,
+   "y": 211957.6409
+ },
+ {
+   "name": "Primary Care Health Centre Arklow",
+   "address": "Castle Park, Arklow, Co. Wicklow, Y14ae10",
+   "eircode": "",
+   "x": 324419.5316,
+   "y": 173352.3439
+ },
+ {
+   "name": "Arva Health Centre, ",
+   "address": "Drumalt, Arva, Co. Cavan, ",
+   "eircode": "H12P527",
+   "x": 227755.8595,
+   "y": 296846.594
+ },
+ {
+   "name": "Asdee Health Centre",
+   "address": "Asdee Community Centre, Asdee, Co. Kerry, ",
+   "eircode": "V31A257",
+   "x": 94171.35236,
+   "y": 145673.4058
+ },
+ {
+   "name": "Askeaton Heatlh Centre",
+   "address": "Plunkett Road, Askeaton, Co. Limerick, ",
+   "eircode": "V94XW80",
+   "x": 133533.7674,
+   "y": 150283.6958
+ },
+ {
+   "name": "Athboy Health Centre, ",
+   "address": "The Courtyard, Athboy, Co. Meath, ",
+   "eircode": "C15RH59",
+   "x": 271383.4696,
+   "y": 263984.313
+ },
+ {
+   "name": "Athea Health Centre, ",
+   "address": "Gortnagross, Athea, Co. Limerick, ",
+   "eircode": "V94T3P2",
+   "x": 112450.8364,
+   "y": 134906.4528
+ },
+ {
+   "name": "Athenry Primary Care Centre",
+   "address": "Raheen, Athenry, Co. Galway, ",
+   "eircode": "H65KH93",
+   "x": 149603.0004,
+   "y": 227968.7999
+ },
+ {
+   "name": "Athy Health Centre, ",
+   "address": "Woodstock Street, Athy, Co. Kildare, ",
+   "eircode": "R14AE80",
+   "x": 267686.7505,
+   "y": 194230.4999
+ },
+ {
+   "name": "Aughnacliffe Health Centre, ",
+   "address": "Smear, Aughnacliffe, Co. Longford, ",
+   "eircode": "N39RW13",
+   "x": 226314.1005,
+   "y": 291346.8
+ },
+ {
+   "name": "Avoca Health Centre, ",
+   "address": "Main Street, Avoca, Co. Wicklow, Y14a7p1",
+   "eircode": "",
+   "x": 320333.4066,
+   "y": 180083.7659
+ },
+ {
+   "name": "Baggot Street Health Centre",
+   "address": "City Of Dublin Royal Hospital, 14/18 Baggot Street Upper, Dublin 4, ",
+   "eircode": "D04PH96",
+   "x": 316948.5316,
+   "y": 232945.1409
+ },
+ {
+   "name": "Community Care Centre Ballina",
+   "address": "Mercy Road, Ballina, Co. Mayo, ",
+   "eircode": "F26N9P5",
+   "x": 123784.2714,
+   "y": 319037.452
+ },
+ {
+   "name": "Ballina Health Centre - Tipperary",
+   "address": "Ballina, Co. Tipperary, ",
+   "eircode": "V9495N2",
+   "x": 170597.3134,
+   "y": 173197.1089
+ },
+ {
+   "name": "Ballinaglera Health Centre, ",
+   "address": "Drumnafinnila, Ballinaglera, Co. Leitrim, ",
+   "eircode": "N41XV04",
+   "x": 199393.1095,
+   "y": 323054.563
+ },
+ {
+   "name": "Ballinameen Health Centre, ",
+   "address": "Knockglass, Ballinameen, Boyle, Co. Roscommon, ",
+   "eircode": "F52XE00",
+   "x": 180032.8005,
+   "y": 294221.6
+ },
+ {
+   "name": "Ballinlough Health Centre, ",
+   "address": "Srah, Ballinlough, Co. Roscommon, ",
+   "eircode": "F45PY83",
+   "x": 157804.0004,
+   "y": 277173.688
+ },
+ {
+   "name": "Ballinteer Health Centre, ",
+   "address": "Ballinteer Avenue, Dublin 16, ",
+   "eircode": "D16YX93",
+   "x": 316572.8846,
+   "y": 226485.8789
+ },
+ {
+   "name": "Ballivor Health Centre, ",
+   "address": "Mullingar Road, Ballivor, Co. Meath, ",
+   "eircode": "C15FY70",
+   "x": 268281.2195,
+   "y": 254148.922
+ },
+ {
+   "name": "Ballyclough",
+   "address": "Ballyclough Community Hall, Ballyclough, Co. Cork, ",
+   "eircode": "P51E793",
+   "x": 149091.6414,
+   "y": 101935.1478
+ },
+ {
+   "name": "Ballydehob Health Centre ",
+   "address": "The Parade, Ballydehob, Co. Cork, ",
+   "eircode": "P81KF97",
+   "x": 98552.07836,
+   "y": 35402.57372
+ },
+ {
+   "name": "Ballyduff Health Centre, ",
+   "address": "Main Street, Ballyduff, Co. Waterford, ",
+   "eircode": "P51E0KR",
+   "x": 196368.3285,
+   "y": 99507.3748
+ },
+ {
+   "name": "Ballyfarnon Health Centre, ",
+   "address": "Alderford, Ballyfarnon, Boyle, Co. Roscommon, ",
+   "eircode": "F52V838",
+   "x": 186595.2975,
+   "y": 313717.781
+ },
+ {
+   "name": "Aughrim Health Centre - Galway",
+   "address": "Aughrim, Co. Galway, ",
+   "eircode": "H53PT02",
+   "x": 178828.3445,
+   "y": 228143.7029
+ },
+ {
+   "name": "Aughrim Health Centre - Wicklow",
+   "address": "Main Street, Aughrim, Co. Wicklow, Y14yn70",
+   "eircode": "",
+   "x": 312941.4696,
+   "y": 179656.1879
+ },
+ {
+   "name": "Bagenalstown Health Centre, ",
+   "address": "Church Road, Muine Bheag, Co. Carlow, ",
+   "eircode": "R21K447",
+   "x": 270312.6565,
+   "y": 161634.3909
+ },
+ {
+   "name": "Balbriggan Health Centre",
+   "address": "53 Hampton Street, Balbriggan, Co. Dublin, ",
+   "eircode": "K32CF60",
+   "x": 320494.1092,
+   "y": 263457.747
+ },
+ {
+   "name": "Baldoyle Health Centre, ",
+   "address": "Willie Nolan Road, Dublin 13, ",
+   "eircode": "D13PY27",
+   "x": 324420.3586,
+   "y": 240365.854
+ },
+ {
+   "name": "Ballaghadereen Health Centre, ",
+   "address": "Station Road, Ballaghaderreen, Co. Roscommon, ",
+   "eircode": "F45DR90",
+   "x": 161888.8754,
+   "y": 294640.392
+ },
+ {
+   "name": "Ballinagh Health Centre, ",
+   "address": "Ballinagh, Co. Cavan, ",
+   "eircode": "H12RK12",
+   "x": 238691.3595,
+   "y": 297986.156
+ },
+ {
+   "name": "Ballinakill Health Centre, ",
+   "address": "Bride Street, Ballinakill, Co. Laois, ",
+   "eircode": "R32NW65",
+   "x": 246492.2035,
+   "y": 180623.6089
+ },
+ {
+   "name": "Ballinalee Health Centre, ",
+   "address": "Ballinalee, Co. Longford, ",
+   "eircode": "N39Y153",
+   "x": 222580.6095,
+   "y": 280711.031
+ },
+ {
+   "name": "Ballincollig Health Centre, ",
+   "address": "Innishmore, Ballincollig, Co. Cork, ",
+   "eircode": "P31D832",
+   "x": 157997.8594,
+   "y": 70629.63277
+ },
+ {
+   "name": "Ballingarry Health Centre - Limerick",
+   "address": "Main Street, Ballingarry, Co. Limerick, ",
+   "eircode": "V94E765",
+   "x": 141291.5004,
+   "y": 136143.3908
+ },
+ {
+   "name": "Ballingarry Health Centre - Thurles",
+   "address": "Ballingarry Upper, Thurles, Co. Tipperary, ",
+   "eircode": "E41RW56",
+   "x": 231077.8595,
+   "y": 148402.2968
+ },
+ {
+   "name": "Ballinrobe Health Centre, ",
+   "address": "Kilmaine Road, Ballinrobe, Co. Mayo, ",
+   "eircode": "F31TW54",
+   "x": 119357.3004,
+   "y": 263725.8
+ },
+ {
+   "name": "Ballinspittle Health Centre, ",
+   "address": "Ballycatten, Ballinspittle, Co. Cork, ",
+   "eircode": "P17AF53",
+   "x": 158696.8754,
+   "y": 45924.80474
+ },
+ {
+   "name": "Ballintra Health Centre, ",
+   "address": "Lower Main Street, Ballintra, Co. Donegal, ",
+   "eircode": "F94DD5K",
+   "x": 191719.8915,
+   "y": 369814.2191
+ },
+ {
+   "name": "Ballintubber Health Centre",
+   "address": "Luffertaun, Ballintubber, Claremorris, Co. Mayo, ",
+   "eircode": "F12T2C9",
+   "x": 113890.4844,
+   "y": 279525.156
+ },
+ {
+   "name": "Ballitore Health Centre, ",
+   "address": "The Square, Ballitore, Co. Kildare, ",
+   "eircode": "R14X299",
+   "x": 279485.0946,
+   "y": 196067.6559
+ },
+ {
+   "name": "Ballybay Health Centre, ",
+   "address": "Main Street, Ballybay, Co. Monaghan, ",
+   "eircode": "A75DR04",
+   "x": 271675.6316,
+   "y": 320575.377
+ },
+ {
+   "name": "Primary Care Centre - Kinnegad ",
+   "address": "The Clinic, Main Street, Kinnegad, Co. Westmeath, ",
+   "eircode": "N91PX33",
+   "x": 259906.2345,
+   "y": 245213.063
+ },
+ {
+   "name": "Ballycastle Health Centre, ",
+   "address": "Carrowcubic, Ballycastle, Co. Mayo, ",
+   "eircode": "F26R3K4",
+   "x": 111407.0704,
+   "y": 337335.1881
+ },
+ {
+   "name": "Ballyconnell  Breffni Care Centre, ",
+   "address": "Preaching House Lane, Ballyconnell, Co. Cavan, ",
+   "eircode": "H14X048",
+   "x": 227174.7975,
+   "y": 318858.875
+ },
+ {
+   "name": "Ballycroy Health Centre, ",
+   "address": "Cross Hill, Ballycroy, Westport, Co. Mayo, ",
+   "eircode": "F28VF90",
+   "x": 80301.55534,
+   "y": 309892.969
+ },
+ {
+   "name": "Ballydesmond Health Centre, ",
+   "address": "Ballydesmond, Co. Cork, ",
+   "eircode": "P51FW66",
+   "x": 115139.2034,
+   "y": 103847.8978
+ },
+ {
+   "name": "Ballyduff Health Centre - Kerry",
+   "address": "Benmore, Ballyduff, Co. Kerry, ",
+   "eircode": "V92WCV5",
+   "x": 86722.24235,
+   "y": 134777.0628
+ },
+ {
+   "name": "Ballyforan Health Centre, ",
+   "address": "Ballyforan, Ballinasloe, Co. Roscommon, ",
+   "eircode": "H53WV12",
+   "x": 182275.7665,
+   "y": 246735.938
+ },
+ {
+   "name": "Ballygall Health Centre",
+   "address": "Seamus Ennis Road, Dublin 11, ",
+   "eircode": "D11C898",
+   "x": 313317.0166,
+   "y": 239132.444
+ },
+ {
+   "name": "Ballygar Health Centre, ",
+   "address": "High Street, Ballygar, Co. Galway, ",
+   "eircode": "F42HK53",
+   "x": 178205.5005,
+   "y": 252491.734
+ },
+ {
+   "name": "Ballyhahill Health Centre, ",
+   "address": "Main Street, Ballyhahill, Co. Limerick, ",
+   "eircode": "V94XRH3",
+   "x": 119029.3204,
+   "y": 146041.4528
+ },
+ {
+   "name": "Ballyhaise Health Centre, ",
+   "address": "Ballyhaise, Co. Cavan, ",
+   "eircode": "H12X2T6",
+   "x": 244537.4695,
+   "y": 310727.625
+ },
+ {
+   "name": "Ballyhale Health Centre",
+   "address": "Ballyhale, Co. Kilkenny, ",
+   "eircode": "R95X0VX",
+   "x": 254379.7345,
+   "y": 135506.5308
+ },
+ {
+   "name": "Ballyhaunis Health Centre, ",
+   "address": "Upper Main Street, Ballyhaunis, Co. Mayo, ",
+   "eircode": "F35TR94",
+   "x": 149131.6874,
+   "y": 279721.545
+ },
+ {
+   "name": "Ballyheigue Health Centre, ",
+   "address": "Harty's Terrace, Ballyheigue, Co. Kerry, ",
+   "eircode": "V92WY61",
+   "x": 75059.77333,
+   "y": 128082.0548
+ },
+ {
+   "name": "Ballyjamesduff Health Centre, ",
+   "address": "Percy French Park, Ballyjamesduff, Co. Cavan, ",
+   "eircode": "A82AK03",
+   "x": 252067.9695,
+   "y": 290564.375
+ },
+ {
+   "name": "Ballylinan Health Centre, ",
+   "address": "Ballylinan, Co. Laois, ",
+   "eircode": "R14Y156",
+   "x": 264301.2505,
+   "y": 188359.4689
+ },
+ {
+   "name": "Ballylongford Health Centre, ",
+   "address": "Rusheen, Ballylongford, Co. Kerry, ",
+   "eircode": "V31VX90",
+   "x": 99346.55536,
+   "y": 145363.7338
+ },
+ {
+   "name": "ArignaHSE, Derrinisky Health Centre, ",
+   "address": "Derrinisky, Arigna, Carrick-on-shannon, Co. Roscommon, ",
+   "eircode": "N41HP63",
+   "x": 192967.3135,
+   "y": 314420.875
+ }
+]

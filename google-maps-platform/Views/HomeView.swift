@@ -13,36 +13,47 @@ import ExytePopupView
 struct HomeView: View {
     
     @State var isSettingsPresented = false
-    let scrollViewHeight: CGFloat = 80
+    @State var centresShow = false
     
     init() {
-        print(centres)
+        print(counties)
     }
     
     var body: some View {
-        ZStack{
-            Color(hex: "231651").ignoresSafeArea()
-            VStack(alignment: .leading, spacing: 10) {
-                HStack{
-                    Button(action:{
-                        self.isSettingsPresented = true
-                    }){
-                        Image(systemName: "list.dash")
-                            .foregroundColor(.white)
+        NavigationStack{
+            ZStack{
+                Color(hex: "231651").ignoresSafeArea()
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack{
+                        Button(action:{
+                            self.isSettingsPresented = true
+                        }){
+                            Image(systemName: "list.dash")
+                                .foregroundColor(.white)
+                        }
+                        Spacer()
+                        NavigationLink(destination: CentresView(), isActive: $centresShow){
+                            
+                        }
+                        Button(action:{
+                            self.centresShow = true
+                        }){
+                            Text("Centres")
+                        }
                     }
-                    Spacer()
-                }
-                .padding()
-                
-                ZStack(alignment: .bottomTrailing){
-                    GoogleMapsView()
-                        .edgesIgnoringSafeArea(.all)
+                    .padding()
                     
+                    ZStack(alignment: .bottomTrailing){
+                        GoogleMapsView()
+                            .edgesIgnoringSafeArea(.all)
+                        ListView()
+                        
+                    }
                 }
             }
-        }
-        .sheet(isPresented: $isSettingsPresented) {
-            SheetView()
+            .sheet(isPresented: $isSettingsPresented) {
+                SheetView()
+            }
         }
         .navigationBarBackButtonHidden(true)
 //        .popup(isPresented: $welcomeScreen, position: .top) {

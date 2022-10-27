@@ -48,7 +48,25 @@ struct Geometry: Codable {
     var coordinates: [Double]
 }
 
+struct HealthCentres: Codable, Hashable {
+    var name: String
+    var address: String
+    var eircode: String
+    var x : Double
+    var y : Double
+    
+}
+
+struct County: Codable, Hashable {
+    var CountyName: String
+    var PopulationCensus16: Int
+    var Lat: Double
+    var Long: Double
+}
+
 var centres: [Centres] = load("COVID-19_HSE_Daily_Booster_Vaccination_Figures.json")
+var healthCentres: [HealthCentres] = load("listofhealthcentresinireland.json")
+var counties: [County] = load("COVID-19_HPSC_County_Statistics_Historic_Data.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

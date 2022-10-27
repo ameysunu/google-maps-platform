@@ -18,7 +18,7 @@ let cities = [
 struct GoogleMapsView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> GMSMapView {
-        let camera = GMSCameraPosition.dublin
+        let camera = GMSCameraPosition.ireland
         
         let mapView = GMSMapView(frame: CGRect.zero, camera: camera)
         
@@ -27,11 +27,10 @@ struct GoogleMapsView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: GMSMapView, context: Context) {
-        for city in cities {
+        for county in counties {
             let marker : GMSMarker = GMSMarker()
-            marker.position = CLLocationCoordinate2D(latitude: city.latitude , longitude: city.longitude)
-            marker.title = city.name
-            marker.snippet = "Welcome to \(city.name)!"
+            marker.position = CLLocationCoordinate2D(latitude: county.Lat , longitude: county.Long)
+            marker.title = county.CountyName
             marker.map = uiView
         }
     }
@@ -46,5 +45,30 @@ extension GMSCameraPosition  {
     static var cork = GMSCameraPosition.camera(withLatitude: 51.903614, longitude: -8.468399, zoom: 6)
     static var limerick = GMSCameraPosition.camera(withLatitude: 52.668018, longitude: -8.630498, zoom: 6)
 
+ }
+
+struct CentresMap: UIViewRepresentable {
+    
+    @State var latitude: CLLocationDegrees
+    @State var longitude: CLLocationDegrees
+    
+    func makeUIView(context: Context) -> GMSMapView {
+        let camera = GMSCameraPosition.camera(withLatitude: latitude, longitude: longitude, zoom: 10)
+        
+        let mapView = GMSMapView(frame: CGRect.zero, camera: camera)
+        
+        
+        return mapView
+        
+    }
+    
+    func updateUIView(_ uiView: GMSMapView, context: Context) {
+        for centre in healthCentres {
+            let marker : GMSMarker = GMSMarker()
+            marker.position = CLLocationCoordinate2D(latitude: centre.x, longitude: centre.y)
+            marker.map = uiView
+        }
+    }
+     
  }
 
