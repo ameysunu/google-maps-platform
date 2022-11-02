@@ -1,0 +1,42 @@
+[{
+    "name": "Dublin",
+    "centres": [{
+        "name": "COVID-19 Vaccination Center - Richmond Barracks",
+        "latitude": 53.3642622,
+        "longitude": -6.3727338
+    },
+        {
+            "name": "COVID-19 Vaccination Center - Croke Park",
+            "latitude": 53.3633147,
+            "longitude": -6.2638576
+        },
+        {
+            "name": "COVID-19 Vaccination Center - UCD, Gerard Manley Hopkins Building",
+            "latitude": 53.3054794,
+            "longitude": -6.2291855
+        },
+        {
+            "name": "COVID-19 Vaccination Center - The National Show Centre",
+            "latitude": 53.2864289,
+            "longitude": -6.5143941
+        }
+        
+    ]
+},
+    {
+        "name": "Cork",
+        "centres": [{
+            "name": "COVID-19 Vaccination Centre - City Hall Cork",
+            "latitude": 51.8983119,
+            "longitude": -8.4833992
+        },
+            {
+                "name": "COVID-19 Vaccination Center - Bantry Primary Care Centre",
+                "latitude": 51.6761978,
+                "longitude": -9.4675588
+            }
+            
+        ]
+    }
+    
+]

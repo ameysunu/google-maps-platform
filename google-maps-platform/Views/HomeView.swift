@@ -16,10 +16,6 @@ struct HomeView: View {
     @State var centresShow = false
     @State var welcomeScreen = true
     
-    init() {
-        print(counties)
-    }
-    
     var body: some View {
         NavigationStack{
             ZStack{
