@@ -14,6 +14,7 @@ struct HomeView: View {
     
     @State var isSettingsPresented = false
     @State var centresShow = false
+    @State var welcomeScreen = true
     
     init() {
         print(counties)
@@ -42,7 +43,7 @@ struct HomeView: View {
                         }
                     }
                     .padding()
-                    
+                                        
                     ZStack(alignment: .bottomTrailing){
                         GoogleMapsView()
                             .edgesIgnoringSafeArea(.all)
@@ -58,34 +59,15 @@ struct HomeView: View {
         .navigationBarBackButtonHidden(true)
 //        .popup(isPresented: $welcomeScreen, position: .top) {
 //            VStack {
-//                Text("Hello there!")
-//                    .foregroundColor(.indigo)
-//                    .fontWeight(.bold)
+//                Text("Hello Ireland! Choose your county to get started.")
 //                    .font(.title)
-//                    .padding(10)
-//
-//                Text("Choose your current city. We are currently only in the below available cities.")
-//                    .foregroundColor(.indigo)
-//                    .padding(10)
-//
-//                List{
-//                    ForEach(cities, id: \.self){city in
-//                        Button(action:{
-//                            print(city.name)
-//                        }){
-//                            Text(city.name)
-//                                .foregroundColor(.indigo)
-//                        }
-//                    }
-//                    .listRowBackground(Color.white)
-//                }
-//                .listStyle(.plain)
-//                .frame(height: 170)
+//                    .foregroundColor(.white)
+//                    .padding()
 //            }
 //            .font(.body)
 //            .foregroundColor(.white)
 //            .frame(maxWidth: .infinity, minHeight: 100.0)
-//            .background(.white)
+//            .background(Color(hex: "231651"))
 //            .cornerRadius(20)
 //            .padding(15)
 //        }

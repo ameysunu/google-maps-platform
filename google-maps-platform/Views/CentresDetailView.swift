@@ -20,7 +20,7 @@ struct CentresDetailView: View {
             Text(centreName)
                 .font(.title)
             Text("\(address) \(eircode)")
-            CentresMap(latitude: latitude, longitude: longitude)
+            GenericMap(latitude: latitude, longitude: longitude)
                 .frame(height: 250)
             Spacer()
         }

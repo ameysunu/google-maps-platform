@@ -34,8 +34,8 @@ struct GoogleMapsView: UIViewRepresentable {
             marker.map = uiView
         }
     }
-     
- }
+    
+}
 
 extension GMSCameraPosition  {
     //static var cameraLocation = ireland
@@ -44,10 +44,9 @@ extension GMSCameraPosition  {
     static var galway = GMSCameraPosition.camera(withLatitude: 53.270962, longitude: -9.062691, zoom: 6)
     static var cork = GMSCameraPosition.camera(withLatitude: 51.903614, longitude: -8.468399, zoom: 6)
     static var limerick = GMSCameraPosition.camera(withLatitude: 52.668018, longitude: -8.630498, zoom: 6)
-
- }
-
-struct CentresMap: UIViewRepresentable {
+    
+}
+struct GenericMap: UIViewRepresentable {
     
     @State var latitude: CLLocationDegrees
     @State var longitude: CLLocationDegrees
@@ -63,12 +62,10 @@ struct CentresMap: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: GMSMapView, context: Context) {
-        for centre in healthCentres {
-            let marker : GMSMarker = GMSMarker()
-            marker.position = CLLocationCoordinate2D(latitude: centre.x, longitude: centre.y)
-            marker.map = uiView
-        }
+        let marker : GMSMarker = GMSMarker()
+        marker.position = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+        marker.map = uiView
     }
-     
- }
+    
+}
 
