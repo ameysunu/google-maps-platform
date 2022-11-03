@@ -18,8 +18,9 @@ struct DetailView: View {
     @State var selectedMarker: GMSMarker?
 
     var body: some View {
-        ZStack{
-            Color(hex: "231651").ignoresSafeArea()
+        GeometryReader { geometry in
+            Color(hex: "231651").edgesIgnoringSafeArea(.all)
+            
             VStack(alignment: .leading) {
                 VStack(alignment: .leading){
                     Text(CountyName)
@@ -30,21 +31,25 @@ struct DetailView: View {
                 }
                 .padding()
                 if centreExists {
-                    CentresMap(latitude: Lat, longitude: Long, selectedMarker: self.$selectedMarker)
-                        .edgesIgnoringSafeArea(.all)
-                    
-                    if(selectedMarker == nil){
-                        Text("No marker")
-                    } else {
-                        Text((selectedMarker?.title)!)
+                    ZStack(alignment: .bottomTrailing){
+                        CentresMap(latitude: Lat, longitude: Long, selectedMarker: self.$selectedMarker)
+                            .edgesIgnoringSafeArea(.all)
+                        
+                        if(selectedMarker == nil){
+                            CardView(centreTitle: "Select a centre")
+                            //Text("Select")
+                        } else {
+                            CardView(centreTitle: (selectedMarker?.title)!)
+                            Text((selectedMarker?.title)!)
+                        }
                     }
                     
                 } else {
                     Text("No vaccination centres found for this location.")
                 }
-                Spacer()
             }
         }
+        
         .onLoad{
 //           for county in counties {
 //            for centres in vaccinationCentres {

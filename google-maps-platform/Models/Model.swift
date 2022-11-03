@@ -71,6 +71,7 @@ struct VaccinationCentres: Codable, Hashable {
 
 struct VaccCentres: Codable, Hashable {
     var name: String
+    var address: String
     var latitude: Double
     var longitude: Double
 }

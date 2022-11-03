@@ -2,21 +2,25 @@
     "name": "Dublin",
     "centres": [{
         "name": "Richmond Barracks",
+        "address": "St Michael's Estate, Inchicore, Dublin, D08 YY05",
         "latitude": 53.3642622,
         "longitude": -6.3727338
     },
         {
             "name": "Croke Park",
+            "address": "Jones' Road, Drumcondra, Dublin, D03 P6K7",
             "latitude": 53.3633147,
             "longitude": -6.2638576
         },
         {
             "name": "UCD, Gerard Manley Hopkins Building",
+            "address": "University College Dublin, Belfield, Dublin",
             "latitude": 53.3054794,
             "longitude": -6.2291855
         },
         {
             "name": "The National Show Centre",
+            "address": "The National Show Centre, Stockhole Lane, Cloghran, Dublin, K67 VF43",
             "latitude": 53.2864289,
             "longitude": -6.5143941
         }
@@ -27,11 +31,13 @@
         "name": "Cork",
         "centres": [{
             "name": "City Hall Cork",
+            "address": "City Hall, Anglesea St, Centre, Cork",
             "latitude": 51.8983119,
             "longitude": -8.4833992
         },
             {
                 "name": "Bantry Primary Care Centre",
+                "address": "The Quay, Kinathfineen, Bantry, Co. Cork",
                 "latitude": 51.6761978,
                 "longitude": -9.4675588
             }

@@ -85,3 +85,36 @@ struct Popup<T: View>: ViewModifier {
         }
     }
 }
+
+struct vaccineData {
+    var vaccineCentres: [VaccCentres] = []
+}
+
+struct CardView: View {
+    
+    @State var centreTitle: String
+    @State var vaccineModelData = vaccineData()
+    
+    var vaccineInformation: VaccCentres? {
+        vaccineModelData.vaccineCentres.first {$0.name == centreTitle}
+    }
+    
+    var body: some View {
+        ZStack {
+            Color(hex: "231651").ignoresSafeArea()
+            VStack (alignment: .leading){
+                Text(centreTitle)
+                    .font(.system(size: 20)).bold()
+                if let vaccineInformation = vaccineInformation {
+                    Text(vaccineInformation.address)
+                        .foregroundColor(.white)
+                }
+                Spacer()
+            }
+            .padding()
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 20))
+        .frame(height: 250)
+        .padding()
+    }
+}
