@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import GoogleMaps
 
 struct DetailView: View {
     @State var CountyName: String
@@ -13,6 +14,8 @@ struct DetailView: View {
     @State var Lat: Double
     @State var Long: Double
     @State var centreExists: Bool = false
+    
+    @State var selectedMarker: GMSMarker?
 
     var body: some View {
         ZStack{
@@ -27,8 +30,15 @@ struct DetailView: View {
                 }
                 .padding()
                 if centreExists {
-                    CentresMap(latitude: Lat, longitude: Long)
+                    CentresMap(latitude: Lat, longitude: Long, selectedMarker: self.$selectedMarker)
                         .edgesIgnoringSafeArea(.all)
+                    
+                    if(selectedMarker == nil){
+                        Text("No marker")
+                    } else {
+                        Text((selectedMarker?.title)!)
+                    }
+                    
                 } else {
                     Text("No vaccination centres found for this location.")
                 }

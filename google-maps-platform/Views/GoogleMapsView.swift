@@ -74,11 +74,21 @@ struct CentresMap: UIViewRepresentable {
     @State var latitude: CLLocationDegrees
     @State var longitude: CLLocationDegrees
     
+    @Binding var selectedMarker: GMSMarker?
+    
+    func makeCoordinator() -> Coordinator {
+            return Coordinator(
+                owner: self,
+                selectedMarker: $selectedMarker)
+        }
+
+    
     func makeUIView(context: Context) -> GMSMapView {
         let camera = GMSCameraPosition.camera(withLatitude: latitude, longitude: longitude, zoom: 10)
         
         let mapView = GMSMapView(frame: CGRect.zero, camera: camera)
         
+        mapView.delegate = context.coordinator
         
         return mapView
         
@@ -86,12 +96,44 @@ struct CentresMap: UIViewRepresentable {
     
     func updateUIView(_ uiView: GMSMapView, context: Context) {
         for centre in vaccinationCentres{
-            for i in 0..<vaccinationCentres.count {
+            for i in centre.centres {
                 let marker : GMSMarker = GMSMarker()
-                marker.position = CLLocationCoordinate2D(latitude: centre.centres[i].latitude, longitude: centre.centres[i].longitude)
+                marker.position = CLLocationCoordinate2D(latitude: i.latitude, longitude: i.longitude)
+                marker.title = i.name
                 marker.map = uiView
             }
         }
+    }
+    class Coordinator: NSObject, GMSMapViewDelegate, ObservableObject {
+
+        let owner: CentresMap       // access to owner view members,
+
+        @Binding var selectedMarker: GMSMarker?
+
+        init(
+            owner: CentresMap,
+            selectedMarker: Binding<GMSMarker?>
+        ) {
+
+            self.owner = owner
+
+            _selectedMarker = selectedMarker
+
+        }
+
+        func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
+
+            print("A marker has been touched")
+
+            self.selectedMarker = marker
+            
+//            GMSCameraPosition.camera(withTarget: selectedMarker!.position, zoom: 12)
+            
+
+            return true
+
+        }
+
     }
     
 }
