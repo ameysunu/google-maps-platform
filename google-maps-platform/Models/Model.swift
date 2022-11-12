@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CoreLocation
+import GoogleMaps
 
 struct AlertItem: Identifiable {
     var id = UUID()

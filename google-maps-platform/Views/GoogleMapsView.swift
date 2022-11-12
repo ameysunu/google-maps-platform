@@ -121,6 +121,89 @@ struct CentresMap: UIViewRepresentable {
                 marker.map = uiView
             }
         }
+        
+        var sourceLocationCordinates = CLLocationCoordinate2DMake(53.3569681, -6.2235699)
+        var destinationLocationCordinates = CLLocationCoordinate2DMake(51.8983119, -8.4833992)
+        
+        getRouteSteps(from: sourceLocationCordinates, to: destinationLocationCordinates)
+        
+        func getRouteSteps(from source: CLLocationCoordinate2D, to destination: CLLocationCoordinate2D) {
+
+            let session = URLSession.shared
+
+            let url = URL(string: "https://maps.googleapis.com/maps/api/directions/json?origin=\(source.latitude),\(source.longitude)&destination=\(destination.latitude),\(destination.longitude)&sensor=false&mode=driving&key=\(googleMapsAPIkey)")!
+
+            let task = session.dataTask(with: url, completionHandler: {
+                (data, response, error) in
+
+                guard error == nil else {
+                    print(error!.localizedDescription)
+                    return
+                }
+
+                guard let jsonResult = try? JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? [String: Any] else {
+
+                    print("error in JSONSerialization")
+                    return
+
+                }
+
+
+
+                guard let routes = jsonResult["routes"] as? [Any] else {
+                    return
+                }
+
+                guard let route = routes[0] as? [String: Any] else {
+                    return
+                }
+
+                guard let legs = route["legs"] as? [Any] else {
+                    return
+                }
+
+                guard let leg = legs[0] as? [String: Any] else {
+                    return
+                }
+
+                guard let steps = leg["steps"] as? [Any] else {
+                    return
+                }
+                  for item in steps {
+
+                    guard let step = item as? [String: Any] else {
+                        return
+                    }
+
+                    guard let polyline = step["polyline"] as? [String: Any] else {
+                        return
+                    }
+
+                    guard let polyLineString = polyline["points"] as? String else {
+                        return
+                    }
+
+                    //Call this method to draw path on map
+                    DispatchQueue.main.async {
+                        drawPath(from: polyLineString, sourceLocationCordinates: source, destinationLocationCordinates: destination)
+                    }
+
+                }
+            })
+            task.resume()
+        }
+        
+        func drawPath(from polyStr: String, sourceLocationCordinates: CLLocationCoordinate2D, destinationLocationCordinates: CLLocationCoordinate2D){
+            let path = GMSPath(fromEncodedPath: polyStr)
+            let polyline = GMSPolyline(path: path)
+            polyline.strokeWidth = 3.0
+            polyline.map = uiView // Google MapView
+            
+            let cameraUpdate = GMSCameraUpdate.fit(GMSCoordinateBounds(coordinate: sourceLocationCordinates, coordinate: destinationLocationCordinates))
+            uiView.moveCamera(cameraUpdate)
+            let currentZoom = uiView.camera.zoom
+            uiView.animate(toZoom: currentZoom - 1.4)
+        }
     }
     class Coordinator: NSObject, GMSMapViewDelegate, ObservableObject {
 
@@ -155,3 +238,4 @@ struct CentresMap: UIViewRepresentable {
     }
     
 }
+
