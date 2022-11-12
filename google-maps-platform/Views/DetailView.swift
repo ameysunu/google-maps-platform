@@ -16,6 +16,12 @@ struct DetailView: View {
     @State var centreExists: Bool = false
     
     @State var selectedMarker: GMSMarker?
+    @State var vaccineModelData = vaccineData()
+    
+    var vaccineInformation: VaccCentres? {
+        vaccineModelData.vaccineCentres.first {$0.name == markerTitle}
+    }
+    
 
     var body: some View {
         GeometryReader { geometry in
@@ -39,8 +45,27 @@ struct DetailView: View {
                             CardView(centreTitle: "Select a centre")
                             //Text("Select")
                         } else {
-                            CardView(centreTitle: (selectedMarker?.title)!)
-                            Text((selectedMarker?.title)!)
+                            ZStack {
+                                Color(hex: "231651").ignoresSafeArea()
+                                VStack (alignment: .leading){
+                                    Text((selectedMarker?.title)!)
+                                        .font(.system(size: 20)).bold()
+                                    if let vaccineInformation = vaccineInformation {
+                                        Text(vaccineInformation.address)
+                                            .foregroundColor(.white)
+                                    }
+                                    Spacer()
+                                }
+                                .padding()
+                            }
+                            .clipShape(RoundedRectangle(cornerRadius: 20))
+                            .frame(height: 250)
+                            .padding()
+//                            CardView(centreTitle: markerTitle)
+//                                .onChange(of: changedMarkerTitle, perform: { value in
+//                                    selectedMarker?.title = value
+//                                })
+//                            Text((selectedMarker?.title)!)
                         }
                     }
                     

@@ -15,6 +15,8 @@ let cities = [
     City(name: "Galway", latitude: 53.270962, longitude: -9.062691, key: "galway")
 ]
 
+var markerTitle = ""
+
 struct GoogleMapsView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> GMSMapView {
@@ -81,6 +83,14 @@ struct CentresMap: UIViewRepresentable {
                 owner: self,
                 selectedMarker: $selectedMarker)
         }
+    
+    func imageWithImage(image:UIImage, scaledToSize newSize:CGSize) -> UIImage{
+        UIGraphicsBeginImageContextWithOptions(newSize, false, 0.0)
+        image.draw(in: CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height))
+        let newImage:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        return newImage
+    }
 
     
     func makeUIView(context: Context) -> GMSMapView {
@@ -95,11 +105,19 @@ struct CentresMap: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: GMSMapView, context: Context) {
+        
+        var currentLocationMarker = GMSMarker()
+        currentLocationMarker.position = CLLocationCoordinate2DMake(53.3569681, -6.2235699)//here you can give your current lat and long
+        currentLocationMarker.icon = self.imageWithImage(image: UIImage(named: "pin")!, scaledToSize: CGSize(width: 20.0, height: 20.0))
+        currentLocationMarker.title = "Current Location"
+        currentLocationMarker.map = uiView
+        
         for centre in vaccinationCentres{
             for i in centre.centres {
                 let marker : GMSMarker = GMSMarker()
                 marker.position = CLLocationCoordinate2D(latitude: i.latitude, longitude: i.longitude)
                 marker.title = i.name
+                markerTitle = i.name
                 marker.map = uiView
             }
         }
