@@ -16,6 +16,8 @@ let cities = [
 ]
 
 var markerTitle = ""
+var markerAddress = ""
+var appointments: Int = 1243
 
 struct GoogleMapsView: UIViewRepresentable {
     
@@ -200,6 +202,7 @@ struct CentresMap: UIViewRepresentable {
         func drawPath(from polyStr: String, sourceLocationCordinates: CLLocationCoordinate2D, destinationLocationCordinates: CLLocationCoordinate2D){
             let path = GMSPath(fromEncodedPath: polyStr)
             let polyline = GMSPolyline(path: path)
+            polyline.strokeColor = .systemIndigo
             polyline.strokeWidth = 3.0
             polyline.map = uiView // Google MapView
             
@@ -231,6 +234,17 @@ struct CentresMap: UIViewRepresentable {
             print("A marker has been touched")
 
             self.selectedMarker = marker
+            
+            for centre in vaccinationCentres{
+                for i in centre.centres {
+                    if marker.title == i.name {
+                        markerAddress = i.address
+                        appointments = i.appointment
+                    }
+                }
+            }
+            
+
             
 //            GMSCameraPosition.camera(withTarget: selectedMarker!.position, zoom: 12)
             

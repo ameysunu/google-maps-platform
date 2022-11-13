@@ -4,26 +4,45 @@
         "name": "Richmond Barracks",
         "address": "St Michael's Estate, Inchicore, Dublin, D08 YY05",
         "latitude": 53.3642622,
-        "longitude": -6.3727338
+        "longitude": -6.3727338,
+        "appointment": 1924
     },
         {
             "name": "Croke Park",
             "address": "Jones' Road, Drumcondra, Dublin, D03 P6K7",
             "latitude": 53.3633147,
-            "longitude": -6.2638576
+            "longitude": -6.2638576,
+            "appointment": 432
         },
         {
             "name": "UCD, Gerard Manley Hopkins Building",
             "address": "University College Dublin, Belfield, Dublin",
             "latitude": 53.3054794,
-            "longitude": -6.2291855
+            "longitude": -6.2291855,
+            "appointment": 1443
         },
         {
             "name": "The National Show Centre",
             "address": "The National Show Centre, Stockhole Lane, Cloghran, Dublin, K67 VF43",
             "latitude": 53.2864289,
-            "longitude": -6.5143941
+            "longitude": -6.5143941,
+            "appointment": 3152
+        },
+        {
+            "name": "Citywest Vaccination Centre",
+            "address": "Citywest Hotel, Garters Lane, Saggart, Dublin, D24 A38Y",
+            "latitude": 53.2862401,
+            "longitude": -6.4527408,
+            "appointment": 3152
+        },
+        {
+            "name": "Clonskeagh Vaccination Centre",
+            "address": "Boole House, Beech Hill Business Campus, Clonskeagh, Dublin 4, D04 A563",
+            "latitude": 53.3132691,
+            "longitude": -6.2441197,
+            "appointment": 3221
         }
+        
         
     ]
 },
@@ -33,14 +52,37 @@
             "name": "City Hall Cork",
             "address": "City Hall, Anglesea St, Centre, Cork",
             "latitude": 51.8983119,
-            "longitude": -8.4833992
+            "longitude": -8.4833992,
+            "appointment": 50
         },
             {
                 "name": "Bantry Primary Care Centre",
                 "address": "The Quay, Kinathfineen, Bantry, Co. Cork",
                 "latitude": 51.6761978,
-                "longitude": -9.4675588
-            }
+                "longitude": -9.4675588,
+                "appointment": 38
+            },
+            {
+                "name": "Mallow Primary Health Care",
+                "address": "Mallow Primary Health Care, Gouldshill, Mallow, Co Cork P51 Y8EC",
+                "latitude": 52.1198931,
+                "longitude": -8.6654928,
+                "appointment": 0
+            },
+            {
+                "name": "Skibbereen Vaccination Centre",
+                "address": "Skibbereen Vaccination Clinic, Dental Building, Hospital Grounds, Coolnagarrane, Skibbereen, Cork P81 HC43",
+                "latitude": 51.5635803,
+                "longitude": -9.2719914,
+                "appointment": 0
+            },
+            {
+                "name": "Charleville Primary Care",
+                "address": "Charleville Primary Care Centre, Rathgoggin South, Charleville, Co Cork, P56 TP20",
+                "latitude": 52.3483811,
+                "longitude": -8.6835708,
+                "appointment": 46
+            },
             
         ]
     }
