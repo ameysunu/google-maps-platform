@@ -77,6 +77,9 @@ struct CentresMap: UIViewRepresentable {
     @State var longitude: CLLocationDegrees
     
     @Binding var selectedMarker: GMSMarker?
+    @Binding var getRoute: Bool
+    
+    @Binding var destinationRoute: CLLocationCoordinate2D?
     
     func makeCoordinator() -> Coordinator {
             return Coordinator(
@@ -123,9 +126,10 @@ struct CentresMap: UIViewRepresentable {
         }
         
         var sourceLocationCordinates = CLLocationCoordinate2DMake(53.3569681, -6.2235699)
-        var destinationLocationCordinates = CLLocationCoordinate2DMake(51.8983119, -8.4833992)
         
-        getRouteSteps(from: sourceLocationCordinates, to: destinationLocationCordinates)
+        if getRoute{
+            getRouteSteps(from: sourceLocationCordinates, to: destinationRoute!)
+        }
         
         func getRouteSteps(from source: CLLocationCoordinate2D, to destination: CLLocationCoordinate2D) {
 

@@ -17,12 +17,16 @@ struct DetailView: View {
     
     @State var selectedMarker: GMSMarker?
     @State var vaccineModelData = vaccineData()
+    @State var getDirections: Bool = false
+    @State var destination: CLLocationCoordinate2D?
+    
+    var test = ""
     
     var vaccineInformation: VaccCentres? {
         vaccineModelData.vaccineCentres.first {$0.name == markerTitle}
     }
     
-
+    
     var body: some View {
         GeometryReader { geometry in
             Color(hex: "231651").edgesIgnoringSafeArea(.all)
@@ -38,7 +42,7 @@ struct DetailView: View {
                 .padding()
                 if centreExists {
                     ZStack(alignment: .bottomTrailing){
-                        CentresMap(latitude: Lat, longitude: Long, selectedMarker: self.$selectedMarker)
+                        CentresMap(latitude: Lat, longitude: Long, selectedMarker: self.$selectedMarker, getRoute: $getDirections, destinationRoute: $destination)
                             .edgesIgnoringSafeArea(.all)
                         
                         if(selectedMarker == nil){
@@ -55,17 +59,32 @@ struct DetailView: View {
                                             .foregroundColor(.white)
                                     }
                                     Spacer()
+                                    Button(action:{
+                                        print(selectedMarker?.position)
+                                        destination = selectedMarker?.position ?? CLLocationCoordinate2D(latitude: 54.5973, longitude: 5.9301)
+                                        print(destination)
+                                        if destination != nil {
+                                            self.getDirections = true
+                                        }
+                                    }){
+                                        Text("Get Directions")
+                                            .padding(15)
+                                            .frame(maxWidth: .infinity)
+                                            .background(Color(UIColor.systemIndigo))
+                                            .foregroundColor(.white)
+                                            .cornerRadius(8)
+                                    }
                                 }
                                 .padding()
                             }
                             .clipShape(RoundedRectangle(cornerRadius: 20))
                             .frame(height: 250)
                             .padding()
-//                            CardView(centreTitle: markerTitle)
-//                                .onChange(of: changedMarkerTitle, perform: { value in
-//                                    selectedMarker?.title = value
-//                                })
-//                            Text((selectedMarker?.title)!)
+                            //                            CardView(centreTitle: markerTitle)
+                            //                                .onChange(of: changedMarkerTitle, perform: { value in
+                            //                                    selectedMarker?.title = value
+                            //                                })
+                            //                            Text((selectedMarker?.title)!)
                         }
                     }
                     
@@ -76,19 +95,19 @@ struct DetailView: View {
         }
         
         .onLoad{
-//           for county in counties {
-//            for centres in vaccinationCentres {
-//                  if(county.CountyName == centres.name){
-//                    print(county.CountyName)
-//                    print(centres.name)
-//                       self.centreExists = true
-//                } else {
-//                     print("false")
-//                       print(county.CountyName)
-//                    print(centres.name)
-//                 }
-//               }
-//          }
+            //           for county in counties {
+            //            for centres in vaccinationCentres {
+            //                  if(county.CountyName == centres.name){
+            //                    print(county.CountyName)
+            //                    print(centres.name)
+            //                       self.centreExists = true
+            //                } else {
+            //                     print("false")
+            //                       print(county.CountyName)
+            //                    print(centres.name)
+            //                 }
+            //               }
+            //          }
             if (CountyName == "Cork" || CountyName == "Dublin"){
                 self.centreExists = true
             }
