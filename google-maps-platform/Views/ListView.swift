@@ -10,16 +10,9 @@ import SwiftUI
 struct ListView: View {
     var body: some View {
         VStack (alignment: .leading){
-            Text("Hello Ireland! Choose your county to get started.")
-                .font(.title)
-                .foregroundColor(.white)
-                .padding()
-            
             List{
                 ForEach(counties, id: \.self){county in
-                    Button(action:{
-                        print(county.CountyName)
-                    }){
+                    NavigationLink(destination: DetailView(CountyName: county.CountyName, PopulationCensus16: county.PopulationCensus16, Lat: county.Lat, Long: county.Long)){
                         Text(county.CountyName)
                             .foregroundColor(.white)
                     }
@@ -27,11 +20,11 @@ struct ListView: View {
                 .listRowBackground(Color(hex: "231651"))
             }
             .listStyle(.plain)
-            .frame(height: 200)
+            .frame(height: 250)
         }
         .font(.body)
         .foregroundColor(.white)
-        .frame(maxWidth: .infinity, minHeight: 300.0)
+        .frame(maxWidth: .infinity, minHeight: 250.0)
         .background(Color(hex: "231651"))
         .cornerRadius(20)
         .padding(15)

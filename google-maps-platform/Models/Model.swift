@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CoreLocation
+import GoogleMaps
 
 struct AlertItem: Identifiable {
     var id = UUID()
@@ -64,9 +65,22 @@ struct County: Codable, Hashable {
     var Long: Double
 }
 
+struct VaccinationCentres: Codable, Hashable {
+    var name: String
+    var centres: [VaccCentres]
+}
+
+struct VaccCentres: Codable, Hashable {
+    var name: String
+    var address: String
+    var latitude: Double
+    var longitude: Double
+}
+
 var centres: [Centres] = load("COVID-19_HSE_Daily_Booster_Vaccination_Figures.json")
 var healthCentres: [HealthCentres] = load("listofhealthcentresinireland.json")
 var counties: [County] = load("COVID-19_HPSC_County_Statistics_Historic_Data.json")
+var vaccinationCentres: [VaccinationCentres] = load("vaccination.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
@@ -88,4 +102,32 @@ func load<T: Decodable>(_ filename: String) -> T {
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
+}
+
+struct ViewDidLoadModifier: ViewModifier {
+
+    @State private var didLoad = false
+    private let action: (() -> Void)?
+
+    init(perform action: (() -> Void)? = nil) {
+        self.action = action
+    }
+
+    func body(content: Content) -> some View {
+        content.onAppear {
+            if didLoad == false {
+                didLoad = true
+                action?()
+            }
+        }
+    }
+
+}
+
+extension View {
+
+    func onLoad(perform action: (() -> Void)? = nil) -> some View {
+        modifier(ViewDidLoadModifier(perform: action))
+    }
+
 }
