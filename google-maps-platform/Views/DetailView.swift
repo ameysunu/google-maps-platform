@@ -56,7 +56,10 @@ struct DetailView: View {
                                         .font(.system(size: 20)).bold()
                                     Text(markerAddress)
                                         .foregroundColor(.white)
+                                    Text("Appointments: \(appointments)")
+                                        .foregroundColor(.white)
                                     Spacer()
+                                    Text("[Book appointment at HSE](https://covid19booster.healthservice.ie/hse-self-referral/?flow=booster)")
                                     Button(action:{
                                         print(markerTitle)
                                         print(selectedMarker?.title)

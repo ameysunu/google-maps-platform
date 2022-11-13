@@ -11,7 +11,8 @@
             "name": "Croke Park",
             "address": "Jones' Road, Drumcondra, Dublin, D03 P6K7",
             "latitude": 53.3633147,
-            "longitude": -6.2638576
+            "longitude": -6.2638576,
+            "appointment": 432
         },
         {
             "name": "UCD, Gerard Manley Hopkins Building",

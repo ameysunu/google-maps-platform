@@ -75,6 +75,7 @@ struct VaccCentres: Codable, Hashable {
     var address: String
     var latitude: Double
     var longitude: Double
+    var appointment: Int
 }
 
 var centres: [Centres] = load("COVID-19_HSE_Daily_Booster_Vaccination_Figures.json")
