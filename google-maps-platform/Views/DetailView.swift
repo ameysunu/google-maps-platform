@@ -54,12 +54,12 @@ struct DetailView: View {
                                 VStack (alignment: .leading){
                                     Text((selectedMarker?.title)!)
                                         .font(.system(size: 20)).bold()
-                                    if let vaccineInformation = vaccineInformation {
-                                        Text(vaccineInformation.address)
-                                            .foregroundColor(.white)
-                                    }
+                                    Text(markerAddress)
+                                        .foregroundColor(.white)
                                     Spacer()
                                     Button(action:{
+                                        print(markerTitle)
+                                        print(selectedMarker?.title)
                                         print(selectedMarker?.position)
                                         destination = selectedMarker?.position ?? CLLocationCoordinate2D(latitude: 54.5973, longitude: 5.9301)
                                         print(destination)

@@ -16,6 +16,7 @@ let cities = [
 ]
 
 var markerTitle = ""
+var markerAddress = ""
 
 struct GoogleMapsView: UIViewRepresentable {
     
@@ -231,6 +232,16 @@ struct CentresMap: UIViewRepresentable {
             print("A marker has been touched")
 
             self.selectedMarker = marker
+            
+            for centre in vaccinationCentres{
+                for i in centre.centres {
+                    if marker.title == i.name {
+                        markerAddress = i.address
+                    }
+                }
+            }
+            
+
             
 //            GMSCameraPosition.camera(withTarget: selectedMarker!.position, zoom: 12)
             
